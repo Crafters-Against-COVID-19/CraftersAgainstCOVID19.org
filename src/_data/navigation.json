@@ -1,6 +1,5 @@
 {
-  "items": [
-    {
+  "main": [{
       "text": "Join Us",
       "url": "/volunteer/"
     },
@@ -10,8 +9,25 @@
     },
     {
       "text": "Frequently Asked Questions",
-      "url": "/faq/",
-      "external": false
+      "url": "/faq/"
+    }
+  ],
+  "footer": [{
+      "text": "Join Us",
+      "url": "/volunteer/"
+    },
+    {
+      "text": "Patterns",
+      "url": "/patterns/"
+    },
+    {
+      "text": "Frequently Asked Questions",
+      "url": "/faq/"
+    },
+    {
+      "text": "Facebook",
+      "url": "https://www.facebook.com/groups/2559223211033116",
+      "external": true
     }
   ]
 }

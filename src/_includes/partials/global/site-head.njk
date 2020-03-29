@@ -8,6 +8,7 @@
         <span class="[ site-head__site-name ] [ text-600 ]" aria-hidden="true">{{ site.name }}</span>
       </a>
       {% set ariaLabel = 'navigation' %}
+      {% set navigation_items = navigation.main %}
       {% include "partials/components/nav.njk" %}
     </div>
   </div>

@@ -76,8 +76,15 @@ collections:
         delete: false
         file: "src/_data/navigation.json"
         fields:
-          - label: "Items"
-            name: "items"
+          - label: "Main Navigation"
+            name: "main"
+            widget: "list"
+            fields:
+              - {label: "Text", name: "text", widget: "string"}
+              - {label: "Url", name: "url", widget: "string"}
+              - {label: "Is url to external site?", name: "external", widget: "boolean", required: false}
+          - label: "Footer Navigation"
+            name: "footer"
             widget: "list"
             fields:
               - {label: "Text", name: "text", widget: "string"}
