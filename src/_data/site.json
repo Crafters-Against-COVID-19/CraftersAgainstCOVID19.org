@@ -1,13 +1,13 @@
 {
   "showThemeCredit": true,
-  "name": "Hylia Starter Kit",
-  "shortDesc": "Hylia is a lightweight Eleventy starter kit to help you to create your own blog or personal website.",
-  "url": "https://hylia.website",
-  "authorEmail": "me@andy-bell.design",
-  "authorHandle": "@hankchizljaw",
-  "authorName": "Andy Bell",
+  "name": " Crafters Against COVID-19 Seattle",
+  "shortDesc": "Now is the time to get into action to and support the medical community! If you have a sewing machine and some basic skills you can help in a big way! We are creating masks for medical centers, hospice organizations, homelessness workers, etc. in the Seattle-area.",
+  "url": "https://CraftersAgainstCOVID19.org",
+  "authorEmail": "CraftersAgainstCOVID19Seattle@gmail.com",
+  "authorHandle": "",
+  "authorName": " Crafters Against COVID-19 Seattle",
   "enableThirdPartyComments": false,
-  "maxPostsPerPage": 5,
-  "paymentPointer": "$coil.xrptipbot.com/c1f8f05d-8d8c-4f37-b1ad-25677ae129da",
-  "faviconPath": "/images/favicon.png"
+  "paymentPointer": "",
+  "faviconPath": "/images/favicon.png",
+  "maxPostsPerPage": 5
 }
