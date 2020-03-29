@@ -2,7 +2,7 @@ backend:
   name: git-gateway
   branch: master
 publish_mode: editorial_workflow
-site_url: "https://example.com"
+site_url: "https://CraftersAgainstCOVID19.org"
 media_folder: "src/images"
 public_folder: "/images"
 collections:
@@ -69,7 +69,7 @@ collections:
           - {label: "Maximum Posts Per Page", name: "maxPostsPerPage", widget: "number", default: 5}
           - {label: "Show Theme Credit", name: "showThemeCredit", widget: "boolean", default: true}
           - {label: "Enable Third Party Comments Area", name: "enableThirdPartyComments", widget: "boolean", default: false}
-          - {label: "Payment Pointer (Web Monetization: https://bit.ly/2kTRI1b)", name: "paymentPointer", widget: "string"}
+          - {label: "Payment Pointer (Web Monetization: https://bit.ly/2kTRI1b)", name: "paymentPointer", widget: "string", required: false}
           - {label: "Favicon path (EG: /images/favicon.png)", name: "faviconPath", widget: "string"}
       - label: "Navigation"
         name: "nav"
