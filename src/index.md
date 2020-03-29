@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Crafters Against COVID-19
+title: Let’s make some masks!
 postsHeading: Announcements
 archiveButtonText: See all announcements
 socialImage: /images/89940184_10105285531150173_7030790935894032384_o.jpg
