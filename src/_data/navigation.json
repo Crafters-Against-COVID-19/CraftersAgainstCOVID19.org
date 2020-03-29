@@ -1,5 +1,6 @@
 {
-  "main": [{
+  "main": [
+    {
       "text": "Join Us",
       "url": "/volunteer/"
     },
@@ -8,12 +9,13 @@
       "url": "/patterns/"
     },
     {
-      "text": "Frequently Asked Questions",
+      "text": "Questions?",
       "url": "/faq/"
     }
   ],
-  "footer": [{
-      "text": "Join Us",
+  "footer": [
+    {
+      "text": "Volunteer!",
       "url": "/volunteer/"
     },
     {
@@ -21,7 +23,7 @@
       "url": "/patterns/"
     },
     {
-      "text": "Frequently Asked Questions",
+      "text": "FAQs",
       "url": "/faq/"
     },
     {
