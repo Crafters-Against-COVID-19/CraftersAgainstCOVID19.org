@@ -1,5 +1,5 @@
 ---
-title: "How to Make Crafters Against COVID-19 Seattle “Mask 1”"
+title: "Mask 1"
 video: -GoWoPA3tF0
 pdf: /images/mask-1.pdf
 ---

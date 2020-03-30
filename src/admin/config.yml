@@ -37,6 +37,17 @@ collections:
       - {label: "SEO Meta Description", name: "metaDesc", widget: "string", required: false}
       - {label: "Social Image", name: "socialImage", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: "patterns"
+    label: "Patterns"
+    folder: "src/patterns"
+    slug: "{{slug}}"
+    preview_path: "patterns/{{slug}}"
+    create: true
+    fields:
+      - {label: "Pattern Name", name: "title", widget: "string"}
+      - {label: "YouTube Video Slug (e.g., -GoWoPA3tF0)", name: "video", widget: "string", required: true}
+      - {label: "PDF Instructions", name: "pdf", widget: "file", required: true}
+      - {label: "Instructions", name: "body", widget: "markdown"}
   - name: "posts"
     label: "Posts"
     folder: "src/posts"
