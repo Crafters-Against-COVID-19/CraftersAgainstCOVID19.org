@@ -20,7 +20,8 @@
         {{ content | safe }}
 
         {% if pdf %}
-          <a class="button" href="{{ pdf }}" download type="application/pdf">Download PDF Instructions</a>
+          <hr>
+          <p><a class="button" href="{{ pdf }}" download type="application/pdf">Download PDF Instructions</a></p>
         {% endif %}
       </div>
     </article>
