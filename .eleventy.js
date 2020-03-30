@@ -6,6 +6,12 @@ const fs = require("fs");
 const dateFilter = require('./src/filters/date-filter.js');
 const markdownFilter = require('./src/filters/markdown-filter.js');
 const w3DateFilter = require('./src/filters/w3-date-filter.js');
+const widont = require("widont");
+const md = require("markdown-it")({
+  html: true,
+  linkify: true,
+  typographer: true,
+});
 
 // Import transforms
 const htmlMinTransform = require('./src/transforms/html-min-transform.js');
@@ -54,6 +60,16 @@ module.exports = function(config) {
   // Plugins
   config.addPlugin(rssPlugin);
   config.addPlugin(syntaxHighlight);
+
+  // Markdownify
+  config.addFilter("markdownify", text => {
+    return md.renderInline( text );
+  });
+
+  // Widont
+  config.addFilter("widont", function(text) {
+    return `${widont( text )}`;
+  });
 
   // 404 
   config.setBrowserSyncConfig({

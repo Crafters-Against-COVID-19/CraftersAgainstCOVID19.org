@@ -1,7 +1,7 @@
 {
-  "name": "hylia",
-  "version": "0.5.1",
-  "description": "A simple Eleventy starter kit to help you have a blog of your own",
+  "name": "Crafters-Against-COVID-19",
+  "version": "1.0.0",
+  "description": " If you have a sewing machine and some basic skills you can help in a big way!",
   "main": "index.js",
   "dependencies": {
     "@11ty/eleventy": "^0.8.3",
@@ -26,7 +26,11 @@
     "rollup": "^1.32.1",
     "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-json": "^4.0.0",
-    "rollup-plugin-node-resolve": "^5.2.0"
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "widont": "^0.3.3",
+    "luxon": "^1.17.1",
+    "markdown-it": "^9.0.1",
+    "markdown-it-anchor": "^5.2.4"
   },
   "scripts": {
     "sass:tokens": "npx json-to-scss src/_data/tokens.json src/scss/_tokens.scss",

@@ -1,6 +1,6 @@
 {
   "showThemeCredit": true,
-  "name": " Crafters Against COVID-19 Seattle",
+  "name": "Crafters Against COVID-19 Seattle",
   "shortDesc": "Now is the time to get into action to and support the medical community! If you have a sewing machine and some basic skills you can help in a big way! We are creating masks for medical centers, hospice organizations, homelessness workers, etc. in the Seattle-area.",
   "url": "https://CraftersAgainstCOVID19.org",
   "authorEmail": "CraftersAgainstCOVID19Seattle@gmail.com",
@@ -9,5 +9,34 @@
   "enableThirdPartyComments": false,
   "paymentPointer": "",
   "faviconPath": "/images/favicon.png",
-  "maxPostsPerPage": 5
+  "maxPostsPerPage": 5,
+  "neighborhoods": [
+    "CENTRAL SEATTLE: Central/International District",
+    "CENTRAL SEATTLE: Queen Anne",
+    "CENTRAL SEATTLE: Capital Hill",
+    "CENTRAL SEATTLE: Downtown/Eastlake",
+    "CENTRAL SEATTLE: Madison Park",
+    "NORTH SEATTLE: Northgate",
+    "NORTH SEATTLE: Lake City",
+    "NORTH SEATTLE: UW/Ravena",
+    "NORTHWEST SEATTLE: Ballard",
+    "NORTHWEST SEATTLE: Fremont",
+    "NORTHWEST SEATTLE: Crown Hill",
+    "SOUTH SEATTLE: Rainier Beach",
+    "SOUTH SEATTLE: Beacon Hill",
+    "SOUTH SEATTLE: Columbia City",
+    "WEST SEATTLE: North",
+    "WEST SEATTLE: South",
+    "NORTHSIDE: Edmonds/Shoreline",
+    "NORTHSIDE: Lake Forest Park",
+    "EASTSIDE: Kirkland",
+    "EASTSIDE: Bothell",
+    "EASTSIDE: Bellevue/Redmond",
+    "EASTSIDE: Mercer Island",
+    "EASTSIDE: Issaquah",
+    "EASTSIDE: Renton/Newcastle",
+    "SOUTHSIDE:Burien/Seatac",
+    "SOUTHSIDE: Kent",
+    "SOUTHSIDE: Tacoma"
+  ]
 }
