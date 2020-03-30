@@ -5,16 +5,19 @@ postsHeading: Announcements
 archiveButtonText: See all announcements
 socialImage: /images/89940184_10105285531150173_7030790935894032384_o.jpg
 ---
+
 ![Hands stitching two pieces of a broken cardboard heart together.](/images/89940184_10105285531150173_7030790935894032384_o.jpg)
 
 Now is the time to get into action to and support the medical community! If you have a sewing machine and some basic skills you can help in a big way! We are creating masks for medical centers, hospice organizations, homelessness workers, etc. in the Seattle-area.
 
-## Want us to help your organization?
+## Does your organization need help?
 
-Email us directly at [CraftersAgainstCOVID19Seattle@gmail.com](mailto:CraftersAgainstCOVID19Seattle@gmail.com)
+Please let us know what you need by <a href="mailto:CraftersAgainstCOVID19Seattle@gmail.com">emailing us</a>.
 
-## Want to donate to our cause?
+## Do you want to help out?
 
-Check out our announcements for details on how to donate materials and $$.
+We have [many ways for you to participate directly](/volunteer/) or you can [donate cash via our GoFundMe](https://www.gofundme.com/f/crafters-against-covid19-seattle).
+
+<hr>
 
 Together we'll save thousands of lives!
