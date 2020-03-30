@@ -78,7 +78,6 @@
             {% if data.description %}aria-describedby="description-{{ name }}"{% endif %}
             ></textarea>
   {% if data.description %}
-    <br>
     <em class="question__description" id="description-{{ name }}">{{ data.description | widont }}</em>
   {% endif %}
 {% endmacro %}

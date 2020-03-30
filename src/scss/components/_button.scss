@@ -3,6 +3,8 @@
   border: none;
   background-color: var(--color-action-bg);
   color: var(--color-action-text);
+  font-size: 1.5rem;
+  font-weight: bold;
   padding: get-size(300) get-size('base');
   line-height: 1;
   margin: 0;
@@ -28,4 +30,8 @@
 
 .button:active {
   transform: scale(0.99);
+}
+
+.button + .button {
+  margin-left: .5rem;
 }

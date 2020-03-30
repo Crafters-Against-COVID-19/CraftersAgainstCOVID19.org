@@ -1,4 +1,12 @@
 /* Form */
+.form_intro {
+  margin-left: -1rem;
+  margin-right: -1rem;
+  padding: .5rem 1rem;
+  font-weight: bold;
+  background-color: var(--color-theme-highlight-block);
+  color: var(--color-theme-feature-text);
+}
 label {
   display: block;
   font-weight: 600;
@@ -19,7 +27,7 @@ select {
 }
 input:focus,
 select:focus,
-textarea:focus {
+:focus {
   background-color: #ffffeb;
 }
 label input {
@@ -57,6 +65,10 @@ legend {
     line-height: 1.25;
   }
 
+  textarea + &__description {
+    margin-top: 0;
+  }
+
   &--confirm {
     font-weight: normal;
   }
@@ -74,3 +86,5 @@ legend {
     }
   }
 }
+
+
