@@ -27,7 +27,7 @@ select {
 }
 input:focus,
 select:focus,
-:focus {
+textarea:focus {
   background-color: #ffffeb;
 }
 label input {
