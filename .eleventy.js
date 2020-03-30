@@ -57,6 +57,12 @@ module.exports = function(config) {
       .slice(0, site.maxPostsPerPage);
   });
 
+  config.addCollection('patterns', collection => {
+    return [
+      ...collection.getFilteredByGlob('./src/patterns/*.md')
+    ];
+  });
+
   // Plugins
   config.addPlugin(rssPlugin);
   config.addPlugin(syntaxHighlight);

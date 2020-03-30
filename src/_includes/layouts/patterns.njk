@@ -1,0 +1,31 @@
+{% extends 'layouts/base.njk' %}
+{% set pageType = 'Pattern' %}
+
+{# Intro content #}
+{% set introHeading = title %}
+
+{% block content %}
+  <main id="main-content" tabindex="-1">
+    <article class="[ post ] [ h-entry ]">
+      {% include "partials/components/intro.njk" %}
+      <div class="[ post__body ] [ inner-wrapper ] [ leading-loose pad-top-900 pad-bottom-900 text-500 ] [ sf-flow ] [ e-content ]">
+        
+        {{ content | safe }}
+
+        {% if collections.patterns.length %}
+          <ul class="[ post-list__items ] [ sf-flow ] [ pad-top-300 ]">
+            {% for item in collections.patterns %}
+              <li class="post-list__item">
+                <h3 class="font-base leading-tight text-600 weight-mid">
+                  <a href="{{ item.url }}" class="post-list__link" rel="bookmark">{{ item.data.title }}</a>
+                </h3>
+              </li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      </div>
+    </article>
+  </main>
+{% endblock %}
+
+{{ content | safe }}
