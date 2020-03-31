@@ -2,7 +2,7 @@
 
 <p class="form_intro">Note: All fields are required</p>
 
-<form name="sewing" method="POST" data-netlify="true" action="/volunteer/thanks/" netlify-honeypot="bot-field">
+<form name="logistics" method="POST" data-netlify="true" action="/volunteer/thanks/" netlify-honeypot="bot-field">
   <ol class="questions">
     <li class="question">
       {{ label("What’s your full name?", "name") }}
@@ -24,20 +24,8 @@
       </div>
     </li>
     <li class="question">
-      {{ radios("Are you or anyone in your home at high risk (immunocompromised, elderly, etc.)?", "risk", [ "Yes", "No" ] ) }}
-    </li>
-    <li class="question">
-      {{ radios("How many masks can you make?", "quantity", [ "25", "50", "75", "100", "125", {label: "150+ (in increments of 25)", value: "150+"} ] ) }}
-    </li>
-    <li class="question">
       {{ label("What neighborhood are you closest to?", "neighborhood") }}
       {{ select( "neighborhood", site.neighborhoods, { required: true } ) }}
-    </li>
-    <li class="question">
-      {{ radios("Are you safe and willing to drop off/pick up from a nearby neighborhood location? (We will make sure to eliminate contact.)", "drop-off", [ "Yes", { label: "No, please set up porch pickups for me", value: "No" } ] ) }}
-    </li>
-    <li class="question">
-      {{ checkboxes("If you need donated materials, what do you need?", "materials", [ "Cotton fabric", { label: "Elastic", value: "Elastic", note: "Please keep in mind that if you *only* need elastic you can make fabric ties instead" }, "Wire" ] ) }}
     </li>
     <li hidden>
       <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
