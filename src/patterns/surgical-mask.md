@@ -1,5 +1,5 @@
 ---
-title: "Mask 1"
+title: "Surgical Mask"
 video: -GoWoPA3tF0
 pdf: /images/mask-1.pdf
 ---
