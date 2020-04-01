@@ -9,6 +9,17 @@
     url('/fonts/lora-v13-latin-700.woff') format('woff');
 }
 
+/* Amatic SC */
+@font-face {
+  font-family: 'Amatic SC';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Amatic SC Bold'), local('AmaticSC-Bold'),
+    url('/fonts/amaticsc-700.woff2') format('woff2'),
+    url('/fonts/amaticsc-700.woff') format('woff');
+}
+
 body {
   // Strip the unit off the size ratio to generate a line height
   $line-height: get-size(600);

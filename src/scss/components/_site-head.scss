@@ -1,5 +1,7 @@
 .site-head {
   &__site-name {
+    @include apply-utility('font', 'serif');
+    font-size: get-size(700);
     font-weight: 700;
     text-decoration: none;
     color: var(--color-text);
