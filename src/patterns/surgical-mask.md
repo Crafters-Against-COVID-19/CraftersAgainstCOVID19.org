@@ -15,7 +15,7 @@ pdf: /images/mask-1.pdf
 ## How to make a mask
 
 1. Cut rectangles (9"× 12" for adult) (7.5" × 10" for children).
-2. Fold cotton in half with right sides together against the width of the fabric so it’s 6" × 9" (adult) or 5" × 7.5" (children).
+2. Fold cotton in half with right sides together against the width of the fabric so it’s 6" × 9" (adult) or 5" × 7½" (children).
 3. Cut (2) elastic pieces (7.5" for adult, 6.5" for children). If you are using cord elastic knot the ends of the cord. Alternatively, cut 4 ties at least 20" long. If you need more details on making fabric ties please [watch this video](https://youtu.be/O298NkkQelw).
 4. With fabric still folded, sandwich elastic or ties between the two layers so the cut edge comes out diagonally at the corners of the two short sides.
 
