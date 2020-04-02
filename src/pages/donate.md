@@ -6,7 +6,7 @@ metaTitle: Donate materials to Crafters Against COVID-19 Seattle
 form: donate
 ---
 
-![A bin full of completed masks, ready for delivery.](/images/bin.jpg)
+![Lengths of elastic and other sewing materials.](/images/materials.jpg)
 
 In order to keep our sewers sewing, we need materials. Please fill out the following form if you can donate any of the following **clean and unused** mask-making materials:
 

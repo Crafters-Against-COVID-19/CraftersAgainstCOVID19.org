@@ -5,7 +5,7 @@ permalink: /volunteer/index.html
 metaTitle: Volunteering opportunities with Crafters Against COVID-19 Seattle
 ---
 
-Intro text here
+![Sewing table with materials, a sewing machine, and a laptop open to our GoFundMe campaign.](/images/desk.jpg)
 
 ## Can you sew?
 
