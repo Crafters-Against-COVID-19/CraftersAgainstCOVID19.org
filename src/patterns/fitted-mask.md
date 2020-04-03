@@ -1,6 +1,6 @@
 ---
-title: "Fitted Mask"
-video: 9TXIpN-R_jw
+title: "Fitted Mask with Pocket"
+video: Lyg_Nb27jp8
 pdf: /images/mask-2.pdf
 ---
 
