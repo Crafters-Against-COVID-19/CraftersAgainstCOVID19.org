@@ -13,7 +13,7 @@ If you can sew, we need your help. We will provide the pattern and instructions 
 
 <a class="button" href="/volunteer/sewing/">Volunteer to Sew</a>
 
-## Do you want to help with meterials or logistics?
+## Do you want to help with materials or logistics?
 
 If you can’t sew or can’t commit to sewing at least 25 masks, you can help in other ways. We are looking for materials donations like cotton fabric and elastic. We are also looking for both divers and Neighborhood Captains to help with the collection and distribution of both supplies and masks.
 
