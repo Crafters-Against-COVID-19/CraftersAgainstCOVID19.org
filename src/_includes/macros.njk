@@ -126,7 +126,7 @@
           {% if option.value %}
             <label for="field-{{ name }}-{{ option.value }}">
               <input type="checkbox"
-                    name="{{ name }}"
+                    name="{{ name }}[]"
                     id="field-{{ name }}-{{ option.value }}"
                     value="{{ option.value }}"
                     {% if option.note %}aria-describedby="description-{{ name }}-{{ option.value }}"{% endif %}
@@ -134,7 +134,7 @@
           {% else %}
             <label for="field-{{ name }}-{{ option }}">
               <input type="checkbox"
-                    name="{{ name }}"
+                    name="{{ name }}[]"
                     id="field-{{ name }}-{{ option }}"
                     value="{{ option }}"
                     >{{ option }}</label>
