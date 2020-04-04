@@ -30,13 +30,13 @@ collections:
     preview_path: "pages/{{slug}}"
     create: true
     fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/page.njk"}
-      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/page.njk", required: true}
+      - {label: "Title", name: "title", widget: "string", required: true}
       - {label: "Permalink Override (Pattern: '/your-slug/index.html')", name: "permalink", widget: "string", required: false}
       - {label: "SEO Meta Title", name: "metaTitle", widget: "string", required: false}
       - {label: "SEO Meta Description", name: "metaDesc", widget: "string", required: false}
       - {label: "Social Image", name: "socialImage", widget: "image", required: false}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Body", name: "body", widget: "markdown", required: true}
   - name: "patterns"
     label: "Patterns"
     folder: "src/patterns"
@@ -44,10 +44,17 @@ collections:
     preview_path: "patterns/{{slug}}"
     create: true
     fields:
-      - {label: "Pattern Name", name: "title", widget: "string"}
+      - {label: "Pattern Name", name: "title", widget: "string", required: true}
+      - {label: "Brief Description", name: "description", widget: "string", required: false}
       - {label: "YouTube Video Slug (e.g., -GoWoPA3tF0)", name: "video", widget: "string", required: true}
       - {label: "PDF Instructions", name: "pdf", widget: "file", required: true}
-      - {label: "Instructions", name: "body", widget: "markdown"}
+      - {label: "Instructions", name: "body", widget: "markdown", required: true}
+      - label: "Frequently Asked Questions"
+        name: "faq"
+        required: false
+        fields:
+          - {label: "Question", name: "question", widget: "string", required: true}
+          - {label: "Answer", name: "answer", widget: "string", required: true}
   - name: "posts"
     label: "Posts"
     folder: "src/posts"
@@ -55,14 +62,11 @@ collections:
     preview_path: "posts/{{slug}}"
     create: true
     fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/post.njk"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "SEO Meta Title", name: "metaTitle", widget: "string", required: false}
-      - {label: "SEO Meta Description", name: "metaDesc", widget: "string", required: false}
-      - {label: "Social Image", name: "socialImage", widget: "image", required: false}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/post.njk", required: true}
+      - {label: "Title", name: "title", widget: "string", required: true}
+      - {label: "Publish Date", name: "date", widget: "datetime", required: true}
       - {label: "Tags", name: "tags", widget: "list", allow_add: true}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Body", name: "body", widget: "markdown", required: true}
   - label: "Globals"
     name: "globals"
     files:
@@ -74,10 +78,11 @@ collections:
             name: "list"
             widget: "list"
             fields:
-              - {label: "Name", name: "name", widget: "string", default: "Batch X"}
-              - {label: "Starts On", name: "start", widget: "date"}
-              - {label: "Ends On", name: "end", widget: "date"}
-              - {label: "Pattern URL", name: "pattern", widget: "string", default: "https://craftersagainstcovid19.org/patterns/fitted-mask/"}
+              - {label: "Name", name: "name", widget: "string", default: "Batch X", required: true}
+              - {label: "Starts On", name: "start", widget: "datetime", required: true}
+              - {label: "Ends On", name: "end", widget: "datetime", required: true}
+              - {label: "Pattern Name", name: "pattern_name", widget: "string", default: "Fitted Mask with Pocket", required: true}
+              - {label: "Pattern URL", name: "pattern_url", widget: "string", default: "https://craftersagainstcovid19.org/patterns/fitted-mask/", required: true}
               - {label: "Beneficiary Info", name: "beneficiaries", widget: "string", required: false}
       - label: "Site Data"
         name: "site_data"

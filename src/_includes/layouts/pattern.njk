@@ -23,6 +23,19 @@
           <hr>
           <p><a class="button" href="{{ pdf }}" download type="application/pdf">Download PDF Instructions</a></p>
         {% endif %}
+
+        {% if faqs %}
+          <hr>
+          <h2>Frequently Asked Questions</h2>
+          <ul>
+            {% for item in faqs %}
+              <li>
+                <strong>{{ item.question }}</strong><br>
+                {{ item.answer }}
+              </li>
+            {% endfor %}
+          </ul>
+        {% endif %}
       </div>
     </article>
   </main>

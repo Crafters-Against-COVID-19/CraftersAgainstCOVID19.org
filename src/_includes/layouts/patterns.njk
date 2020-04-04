@@ -14,11 +14,14 @@
 
         {% if collections.patterns.length %}
           <ul class="[ post-list__items ] [ sf-flow ] [ pad-top-300 ]">
-            {% for item in collections.patterns %}
+            {% for pattern in collections.patterns %}
               <li class="post-list__item">
                 <h3 class="font-base leading-tight text-600 weight-mid">
-                  <a href="{{ item.url }}" class="post-list__link" rel="bookmark">{{ item.data.title }}</a>
+                  <a href="{{ pattern.url }}" class="post-list__link" rel="bookmark">{{ pattern.data.title }}</a>
                 </h3>
+                {% if pattern.data.description %}
+                  {{ pattern.data.description | markdownify }}
+                {% endif %}
               </li>
             {% endfor %}
           </ul>

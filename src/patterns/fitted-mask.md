@@ -1,53 +1,82 @@
 ---
 title: "Fitted Mask with Pocket"
+description: "Mask with pocket to hold an optional filter. Without a filter, this mask offers light protection as an isolation mask, but is not ASTM-rated."
 video: Lyg_Nb27jp8
-pdf: /images/mask-2.pdf
+pdf: /images/fitted-mask.pdf
+faqs:
+  - question: 'I just printed the pattern and find that the 2" scale measures 1 ⅞" for me. Is that close enough or do I need to enlarge the pieces slightly?'
+    answer: "It is also helpful if when you print you click “Actual Size” instead of “scale to fit” But if that doesn’t work you can change the scale percentage in your printer options when you go to print."
 ---
 
-This mask is fitted, with 2 layers of fabric and a pocket between them for an optional filter. **We are not making filters.** Elastic is threaded to fit around the head. Seam allowances are ¼" unless noted.
+This mask is made of two layers of fabric with a pocket between to hold an optional filter. Without a filter, this mask offers light protection as an isolation mask, but is not ASTM-rated.
+
+*Note: We are not making filters.*
+
+## Material Info
+
+Use the same fabric for outer and lining if you want, or use different ones to help you remember which side is clean and
+which is dirty.
+
+You can choose any tightly woven cotton fabric you like. Check the weave by holding the fabric up to the light—you shouldn’t
+be able to see through it.
+
+Pre-shrink all fabrics by washing before sewing. Don’t use stretchy, sequined, or velvet material.
 
 ## What you will need
 
 * 9" × 15" fabric outer layer
 * 9" × 15" fabric lining layer
 * 3" piece of soft wire (e.g., decorative wire, picture wire, pipe cleaners)
-* Approximately 20" of elastic
+* For straps: 30" of elastic, or 40" for fabric ties.
 
-You can choose any tightly woven cotton fabric you like. Hold it up to the light to see how tight the weave is. Use the same fabric for outer and lining if you want, or use different ones to help you remember which side is clean and which is dirty. Don't use stretchy, sequined or velvet material. Wash all fabrics before sewing to pre-shrink, and to assure you are working with the most sanitary materials possible.
+Please Note:
 
-*You can make 3 regular or large size masks of either design from ¼ yard (9") of 45" wide fabric.*
+* 3 regular or large-size masks can be made from ¼ yard (9") of 45" wide fabric).
+* Elastic is threaded to fit around the head.
+* Seam allowances are ¼" unless otherwise noted.
 
 ## How to make a mask
 
-### Step One:
+### Preparing the outer mask & lining
 
-1. Fold outer fabric and cut two of pattern piece A. Fold lining fabric and cut two of pattern piece B.
-2. Sew center curves of outer layers and right sides together.
-3. Sew center curves of lining layers and right sides together.
-4. Clip the curved seam at about ½" intervals but not down to the seam.
-5. Fold seam allowance over to one side and top stitch down (for both lining and outer layer).
+![](/images/fitted-mask-1.png)
 
-### Step Two:
+1. Fold outer fabric and cut two of pattern piece A (Outer Mask). Mark large dots from pattern onto fabric.
+2. Fold lining fabric and cut two of pattern piece B (Lining).
+
+### Center seam
+
+![](/images/fitted-mask-2.png)
+
+3. Sew center curves of outer layers, right sides together. Sew center curves of lining layers, right sides together. 
+4.  Clip the curved seam at about ½" intervals but not down to the seam.
+5.  Flip around to the right side, open flat. Fold seam allowance over to one side and top stitch down (for both lining and outer layer).
+
+### Interior details
+
+![](/images/fitted-mask-3.png)
 
 6. Fold straight side edges of lining fabric in (wrong sides together) about ½", and sew fold down with straight stitch.
-7. On outer layer side edges, fold top, bottom, and side edges in, using the dotted lines on the pattern and the transferred dots as guides. Pin. Ironing helps keep this in place.
-8. Stitch along all the 3 folds on each side, ⅛" from fold.
-9. Make the sleeves for the elastic—with wrong side up, fold stitched ends of outer layer up to the pencil line (dots). Stitch down.
+7. Lay inner layer over outer layer, right sides touching. Sew the top edge and the bottom edge.
+8. Turn right side out. Top stitch the top and bottom seams, ⅛" from edge. This will assure both layers stay in place during laundering.
 
-### Step Three:
+### Straps
 
-10. Lay inner layer over outer layer, right sides touching. Sew the top edge and the bottom edge.
-11. Clip curved seam.
-12. Turn right side out. Top stitch the top and bottom seams, ⅛" from edge. This will assure both layers stay in place during laundering.
-13. Feed elastic through the sleeves to create an upper and lower strap. Feed each end of the elastic through the sleeves in a U shape. A safety pin can help feed it through.
-14. Tie the ends of the elastic in a knot and slid knot into the channel on the side of the mask.
+![](/images/fitted-mask-4.png)
 
-### Step Four:
+9. Turn over. On outer layer side edges, fold top, bottom, and side edges in, using the dotted lines on pattern and the transferred dots as guides. Pin. Ironing helps keep this in place. Stitch along all the 3 folds on each side, ⅛" from fold.
+10. Make the sleeves for the elastic: With wrong side up, fold stitched ends of outer layer up to the pencil line (dots). Stitch down.
+11. Feed elastic through the sleeves to create an upper and lower strap. Feed each end of the elastic through the sleeves in a
+U shape. A safety pin can help feed it through. Tie ends of elastic in a knot and slide knot into the channel on the side of the mask.
 
-15. Make a channel to hold the nose wire by stitching a line ¼" from the top stitch line, echoing the curve (2" on each side of Center Front Seam).
-16. Slide a ~3" piece of wire into the slot created (loop the ends first with pliers if they are sharp).
-17. Sew the ends of the channel closed.
+### Nose wire
+
+![](/images/fitted-mask-5.png)
+
+12. Make a channel to hold the nose wire by stitching a line ¼" from the top stitch line, echoing the curve (2" on each side of Center Front Seam).
+13. Slide a 3"ish piece of wire into the slot created (loop the ends first with pliers if they are sharp).
+14. Sew the ends of the channel closed.
 
 ----
 
-*Adapted from an original pattern by artist Jen Murphy and medical professional Sabra Stein.*
+*Pattern and concept by artist Jen Murphy and medical professional Sabra Stein. Adapted by Gwynedh van Allan and Alyssum Quaglia.*
