@@ -1,0 +1,12 @@
+.batches {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.batch {
+  margin: .5rem 0 0;
+
+  &__title {
+    font-size: get-size(600);
+  }
+}

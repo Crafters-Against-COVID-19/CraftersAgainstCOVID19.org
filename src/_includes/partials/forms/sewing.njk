@@ -3,15 +3,15 @@
 {% set openBatches = batches.list | openBatchFilter %}
 {% if openBatches.length > 0 %}
   <div class="batch_info">
-    <h2>Currrent Batches</h2>
-    <ol>
+    <h2>Schedule</h2>
+    <ol class="batches">
       {% for batch in openBatches %}
         <li class="batch">
-          <span class="batch__title"><strong>{{ batch.name }}</strong>: <time>{{ batch.start | dateFilter }}</time>—<time>{{ batch.end | dateFilter }}</time></span><br>
+          <span class="batch__title"><strong>{{ batch.name }}</strong>: <time>{{ batch.start | dayFilter }}</time>–<time>{{ batch.end | dayFilter }}</time></span><br>
           {% if batch.beneficiaries %}
             {{ batch.beneficiaries }}<br>
           {% endif %}
-          <a class="batch__mask" href="{{ batch.pattern }}">Pattern</a>
+          <strong>Pattern:</strong> <a href="{{ batch.pattern_url }}">{{ batch.pattern_name }}</a>
         </li>
       {% endfor %}
     </ol>

@@ -4,7 +4,8 @@
     "start": "2020-04-01",
     "end": "2020-04-06",
     "open": true,
-    "pattern": "https://craftersagainstcovid19.org/patterns/fitted-mask/",
+    "pattern_name": "Fitted Mask with Pocket",
+    "pattern_url": "https://craftersagainstcovid19.org/patterns/fitted-mask/",
     "beneficiaries": "This batch will be going to urgent cares and higher risk health care professionals all over the Puget Sound area."
   }]
 }

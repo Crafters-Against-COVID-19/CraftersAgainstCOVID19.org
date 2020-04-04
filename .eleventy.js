@@ -62,6 +62,7 @@ module.exports = function(config) {
       ...collection.getFilteredByGlob('./src/patterns/*.md')
     ];
   });
+  config.addFilter('dayFilter', require('./src/filters/day-filter.js'));
   config.addFilter('openBatchFilter', require('./src/filters/open-batch-filter.js'));
   config.addFilter('extractKeyFilter', require('./src/filters/extract-key-filter.js'));
 
