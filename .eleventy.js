@@ -62,6 +62,8 @@ module.exports = function(config) {
       ...collection.getFilteredByGlob('./src/patterns/*.md')
     ];
   });
+  config.addFilter('openBatchFilter', require('./src/filters/open-batch-filter.js'));
+  config.addFilter('extractKeyFilter', require('./src/filters/extract-key-filter.js'));
 
   // Plugins
   config.addPlugin(rssPlugin);

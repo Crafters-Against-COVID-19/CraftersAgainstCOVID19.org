@@ -66,6 +66,19 @@ collections:
   - label: "Globals"
     name: "globals"
     files:
+      - label: "Mask Production Batches"
+        name: "batches"
+        file: "src/_data/batches.json"
+        fields:
+          - label: "Batches"
+            name: "list"
+            widget: "list"
+            fields:
+              - {label: "Name", name: "name", widget: "string", default: "Batch X"}
+              - {label: "Starts On", name: "start", widget: "date"}
+              - {label: "Ends On", name: "end", widget: "date"}
+              - {label: "Pattern URL", name: "pattern", widget: "string", default: "https://craftersagainstcovid19.org/patterns/fitted-mask/"}
+              - {label: "Beneficiary Info", name: "beneficiaries", widget: "string", required: false}
       - label: "Site Data"
         name: "site_data"
         delete: false

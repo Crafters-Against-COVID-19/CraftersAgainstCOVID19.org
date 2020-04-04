@@ -1,5 +1,23 @@
 {% from "macros.njk" import label, field, confirm, select, radios, checkboxes, textarea, button %}
 
+{% set openBatches = batches.list | openBatchFilter %}
+{% if openBatches.length > 0 %}
+  <div class="batch_info">
+    <h2>Currrent Batches</h2>
+    <ol>
+      {% for batch in openBatches %}
+        <li class="batch">
+          <span class="batch__title"><strong>{{ batch.name }}</strong>: <time>{{ batch.start | dateFilter }}</time>—<time>{{ batch.end | dateFilter }}</time></span><br>
+          {% if batch.beneficiaries %}
+            {{ batch.beneficiaries }}<br>
+          {% endif %}
+          <a class="batch__mask" href="{{ batch.pattern }}">Pattern</a>
+        </li>
+      {% endfor %}
+    </ol>
+  </div>
+{% endif %}
+
 <p class="form_intro">Note: All fields are required</p>
 
 <form name="sewing" method="POST" data-netlify="true" action="/volunteer/thanks/" netlify-honeypot="bot-field">
@@ -25,6 +43,10 @@
     </li>
     <li class="question">
       {{ radios("Are you or anyone in your home at high risk (immunocompromised, elderly, etc.)?", "risk", [ "Yes", "No" ] ) }}
+    </li>
+    <li class="question">
+      {{ label("Which batch would you like to make?", "batch") }}
+      {{ select( "batch", openBatches | extractKeyFilter("name"), { required: true } ) }}
     </li>
     <li class="question">
       {{ radios("How many masks can you make?", "quantity", [ "25", "50", "75", "100", "125", {label: "150+ (in increments of 25)", value: "150+"} ] ) }}
