@@ -1,31 +1,84 @@
 {
-  "list": [
-    "CENTRAL SEATTLE: Central/International District",
-    "CENTRAL SEATTLE: Queen Anne",
-    "CENTRAL SEATTLE: Capital Hill",
-    "CENTRAL SEATTLE: Downtown/Eastlake",
-    "CENTRAL SEATTLE: Madison Park",
-    "NORTH SEATTLE: Northgate",
-    "NORTH SEATTLE: Lake City",
-    "NORTH SEATTLE: UW/Ravena",
-    "NORTHWEST SEATTLE: Ballard",
-    "NORTHWEST SEATTLE: Fremont",
-    "NORTHWEST SEATTLE: Crown Hill",
-    "SOUTH SEATTLE: Rainier Beach",
-    "SOUTH SEATTLE: Beacon Hill",
-    "SOUTH SEATTLE: Columbia City",
-    "WEST SEATTLE: North",
-    "WEST SEATTLE: South",
-    "NORTHSIDE: Edmonds/Shoreline",
-    "NORTHSIDE: Lake Forest Park",
-    "EASTSIDE: Kirkland",
-    "EASTSIDE: Bothell",
-    "EASTSIDE: Bellevue/Redmond",
-    "EASTSIDE: Mercer Island",
-    "EASTSIDE: Issaquah",
-    "EASTSIDE: Renton/Newcastle",
-    "SOUTHSIDE:Burien/Seatac",
-    "SOUTHSIDE: Kent",
-    "SOUTHSIDE: Tacoma"
+  "list": [{
+      "name": "CENTRAL SEATTLE: Central/International District"
+    },
+    {
+      "name": "CENTRAL SEATTLE: Queen Anne"
+    },
+    {
+      "name": "CENTRAL SEATTLE: Capital Hill"
+    },
+    {
+      "name": "CENTRAL SEATTLE: Downtown/Eastlake"
+    },
+    {
+      "name": "CENTRAL SEATTLE: Madison Park"
+    },
+    {
+      "name": "NORTH SEATTLE: Northgate"
+    },
+    {
+      "name": "NORTH SEATTLE: Lake City"
+    },
+    {
+      "name": "NORTH SEATTLE: UW/Ravena"
+    },
+    {
+      "name": "NORTHWEST SEATTLE: Ballard"
+    },
+    {
+      "name": "NORTHWEST SEATTLE: Fremont"
+    },
+    {
+      "name": "NORTHWEST SEATTLE: Crown Hill"
+    },
+    {
+      "name": "SOUTH SEATTLE: Rainier Beach"
+    },
+    {
+      "name": "SOUTH SEATTLE: Beacon Hill"
+    },
+    {
+      "name": "SOUTH SEATTLE: Columbia City"
+    },
+    {
+      "name": "WEST SEATTLE: North"
+    },
+    {
+      "name": "WEST SEATTLE: South"
+    },
+    {
+      "name": "NORTHSIDE: Edmonds/Shoreline"
+    },
+    {
+      "name": "NORTHSIDE: Lake Forest Park"
+    },
+    {
+      "name": "EASTSIDE: Kirkland"
+    },
+    {
+      "name": "EASTSIDE: Bothell"
+    },
+    {
+      "name": "EASTSIDE: Bellevue/Redmond"
+    },
+    {
+      "name": "EASTSIDE: Mercer Island"
+    },
+    {
+      "name": "EASTSIDE: Issaquah"
+    },
+    {
+      "name": "EASTSIDE: Renton/Newcastle"
+    },
+    {
+      "name": "SOUTHSIDE:Burien/Seatac"
+    },
+    {
+      "name": "SOUTHSIDE: Kent"
+    },
+    {
+      "name": "SOUTHSIDE: Tacoma"
+    }
   ]
 }
