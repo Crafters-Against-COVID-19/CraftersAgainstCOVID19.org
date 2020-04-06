@@ -53,7 +53,7 @@
     </li>
     <li class="question">
       {{ label("What neighborhood are you closest to?", "neighborhood") }}
-      {{ select( "neighborhood", site.neighborhoods, { required: true } ) }}
+      {{ select( "neighborhood", neighborhoods.list, { required: true } ) }}
     </li>
     <li class="question">
       {{ radios("Are you safe and willing to drop off/pick up from a nearby neighborhood location? (We will make sure to eliminate contact.)", "drop-off", [ "Yes", { label: "No, please set up porch pickups for me", value: "No" } ] ) }}
