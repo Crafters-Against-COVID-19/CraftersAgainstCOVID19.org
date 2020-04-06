@@ -87,7 +87,7 @@ collections:
       - label: "Neighborhoods"
         name: "neighborhoods"
         file: "src/_data/neighborhoods.json"
-        field:
+        fields:
           - label: "Neighborhoods"
             name: "list"
             widget: "list"
