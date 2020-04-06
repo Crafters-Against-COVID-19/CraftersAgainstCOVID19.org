@@ -92,7 +92,8 @@ collections:
             name: "list"
             widget: "list"
             collapsed: false
-            field:  {label: "Name", name: "name", widget: "string"}
+            fields:
+              - {label: "Name", name: "name", widget: "string"}
       - label: "Site Data"
         name: "site_data"
         delete: false
