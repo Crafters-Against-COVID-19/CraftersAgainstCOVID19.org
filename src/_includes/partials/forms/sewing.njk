@@ -44,10 +44,12 @@
     <li class="question">
       {{ radios("Are you or anyone in your home at high risk (immunocompromised, elderly, etc.)?", "risk", [ "Yes", "No" ] ) }}
     </li>
-    <li class="question">
-      {{ label("Which batch would you like to make?", "batch") }}
-      {{ select( "batch", openBatches | extractKeyFilter("name"), { required: true } ) }}
-    </li>
+    {% if openBatches.length > 0 %}
+      <li class="question">
+        {{ label("Which batch would you like to make?", "batch") }}
+        {{ select( "batch", openBatches | extractKeyFilter("name"), { required: true } ) }}
+      </li>
+    {% endif %}
     <li class="question">
       {{ radios("How many masks can you make?", "quantity", [ "25", "50", "75", "100", "125", {label: "150+ (in increments of 25)", value: "150+"} ] ) }}
     </li>
