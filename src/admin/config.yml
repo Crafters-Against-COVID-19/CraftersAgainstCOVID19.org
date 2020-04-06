@@ -87,10 +87,11 @@ collections:
       - label: "Neighborhoods"
         name: "neighborhoods"
         file: "src/_data/neighborhoods.json"
-        fields:
+        field:
           - label: "List"
             name: "list"
             widget: "list"
+            collapsed: false
       - label: "Site Data"
         name: "site_data"
         delete: false
