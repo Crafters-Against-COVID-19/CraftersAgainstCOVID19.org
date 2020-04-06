@@ -91,7 +91,6 @@ collections:
           - label: "Neighborhoods"
             name: "list"
             widget: "list"
-            collapsed: false
             fields:
               - {label: "Name", name: "name", widget: "string"}
       - label: "Site Data"
