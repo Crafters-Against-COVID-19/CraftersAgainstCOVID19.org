@@ -84,7 +84,9 @@
 
 {% macro radios( label, name, options ) %}
   <fieldset>
-    <legend>{{ label }}</legend>
+    <legend
+      {% if data.description %}aria-describedby="description-{{ name }}"{% endif %}
+      >{{ label }}</legend>
     <ul class="question__list">
       {% for option in options %}
         <li>
@@ -119,7 +121,9 @@
 
 {% macro checkboxes( label, name, options ) %}
   <fieldset>
-    <legend>{{ label }}</legend>
+    <legend
+      {% if data.description %}aria-describedby="description-{{ name }}"{% endif %}
+      >{{ label }}</legend>
     <ul class="question__list">
       {% for option in options %}
         <li>
