@@ -4,9 +4,14 @@
       {% for item in navigation_items %}
         {% set relAttribute = '' %}
         {% set currentAttribute = '' %}
+        {% set isExternal = '' %}
 
         {% if item.rel %}
           {% set relAttribute = ' rel="' + item.rel + '"' %}
+        {% endif %}
+
+        {% if item.rel == "external" %}
+          {% set isExternal = ' target="_blank"' %}
         {% endif %}
 
         {% if page.url == item.url %}
@@ -14,7 +19,7 @@
         {% endif %}
 
         <li class="nav__item">
-          <a href="{{ item.url }}"{{ relAttribute | safe }}{{ currentAttribute | safe }}>{{ item.text }}</a>
+          <a href="{{ item.url }}"{{ relAttribute | safe }}{{ currentAttribute | safe }}{{ isExternal | safe }}>{{ item.text }}</a>
         </li>
       {% endfor %}
     </ul>
