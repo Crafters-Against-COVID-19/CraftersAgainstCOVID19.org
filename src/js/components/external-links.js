@@ -16,7 +16,7 @@
     }
   }
   function handleExternalLinks(e) {
-    var $external_link = e.target.closest('a[rel="external"]"]');
+    var $external_link = e.target.closest('a[rel="external"]');
     if ( $external_link )
     {
       e.preventDefault();
