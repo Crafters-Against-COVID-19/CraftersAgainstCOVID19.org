@@ -46,6 +46,10 @@ h3 {
   font-size: get-size(500);
 }
 
+.sr-only {
+  @extend %visually-hidden;
+}
+
 @include media-query('md') {
   h1 {
     font-size: get-size(900);
