@@ -5,7 +5,8 @@
     },
     {
       "text": "Donate",
-      "url": "https://www.gofundme.com/f/crafters-against-covid19-seattle"
+      "url": "https://www.gofundme.com/f/crafters-against-covid19-seattle",
+      "rel": "external"
     },
     {
       "text": "Got Questions?",
@@ -27,12 +28,12 @@
     {
       "text": "Facebook",
       "url": "https://www.facebook.com/groups/2559223211033116",
-      "external": true
+      "rel": "external"
     },
     {
       "text": "GoFundMe",
       "url": "https://www.gofundme.com/f/crafters-against-covid19-seattle",
-      "external": true
+      "rel": "external"
     }
   ]
 }

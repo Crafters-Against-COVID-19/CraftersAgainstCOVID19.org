@@ -19,7 +19,11 @@
         {% endif %}
 
         <li class="nav__item">
-          <a href="{{ item.url }}"{{ relAttribute | safe }}{{ currentAttribute | safe }}{{ isExternal | safe }}>{{ item.text }}</a>
+          <a href="{{ item.url }}"{{ relAttribute | safe }}{{ currentAttribute | safe }}{{ isExternal | safe }}>{{ item.text }}
+            {% if isExternal %}
+              <em>(opens in a new window)</em>
+            {% endif %}
+          </a>
         </li>
       {% endfor %}
     </ul>
