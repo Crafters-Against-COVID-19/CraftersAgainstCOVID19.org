@@ -24,6 +24,9 @@
       "name": "NORTH SEATTLE: UW/Ravena"
     },
     {
+      "name": "NORTH SEATTLE: Wallingford"
+    },
+    {
       "name": "NORTHWEST SEATTLE: Ballard"
     },
     {
@@ -63,9 +66,6 @@
       "name": "EASTSIDE: Bellevue/Redmond"
     },
     {
-      "name": "EASTSIDE: Mercer Island"
-    },
-    {
       "name": "EASTSIDE: Issaquah"
     },
     {
@@ -75,7 +75,7 @@
       "name": "SOUTHSIDE:Burien/Seatac"
     },
     {
-      "name": "SOUTHSIDE: Kent"
+      "name": "SOUTHSIDE: Kent/Auburn"
     },
     {
       "name": "SOUTHSIDE: Tacoma"
