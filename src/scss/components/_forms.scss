@@ -65,6 +65,10 @@ legend {
     line-height: 1.25;
   }
 
+  &[aria-hidden="true"] {
+    display: none;
+  }
+
   textarea + &__description {
     margin-top: 0;
   }
