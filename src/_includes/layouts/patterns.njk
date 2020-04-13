@@ -17,7 +17,7 @@
             {% for pattern in collections.patterns %}
               <li class="post-list__item">
                 <h3 class="font-base leading-tight text-600 weight-mid">
-                  <a href="{{ pattern.url }}" class="post-list__link" rel="bookmark">{{ pattern.data.title }}</a>
+                  <a href="{{ pattern.url }}" class="post-list__link" rel="bookmark">{{ pattern.data.skill_level | capitalize }} Skills - {{ pattern.data.title }}</a>
                 </h3>
                 {% if pattern.data.description %}
                   {{ pattern.data.description | markdownify }}

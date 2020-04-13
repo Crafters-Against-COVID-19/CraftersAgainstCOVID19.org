@@ -3,6 +3,7 @@ title: "Fitted Mask with Pocket"
 description: "Mask with pocket to hold an optional filter. Without a filter, this mask offers light protection as an isolation mask, but is not ASTM-rated."
 video: Lyg_Nb27jp8
 pdf: /images/fitted-mask.pdf
+skill_level: intermediate
 faqs:
   - question: 'I just printed the pattern and find that the 2" scale measures 1 ⅞" for me. Is that close enough or do I need to enlarge the pieces slightly?'
     answer: "It is also helpful if when you print you click “Actual Size” instead of “scale to fit” But if that doesn’t work you can change the scale percentage in your printer options when you go to print."
