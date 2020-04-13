@@ -15,4 +15,11 @@
   &__credit {
     text-align: center;
   }
+
+  small {
+    border-top: 1px solid var(--color-stroke);
+    display: block;
+    padding: .5rem 0 0;
+    margin-top: 2rem;
+  }
 }
