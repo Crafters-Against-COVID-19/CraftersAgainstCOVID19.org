@@ -1,5 +1,6 @@
 {
   "masks_made": 6000,
+  "drivers_needed": false,
   "list": [{
     "name": "Batch 4",
     "start": "2020-04-01",

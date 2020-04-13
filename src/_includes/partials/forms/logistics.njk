@@ -1,35 +1,41 @@
-{% from "macros.njk" import label, field, confirm, select, radios, checkboxes, textarea, button %}
+{% if batches.driver_needed %}
+  {% from "macros.njk" import label, field, confirm, select, radios, checkboxes, textarea, button %}
 
-<p class="form_intro">Note: All fields are required</p>
+  <p class="form_intro">Note: All fields are required</p>
 
-<form name="logistics" method="POST" data-netlify="true" action="/volunteer/thanks/" netlify-honeypot="bot-field">
-  <ol class="questions">
-    <li class="question">
-      {{ label("What’s your full name?", "name") }}
-      {{ field( "text", "name", { required: true, autocomplete: "name", autocorrect: "off", autocapitalize: "off", description: "Please provide both your given and family names." } ) }}
-    </li>
-    <li class="question">
-      {{ label("What’s the best email to reach you at?", "email") }}
-      {{ field( "email", "email", { required: true, autocomplete: "email", description: "We will only use your email to coordinate this volunteer effort." } ) }}
-    </li>
-    <li class="question">
-      {{ label("What’s your street address?", "address") }}
-      {{ textarea( "address", { required: true, autocapitalize: "off", rows: 3, description: "We need this in order to collect the finished masks from you and/or to drop off materials." } ) }}
-    </li>
-    <li class="question">
-      {{ label("What’s the best phone number to reach you on?", "phone") }}
-      {{ field( "tel", "phone", { required: true, autocomplete: "tel", description: "We will only use your phone number to coordinate this volunteer effort." } ) }}
-      <div class="question__addendum">
-        {{ confirm("This number can send/receive text messages", "text") }}
-      </div>
-    </li>
-    <li class="question">
-      {{ label("What neighborhood are you closest to?", "neighborhood") }}
-      {{ select( "neighborhood", neighborhoods.list | extractKeyFilter("name"), { required: true } ) }}
-    </li>
-    <li hidden>
-      <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
-    </li>
-  </ol>
-  {{ button("Send it in") }}
-</form>
+  <form name="logistics" method="POST" data-netlify="true" action="/volunteer/thanks/" netlify-honeypot="bot-field">
+    <ol class="questions">
+      <li class="question">
+        {{ label("What’s your full name?", "name") }}
+        {{ field( "text", "name", { required: true, autocomplete: "name", autocorrect: "off", autocapitalize: "off", description: "Please provide both your given and family names." } ) }}
+      </li>
+      <li class="question">
+        {{ label("What’s the best email to reach you at?", "email") }}
+        {{ field( "email", "email", { required: true, autocomplete: "email", description: "We will only use your email to coordinate this volunteer effort." } ) }}
+      </li>
+      <li class="question">
+        {{ label("What’s your street address?", "address") }}
+        {{ textarea( "address", { required: true, autocapitalize: "off", rows: 3, description: "We need this in order to collect the finished masks from you and/or to drop off materials." } ) }}
+      </li>
+      <li class="question">
+        {{ label("What’s the best phone number to reach you on?", "phone") }}
+        {{ field( "tel", "phone", { required: true, autocomplete: "tel", description: "We will only use your phone number to coordinate this volunteer effort." } ) }}
+        <div class="question__addendum">
+          {{ confirm("This number can send/receive text messages", "text") }}
+        </div>
+      </li>
+      <li class="question">
+        {{ label("What neighborhood are you closest to?", "neighborhood") }}
+        {{ select( "neighborhood", neighborhoods.list | extractKeyFilter("name"), { required: true } ) }}
+      </li>
+      <li hidden>
+        <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+      </li>
+    </ol>
+    {{ button("Send it in") }}
+  </form>
+
+{% else %}
+  <hr>
+  <p><strong>We are not currently in need of logistics help, but please check back again later.</strong></p>
+{% endif %}
