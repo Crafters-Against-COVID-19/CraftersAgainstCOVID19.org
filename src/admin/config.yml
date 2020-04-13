@@ -74,6 +74,7 @@ collections:
         name: "batches"
         file: "src/_data/batches.json"
         fields:
+          - { label: "Number of Masks Made", name: "masks_made", widget: "number", required: true }
           - label: "Batches"
             name: "list"
             widget: "list"

@@ -14,3 +14,10 @@
     }
   }
 }
+.masks_made {
+  border-top: 1px solid var(--color-stroke);
+  border-bottom: 1px solid var(--color-stroke);
+  @include apply-utility('font', 'serif');
+  font-size: 1.5rem;
+  text-align: center;
+}
