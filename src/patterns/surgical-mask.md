@@ -12,18 +12,16 @@ description: "Rectangular barrier mask with pleats."
 * Elastic ½" or smaller (smaller is best)
 * General purpose thread
 
-**Please make ¾ of your masks for adults and ¼ for children!**
-
 ## How to make a mask
 
 1. Cut rectangles (9"× 12" for adult) (7.5" × 10" for children).
 2. Fold cotton in half with right sides together against the width of the fabric so it’s 6" × 9" (adult) or 5" × 7½" (children).
-3. Cut (2) elastic pieces (7.5" for adult, 6.5" for children). If you are using cord elastic knot the ends of the cord. Alternatively, cut 4 ties at least 20" long. If you need more details on making fabric ties please [watch this video](https://youtu.be/O298NkkQelw).
+3. Cut (2) elastic pieces (7.5" for adult, 6.5" for children). If you are using cord elastic knot the ends of the cord. Alternatively, cut 4 ties at least 20" long. If you need more details on making fabric ties please [watch this video](https://youtu.be/5hoDVDvr3nc).
 4. With fabric still folded, sandwich elastic or ties between the two layers so the cut edge comes out diagonally at the corners of the two short sides.
 
 ![](/images/mask-1-4.png)
 
-5. Stitch along the edges with a ⅝" seam allowance (approximately the width of your presser foot). Start along the left bottom corner, stitch to ½" from the center. Leave 1" open to turn your fabric right way out later. Start your stitch 2" away and go to the bottom right corner. Your stitch should start and stop with a machine backstitch.
+5. Stitch along the edges with a ⅝" seam allowance. Start along the left bottom corner, stitch to ½" from the center. Leave 2" open to turn your fabric right way out later. Start your stitch 2" away and go to the bottom right corner. Your stitch should start and stop with a machine backstitch.
 
 ![](/images/mask-1-5.png)
 
