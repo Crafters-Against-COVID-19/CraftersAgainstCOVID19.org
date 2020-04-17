@@ -40,6 +40,10 @@
     <li class="question">
       {{ radios("Are you or anyone in your home at high risk (immunocompromised, elderly, etc.)?", "risk", [ "Yes", "No" ] ) }}
     </li>
+    <li class="question">
+      {{ label("How would you characterize your sewing skills?", "skill") }}
+      {{ select( "skill", ["Beginner", { label: "Intermediate/Advanced", value: "Intermediate" }], { required: true, description: 'Please <a href="/patterns/">take a look at the patterns</a> before deciding.' } ) }}
+    </li>
     {% if openBatches.length > 0 %}
       <li class="question">
         {{ label("Which batch would you like to make?", "batch") }}

@@ -65,7 +65,7 @@ module.exports = function(config) {
   config.addFilter('dayFilter', require('./src/filters/day-filter.js'));
   config.addFilter('openBatchFilter', require('./src/filters/open-batch-filter.js'));
   config.addFilter('extractKeyFilter', require('./src/filters/extract-key-filter.js'));
-
+  
   // Plugins
   config.addPlugin(rssPlugin);
   config.addPlugin(syntaxHighlight);
