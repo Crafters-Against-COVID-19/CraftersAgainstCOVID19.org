@@ -16,7 +16,7 @@
       {{ label("What’s the best phone number to reach you on?", "phone") }}
       {{ field( "tel", "phone", { required: true, autocomplete: "tel", description: "We will only use your phone number to coordinate this volunteer effort." } ) }}
       <div class="question__addendum">
-        {{ confirm("This number can send/receive text messages", "text") }}
+        {{ confirm("This number can send/receive text messages", "text", {value: "Yes"}) }}
       </div>
     </li>
     <li class="question">
