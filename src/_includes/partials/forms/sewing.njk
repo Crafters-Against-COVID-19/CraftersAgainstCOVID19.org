@@ -61,7 +61,7 @@
       {{ textarea( "address", { required: true, autocapitalize: "off", rows: 3, description: "We need this in order to collect the finished masks from you and/or to drop off materials." } ) }}
     </li>
     <li class="question">
-      {{ checkboxes("If you need donated materials, what do you need?", "materials", [ "Cotton fabric", { label: "Elastic", value: "Elastic", note: "Please keep in mind that if you *only* need elastic you can make fabric ties instead" }, "Wire" ] ) }}
+      {{ radios("Do you need us to provide you with materials?", "materials", [ "Yes", { label: "No, I have read the requirements and have everything I need", value: "No" } ] ) }}
     </li>
     <li hidden>
       <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
