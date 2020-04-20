@@ -80,6 +80,11 @@ module.exports = function(config) {
     return `${widont( text )}`;
   });
 
+  // JSON
+  config.addFilter("json", function(obj) {
+    return JSON.stringify( obj, null, '' );
+  });
+
   // 404 
   config.setBrowserSyncConfig({
     callbacks: {

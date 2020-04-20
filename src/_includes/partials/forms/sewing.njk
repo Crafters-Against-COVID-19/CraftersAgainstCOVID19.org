@@ -1,4 +1,4 @@
-{% from "macros.njk" import label, field, confirm, select, radios, checkboxes, textarea, button %}
+{% from "macros.njk" import label, field, confirm, select, radios, hidden_field, checkboxes, textarea, button %}
 
 {% set openBatches = batches.list | openBatchFilter %}
 {% if openBatches.length > 0 %}
@@ -43,13 +43,9 @@
     <li class="question">
       {{ label("How would you characterize your sewing skills?", "skill") }}
       {{ select( "skill", ["Beginner", { label: "Intermediate/Advanced", value: "Intermediate" }], { required: true, description: 'Please <a href="/patterns/">take a look at the patterns</a> before deciding.' } ) }}
+      {{ hidden_field( "batch_name", openBatches[0].name ) }}
+      {{ hidden_field( "batch_date", openBatches[0].end ) }}
     </li>
-    {% if openBatches.length > 0 %}
-      <li class="question">
-        {{ label("Which batch would you like to make?", "batch") }}
-        {{ select( "batch", openBatches | extractKeyFilter("name"), { required: true } ) }}
-      </li>
-    {% endif %}
     <li class="question">
       {{ radios("How many masks can you make?", "quantity", [ "25", "50", "75", "100", "125", {label: "150+ (in increments of 25)", value: "150+"} ] ) }}
     </li>
@@ -75,3 +71,7 @@
 </form>
 
 <script type="module" src="/js/components/dependent-field.js" async defer></script>
+<script>
+  var mask_batches = JSON.parse( '{{ openBatches | json | safe }}' );
+  {% include "assets/js/sewing-form.js" %}
+</script>

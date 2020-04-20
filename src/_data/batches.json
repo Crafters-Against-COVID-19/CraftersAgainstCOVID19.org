@@ -2,12 +2,24 @@
   "masks_made": 6000,
   "drivers_needed": false,
   "list": [{
-    "name": "Batch 4",
-    "start": "2020-04-01",
-    "end": "2020-04-06",
-    "open": true,
-    "pattern_name": "Fitted Mask with Pocket",
-    "pattern_url": "https://craftersagainstcovid19.org/patterns/fitted-mask/",
-    "beneficiaries": "This batch will be going to urgent cares and higher risk health care professionals all over the Puget Sound area."
-  }]
+      "name": "Batch 9",
+      "start": "2020-04-10",
+      "end": "2020-04-27",
+      "open": true,
+      "skill_level": "Beginner",
+      "pattern_name": "Surgical Mask",
+      "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
+      "beneficiaries": "This batch will be going to urgent cares and higher risk health care professionals all over the Puget Sound area."
+    },
+    {
+      "name": "Batch 10",
+      "start": "2020-04-15",
+      "end": "2020-05-04",
+      "open": true,
+      "skill_level": "Intermediate",
+      "pattern_name": "Fitted Mask with Pocket",
+      "pattern_url": "https://craftersagainstcovid19.org/patterns/fitted-mask/",
+      "beneficiaries": "This batch will be going to urgent cares and higher risk health care professionals all over the Puget Sound area."
+    }
+  ]
 }

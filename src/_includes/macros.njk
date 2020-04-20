@@ -168,6 +168,10 @@
   <em class="question__description" id="{{ id }}">{{ html | widont | safe }}</em>
 {% endmacro %}
 
+{% macro hidden_field( name, value ) %}
+  <input type="hidden" name="{{ name }}" id="field-{{ name }}" value="{{ value }}">
+{% endmacro %}
+
 {% macro button( text ) %}
   <button type="submit" class="button">{{ text }}</button>
 {% endmacro %}
