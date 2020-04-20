@@ -84,6 +84,7 @@ collections:
               - {label: "Name", name: "name", widget: "string", default: "Batch X", required: true}
               - {label: "Starts On", name: "start", widget: "datetime", required: true}
               - {label: "Ends On", name: "end", widget: "datetime", required: true}
+              - {label: "Skill Level", name: "skill_level", widget: "select", options: ["Beginner", "Intermediate"], required: true}
               - {label: "Pattern Name", name: "pattern_name", widget: "string", default: "Fitted Mask with Pocket", required: true}
               - {label: "Pattern URL", name: "pattern_url", widget: "string", default: "https://craftersagainstcovid19.org/patterns/fitted-mask/", required: true}
               - {label: "Beneficiary Info", name: "beneficiaries", widget: "string", required: false}
