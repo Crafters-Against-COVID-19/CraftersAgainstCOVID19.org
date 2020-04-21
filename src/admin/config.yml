@@ -60,11 +60,12 @@ collections:
       - {label: "Brief Description", name: "description", widget: "string", required: false}
       - {label: "YouTube Video Slug (e.g., -GoWoPA3tF0)", name: "video", widget: "string", required: true}
       - {label: "PDF Instructions", name: "pdf", widget: "file", required: true}
-      - {label: "Skill Level", name: "skill_level", widget: "string", required: true, default: "Beginner" }
+      - {label: "Skill Level", name: "skill_level", widget: "select", options: ["Beginner", "Intermediate"], required: true }
       - {label: "Instructions", name: "body", widget: "markdown", required: true}
       - label: "Frequently Asked Questions"
         name: "faq"
         required: false
+        widget: "list"
         fields:
           - {label: "Question", name: "question", widget: "string", required: true}
           - {label: "Answer", name: "answer", widget: "string", required: true}
