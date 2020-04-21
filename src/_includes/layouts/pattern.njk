@@ -24,17 +24,17 @@
           <p><a class="button" href="{{ pdf }}" download type="application/pdf">Download PDF Instructions</a></p>
         {% endif %}
 
-        {% if faqs %}
+        {% if faq %}
           <hr>
           <h2>Frequently Asked Questions</h2>
-          <ul>
-            {% for item in faqs %}
-              <li>
-                <strong>{{ item.question }}</strong><br>
-                {{ item.answer }}
-              </li>
-            {% endfor %}
-          </ul>
+          <dl class="faq">
+          {% for item in faq %}
+            <dt>{{ item.question }}</dt>
+            <dd>
+              {{ item.answer }}
+            </dd>
+          {% endfor %}
+          </dl>
         {% endif %}
       </div>
     </article>

@@ -5,7 +5,7 @@ description: Mask with pocket to hold an optional filter. Without a filter, this
 video: Lyg_Nb27jp8
 pdf: /images/fitted-mask.pdf
 skill_level: Intermediate
-faqs:
+faq:
   - question: I just printed the pattern and find that the 2" scale measures 1 ⅞"
       for me. Is that close enough or do I need to enlarge the pieces slightly?
     answer: It is also helpful if when you print you click “Actual Size” instead of
