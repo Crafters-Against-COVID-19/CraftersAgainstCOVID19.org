@@ -1,9 +1,9 @@
 ---
-title: "Surgical Mask"
+title: Surgical Mask
+description: Rectangular barrier mask with pleats.
 video: -GoWoPA3tF0
-skill_level: beginner
 pdf: /images/mask-1.pdf
-description: "Rectangular barrier mask with pleats."
+skill_level: Beginner
 ---
 
 ## What you will need
