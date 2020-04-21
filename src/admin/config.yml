@@ -75,7 +75,7 @@ collections:
         name: "batches"
         file: "src/_data/batches.json"
         fields:
-          - { label: "Number of Masks Made", name: "masks_made", widget: "number", required: true }
+          - { label: "Number of Masks Made", name: "masks_made", widget: "text", required: true }
           - { label: "Need Drivers?", name: "drivers_needed", widget: "boolean", required: true }
           - label: "Batches"
             name: "list"
