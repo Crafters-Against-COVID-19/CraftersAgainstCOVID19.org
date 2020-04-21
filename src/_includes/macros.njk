@@ -48,6 +48,11 @@
           {% if data.required %}required aria-required="true"{% endif %}
           {% if data.multiple %}multiple{% endif %}
           {% if data.description %}aria-describedby="description-{{ name }}"{% endif %}
+          {% if data.attributes %}
+            {% for attribute in data.attributes %}
+              {{ attribute }}
+            {% endfor %}
+          {% endif %}
           >
     {% for opt in data.options_before %}
       {{ option( opt ) }}
