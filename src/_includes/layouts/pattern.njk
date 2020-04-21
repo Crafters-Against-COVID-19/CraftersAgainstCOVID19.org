@@ -29,8 +29,8 @@
           <h2>Frequently Asked Questions</h2>
           <dl class="faq">
           {% for item in faq %}
-            <dt>{{ item.question }}</dt>
-            <dd>
+            <dt class="faq__question">{{ item.question }}</dt>
+            <dd class="faq__answer">
               {{ item.answer }}
             </dd>
           {% endfor %}

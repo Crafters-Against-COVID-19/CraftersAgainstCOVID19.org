@@ -1,0 +1,13 @@
+.faq {
+  margin: 0;
+  padding: 0;
+
+  &__question {
+    font-weight: bold;
+    margin-top: 1em;
+    margin-top: var(--flow-space);
+  }
+  &__answer {
+    margin: 0;
+  }
+}
