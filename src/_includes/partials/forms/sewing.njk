@@ -4,10 +4,10 @@
 {% if openBatches.length > 0 %}
   <div class="batch_info">
     <h2>Schedule</h2>
-    <ol class="batches">
+    <ol class="batches" id="display-batches">
       {% set displayBatches = openBatches | limit(2) %}
       {% for batch in displayBatches %}
-        <li class="batch">
+        <li class="batch" data-batch-name="{{ batch.name}}" data-batch-cutoff="{{ batch.cutoff }}">
           <span class="batch__title"><strong>{{ batch.name }}</strong>: <time>{{ batch.start | dayFilter }}</time>–<time>{{ batch.end | dayFilter }}</time></span><br>
           {% if batch.beneficiaries %}
             {{ batch.beneficiaries }}<br>
@@ -76,6 +76,17 @@
   {{ button("Send it in") }}
 </form>
 
+<template id="batches" style="display: none">
+  {% for batch in openBatches %}
+    <li class="batch" data-batch-name="{{ batch.name}}" data-batch-cutoff="{{ batch.cutoff }}">
+      <span class="batch__title"><strong>{{ batch.name }}</strong>: <time>{{ batch.start | dayFilter }}</time>–<time>{{ batch.end | dayFilter }}</time></span><br>
+      {% if batch.beneficiaries %}
+        {{ batch.beneficiaries }}<br>
+      {% endif %}
+      <strong>Pattern:</strong> <a href="{{ batch.pattern_url }}">{{ batch.pattern_name }}</a>
+    </li>
+  {% endfor %}
+</template>
 <script type="module" src="/js/components/dependent-field.js" async defer></script>
 <script>
   var open_batches = JSON.parse( '{{ openBatches | json | safe }}' );

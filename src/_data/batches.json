@@ -4,6 +4,7 @@
   "list": [{
       "name": "Batch 9",
       "start": "2020-04-10",
+      "cutoff": "2020-04-23",
       "end": "2020-04-27",
       "open": true,
       "skill_level": "Beginner",
@@ -14,6 +15,7 @@
     {
       "name": "Batch 10",
       "start": "2020-04-10",
+      "cutoff": "2020-04-23",
       "end": "2020-04-27",
       "open": true,
       "skill_level": "Intermediate",
