@@ -5,7 +5,8 @@
   <div class="batch_info">
     <h2>Schedule</h2>
     <ol class="batches">
-      {% for batch in openBatches %}
+      {% set displayBatches = openBatches | limit(2) %}
+      {% for batch in displayBatches %}
         <li class="batch">
           <span class="batch__title"><strong>{{ batch.name }}</strong>: <time>{{ batch.start | dayFilter }}</time>–<time>{{ batch.end | dayFilter }}</time></span><br>
           {% if batch.beneficiaries %}
@@ -43,10 +44,10 @@
     <li class="question">
       {% set patterns = [] %}
       {% for pattern in collections.patterns %}
-        {% set patterns = ( patterns.push({ label: pattern.data.title, value: pattern.data.skill_level }), patterns ) %}
+        {% set patterns = ( patterns.push( pattern.data.title ), patterns ) %}
       {% endfor %}
       {{ label("Which mask are you signing up for?", "skill") }}
-      {{ select( "skill", patterns, { required: true, description: 'Please <a href="/patterns/">take a look at the patterns</a> before deciding.' } ) }}
+      {{ select( "pattern", patterns | reverse, { required: true, description: 'Please <a href="/patterns/">take a look at the patterns</a> before deciding.' } ) }}
       {{ hidden_field( "batch_name", openBatches[0].name ) }}
       {{ hidden_field( "batch_date", openBatches[0].end ) }}
       {{ hidden_field( "total_masks", batches.masks_made ) }}
@@ -77,7 +78,7 @@
 
 <script type="module" src="/js/components/dependent-field.js" async defer></script>
 <script>
-  var mask_batches = JSON.parse( '{{ openBatches | json | safe }}' );
+  var open_batches = JSON.parse( '{{ openBatches | json | safe }}' );
   {% include "assets/js/sewing-form.js" %}
   {% include "assets/js/field-save.js" %}
 </script>

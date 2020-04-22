@@ -1,18 +1,18 @@
-(function(window, document){
-  var $skill = document.getElementById("field-skill"),
+(function(document){
+  var $pattern = document.getElementById("field-pattern"),
       $batch_name = document.getElementById("field-batch_name"),
       $batch_date = document.getElementById("field-batch_date"),
-      batches = mask_batches.reverse(),
+      batches = open_batches.reverse(),
       days = "Sunday Monday Tuesday Wednesday Thursday Friday Saturday".split(" ");
   
   function setBatchDetails()
   {
-    var skill_level = $skill.value,
+    var pattern = $pattern.value,
         count = batches.length;
     while ( count-- )
     {
       let batch = batches[count];
-      if ( batch.skill_level == skill_level )
+      if ( batch.pattern_name == pattern )
       {
         let end_date = new Date( batch.end + "T12:00:00" ),
             day = days[end_date.getDay()],
@@ -24,5 +24,5 @@
   }
 
   setBatchDetails();
-  $skill.addEventListener("change", setBatchDetails, false);
-}(window, window.document));
+  $pattern.addEventListener("change", setBatchDetails, false);
+}(window.document));
