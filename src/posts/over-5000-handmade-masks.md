@@ -8,4 +8,4 @@ By Tuesday we expect to have delivered over 5,000 handmade masks, and be well on
 
 Because the demand for masks only seems to be growing we are expanding our [GoFundMe](https://www.gofundme.com/f/crafters-against-covid19-seattle) goal to get **even more** supplies to make **even more masks**!!!
 
-Anything you can spare will make a life altering difference for those in need ![](https://static.xx.fbcdn.net/images/emoji.php/v9/tac/1/16/2665.png)
+Anything you can spare will make a life altering difference for those in need ❤️
