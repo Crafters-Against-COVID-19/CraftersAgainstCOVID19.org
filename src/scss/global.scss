@@ -40,6 +40,12 @@ hr {
   margin: get-size(900) auto;
 }
 
+/* Make images responsive */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 /**
  * PROJECT IMPORTS
  */
