@@ -3,7 +3,7 @@ layout: layouts/post.njk
 title: Batch 4 Fitted Mask Signup
 date: 2020-04-01T23:14:00.000Z
 tags:
-  - Updates
+  - Mask Signup
 ---
 PLEASE READ THIS ALL THE WAY THROUGH AS THINGS ARE DIFFERENT THIS TIME AROUND!
 
