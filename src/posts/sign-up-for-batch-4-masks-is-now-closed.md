@@ -1,7 +1,7 @@
 ---
 layout: layouts/post.njk
 title: SIGN UP FOR BATCH 4 MASKS IS NOW CLOSED
-date: 2020-04-25T20:12:15.841Z
+date: 2020-04-01T23:14:00.000Z
 tags:
   - Updates
 ---
