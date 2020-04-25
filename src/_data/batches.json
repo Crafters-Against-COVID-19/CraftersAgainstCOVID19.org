@@ -50,6 +50,15 @@
       "cutoff": "2020-05-03",
       "end": "2020-04-30",
       "skill_level": "Beginner"
+    },
+    {
+      "name": "Batch 14",
+      "pattern_name": "Fitted Mask with Pocket",
+      "pattern_url": "https://craftersagainstcovid19.org/patterns/fitted-mask/",
+      "start": "2020-04-30",
+      "cutoff": "2020-05-07",
+      "end": "2020-05-11",
+      "skill_level": "Intermediate"
     }
   ]
 }
