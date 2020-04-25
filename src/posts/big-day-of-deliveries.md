@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-title: Big Day of Deliveries
+title: Big Day of Deliveries!
 date: 2020-04-25T21:15:39.240Z
 tags:
   - Deliveries
