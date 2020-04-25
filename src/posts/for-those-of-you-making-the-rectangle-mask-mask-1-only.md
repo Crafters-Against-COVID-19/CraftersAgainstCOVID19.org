@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-title: Batch 3 Rectangular Mask Q&A
+title: Batch 3 Surgical Mask Q&A
 date: 2020-03-29T16:42:00.000Z
 tags:
   - Updates
