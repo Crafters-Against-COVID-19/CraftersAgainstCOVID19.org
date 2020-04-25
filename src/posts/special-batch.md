@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-title: Special Batch
+title: Special Batch of Masks
 date: 2020-04-19T22:52:00.000Z
 tags:
   - Updates
