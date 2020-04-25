@@ -1,7 +1,7 @@
 ---
 layout: layouts/post.njk
 title: FOR THOSE OF YOU MAKING THE RECTANGLE MASK (MASK 1) ONLY
-date: 2020-04-25T20:07:01.426Z
+date: 2020-03-29T16:42:00.000Z
 tags:
   - Updates
 ---
