@@ -3,7 +3,7 @@ layout: layouts/post.njk
 title: Batch 6 Fitted Mask Signup
 date: 2020-04-08T17:08:00.000Z
 tags:
-  - Updates
+  - Mask Signup
 ---
 Sign up for Batch 6 mask making via [this form](https://docs.google.com/forms/d/e/1FAIpQLSczl49cOxZI9ARnA3Mbqe16S5IXEHyu2_aSx8kD1vy8MuNZBQ/closedform).
 
