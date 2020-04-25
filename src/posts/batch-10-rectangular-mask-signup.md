@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-title: Batch 10 Rectangular Mask Signup
+title: Batch 10 Fitted Mask Signup
 date: 2020-04-22T02:22:00.000Z
 tags:
   - Mask Signup
