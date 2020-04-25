@@ -77,6 +77,15 @@
       "cutoff": "2020-05-14",
       "end": "2020-05-18",
       "skill_level": "Intermediate"
+    },
+    {
+      "name": "Batch 17",
+      "pattern_name": "Surgical Mask",
+      "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
+      "start": "2020-05-10",
+      "cutoff": "2020-05-17",
+      "end": "2020-05-21",
+      "skill_level": "Beginner"
     }
   ]
 }
