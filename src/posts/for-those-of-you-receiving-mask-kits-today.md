@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-title: Fabric Update on Batch 3 Rectangular Mask
+title: Fabric Update
 date: 2020-03-31T16:28:00.000Z
 tags:
   - Updates
