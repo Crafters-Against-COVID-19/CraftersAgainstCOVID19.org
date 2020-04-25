@@ -3,7 +3,7 @@ layout: layouts/post.njk
 title: Batch 5 Rectangular Mask Signup
 date: 2020-04-05T19:31:00.000Z
 tags:
-  - Updates
+  - Mask Signup
 ---
 Sign up for Batch 5 mask making via [this form](https://docs.google.com/forms/d/e/1FAIpQLSeNw8Gp4LI7-G6Ou8TJKloV_p4T--LekzWePbiRD6zzCF1lgg/closedform).
 
