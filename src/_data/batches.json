@@ -4,18 +4,18 @@
   "list": [
     {
       "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
-      "start": "2020-04-10",
+      "start": "2020-04-18",
       "beneficiaries": "This batch will be going to urgent cares and higher risk health care professionals all over the Puget Sound area.",
       "open": true,
       "name": "Batch 9",
-      "cutoff": "2020-04-23",
+      "cutoff": "2020-04-19",
       "skill_level": "Beginner",
       "pattern_name": "Surgical Mask",
-      "end": "2020-04-27"
+      "end": "2020-04-23"
     },
     {
       "pattern_url": "https://craftersagainstcovid19.org/patterns/fitted-mask/",
-      "start": "2020-04-10",
+      "start": "2020-04-21",
       "beneficiaries": "This batch will be going to urgent cares and higher risk health care professionals all over the Puget Sound area.",
       "open": true,
       "name": "Batch 10",
@@ -23,6 +23,96 @@
       "skill_level": "Intermediate",
       "pattern_name": "Fitted Mask with Pocket",
       "end": "2020-04-27"
+    },
+    {
+      "name": "Batch 11",
+      "pattern_name": "Surgical Mask",
+      "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
+      "start": "2020-04-25",
+      "cutoff": "2020-04-26",
+      "end": "2020-04-30",
+      "skill_level": "Beginner"
+    },
+    {
+      "name": "Batch 12",
+      "pattern_name": "Fitted Mask with Pocket",
+      "pattern_url": "https://craftersagainstcovid19.org/patterns/fitted-mask/",
+      "start": "2020-04-21",
+      "cutoff": "2020-04-30",
+      "end": "2020-05-04",
+      "skill_level": "Intermediate"
+    },
+    {
+      "name": "Batch 13",
+      "pattern_name": "Surgical Mask",
+      "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
+      "start": "2020-04-26",
+      "cutoff": "2020-05-03",
+      "end": "2020-05-07",
+      "skill_level": "Beginner"
+    },
+    {
+      "name": "Batch 14",
+      "pattern_name": "Fitted Mask with Pocket",
+      "pattern_url": "https://craftersagainstcovid19.org/patterns/fitted-mask/",
+      "start": "2020-04-30",
+      "cutoff": "2020-05-07",
+      "end": "2020-05-11",
+      "skill_level": "Intermediate"
+    },
+    {
+      "name": "Batch 15",
+      "pattern_name": "Surgical Mask",
+      "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
+      "start": "2020-05-03",
+      "cutoff": "2020-05-10",
+      "end": "2020-05-14",
+      "skill_level": "Beginner"
+    },
+    {
+      "name": "Batch 16",
+      "pattern_name": "Fitted Mask with Pocket",
+      "pattern_url": "https://craftersagainstcovid19.org/patterns/fitted-mask/",
+      "start": "2020-05-07",
+      "cutoff": "2020-05-14",
+      "end": "2020-05-18",
+      "skill_level": "Intermediate"
+    },
+    {
+      "name": "Batch 17",
+      "pattern_name": "Surgical Mask",
+      "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
+      "start": "2020-05-10",
+      "cutoff": "2020-05-17",
+      "end": "2020-05-21",
+      "skill_level": "Beginner"
+    },
+    {
+      "name": "Batch 18",
+      "pattern_name": "Fitted Mask with Pocket",
+      "pattern_url": "https://craftersagainstcovid19.org/patterns/fitted-mask/",
+      "start": "2020-05-14",
+      "cutoff": "2020-05-21",
+      "end": "2020-05-25",
+      "skill_level": "Intermediate"
+    },
+    {
+      "name": "Batch 19",
+      "pattern_name": "Surgical Mask",
+      "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
+      "start": "2020-05-17",
+      "cutoff": "2020-05-24",
+      "end": "2020-05-28",
+      "skill_level": "Beginner"
+    },
+    {
+      "name": "Batch 20",
+      "pattern_name": "Fitted Mask with Pocket",
+      "pattern_url": "https://craftersagainstcovid19.org/patterns/fitted-mask/",
+      "start": "2020-05-21",
+      "cutoff": "2020-05-28",
+      "end": "2020-06-01",
+      "skill_level": "Intermediate"
     }
   ]
 }
