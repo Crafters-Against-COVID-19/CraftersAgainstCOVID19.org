@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-title: Batch 11 Rectangular Mask Signup
+title: Batch 11 Surgical Mask Signup
 date: 2020-04-25T18:57:37.335Z
 tags:
   - Mask Signup
