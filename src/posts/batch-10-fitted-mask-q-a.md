@@ -17,6 +17,6 @@ Here are some of the answers you may already be looking for:
 * Elastic and ties are both threaded through the mask in the same way.
 * Please knot the ends of all ties so they don't fray in the wash.
 
-
+If you have any other questions, please watch this [how to video](https://www.youtube.com/watch?v=Lyg_Nb27jp8) and read through our [FAQ](https://craftersagainstcovid19.org/faq/) to see if you can find your answer before asking.
 
 Thank you all!
