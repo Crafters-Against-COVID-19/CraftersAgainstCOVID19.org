@@ -3,7 +3,7 @@ layout: layouts/post.njk
 title: FREMONT, CAP HILL, ALKI, KENT, TACOMA WHERE YOU AT???
 date: 2020-03-26T18:43:00.000Z
 tags:
-  - updates
+  - Updates
 ---
 Hello all you amazing and wonderful crafters! Thank you all for being here and making a difference!!!
 
