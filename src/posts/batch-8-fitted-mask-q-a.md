@@ -1,7 +1,7 @@
 ---
 layout: layouts/post.njk
 title: Batch 8 Fitted Mask Q&A
-date: 2020-04-25T21:35:32.808Z
+date: 2020-04-17T17:56:00.000Z
 tags:
   - Updates
 ---
