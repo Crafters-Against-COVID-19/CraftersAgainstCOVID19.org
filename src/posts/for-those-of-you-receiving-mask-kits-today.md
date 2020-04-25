@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-title: FOR THOSE OF YOU RECEIVING MASK KITS TODAY
+title: Batch 4 Fitted Mask Fabric Update
 date: 2020-03-31T16:28:00.000Z
 tags:
   - Updates
