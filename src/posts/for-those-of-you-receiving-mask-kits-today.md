@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-title: \*\*\*FOR THOSE OF YOU RECEIVING MASK KITS TODAY\*\*\*
+title: FOR THOSE OF YOU RECEIVING MASK KITS TODAY
 date: 2020-03-31T16:28:00.000Z
 tags:
   - Updates
