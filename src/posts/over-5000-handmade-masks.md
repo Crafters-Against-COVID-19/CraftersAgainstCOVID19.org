@@ -1,8 +1,8 @@
 ---
-title: 'Over 5,000 handmade masks!'
+title: Over 5,000 handmade masks!
 date: 2020-03-28T02:22:00.000Z
 tags:
-  - updates
+  - Updates
 ---
 By Tuesday we expect to have delivered over 5,000 handmade masks, and be well on our way to 10,000 more.
 
