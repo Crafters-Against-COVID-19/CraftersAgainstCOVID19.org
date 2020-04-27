@@ -1,4 +1,4 @@
 ---
-title: 'Posts Archive'
+title: 'Announcements'
 layout: 'layouts/archive.njk'
 ---
