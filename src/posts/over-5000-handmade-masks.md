@@ -1,5 +1,5 @@
 ---
-title: Over 5,000 handmade masks!
+title: Over 5,000 Handmade Masks Delivered
 date: 2020-03-28T02:22:00.000Z
 tags:
   - updates
