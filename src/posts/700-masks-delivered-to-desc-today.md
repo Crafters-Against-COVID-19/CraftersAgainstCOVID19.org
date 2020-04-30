@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-title: Our First Big Delivery
+title: Celebrating Our First Delivery
 date: 2020-03-23T16:20:00.000Z
 tags:
   - Deliveries
