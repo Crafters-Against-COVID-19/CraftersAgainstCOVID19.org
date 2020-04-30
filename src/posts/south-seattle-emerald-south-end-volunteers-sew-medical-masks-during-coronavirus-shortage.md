@@ -14,9 +14,7 @@ One of the Southend SEWer volunteers, Liz Cruz, lives in Rainier Beach. She’d 
 
 “I’ve done a lot of sewing my whole life—apparel, costume design” Cruz said “I stocked up on fabric and just started.”
 
-![](https://i1.wp.com/southseattleemerald.com/wp-content/uploads/2020/03/med-mask-kits-jessica-breznau.jpg?resize=474%2C356&ssl=1)
-
-Completed Southend SEWer medical kits (photo: Jessica Breznau)
+![Mask making kits](https://i1.wp.com/southseattleemerald.com/wp-content/uploads/2020/03/med-mask-kits-jessica-breznau.jpg?resize=474%2C356&ssl=1)
 
 She’s sewn many of the non-medical masks and now has agreed to take on some of the kits, as well. Cruz has a job in human resources for Amazon and has been working from home since early in the outbreak. Sewing the masks provides a welcome relief.
 
