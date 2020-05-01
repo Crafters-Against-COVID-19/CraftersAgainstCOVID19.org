@@ -1,7 +1,7 @@
 ---
 layout: layouts/post.njk
 title: A Special Thank You
-date: 2020-05-01T17:08:35.426Z
+date: 2020-04-05T17:08:35.426Z
 tags:
   - Thank Yous
 excerpt: Last week we were able to deliver masks to the [Seattle Indian Health
