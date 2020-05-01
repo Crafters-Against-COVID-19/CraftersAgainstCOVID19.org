@@ -1,7 +1,7 @@
 ---
 layout: layouts/post.njk
 title: 14,000 Masks in Just 3 Weeks!!!
-date: 2020-05-01T17:36:15.534Z
+date: 2020-04-08T17:36:15.534Z
 tags:
   - Updates
 excerpt: We're delivering 3,000 masks tomorrow! That puts us at 14,000 delivered
