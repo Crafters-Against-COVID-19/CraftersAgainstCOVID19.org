@@ -2,7 +2,7 @@
 title: Rectangular Surgical-Style Mask
 description: Rectangular barrier mask with pleats.
 video: -GoWoPA3tF0
-pdf: /images/mask-1.pdf
+pdf: /images/cacv19-rectangular-surgical-style-mask-pattern-and-instructions.pdf
 skill_level: Beginner
 faq:
   - question: Do I have to use flat cotton?  Can I use a cotton flannel?
