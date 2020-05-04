@@ -10,16 +10,30 @@
       {% include "partials/components/intro.njk" %}
       <div class="[ post__body ] [ inner-wrapper ] [ leading-loose pad-top-900 pad-bottom-900 text-500 ] [ sf-flow ] [ e-content ]">
         {{ content | safe }}
-        {% if faq %}
-          <dl class="faq">
-          {% for item in faq %}
-            <dt class="faq__question" id="{{ item.question | slugify }}">{{ item.question }}</dt>
-            <dd class="faq__answer">
-              {{ item.answer }}
-            </dd>
+        <h2>What would you like to know?</h2>
+        <ul class="faq-list">
+          {% for section in sections %}
+            {% for faq_item in section.faq %}
+              <li><a href="#{{ faq_item.q | slug }}">{{ faq_item.q }}</a></li>
+            {% endfor %}
           {% endfor %}
-          </dl>
-        {% endif %}
+        </ul>
+        <hr>
+        {% for section in sections %}
+          <section id="{{ section.name | slug }}">
+            <h2>{{ section.name }}</h2>
+            {% if section.faq %}
+              <dl class="faq">
+              {% for faq_item in section.faq %}
+                <dt class="faq__question" id="{{ faq_item.q | slug }}">{{ faq_item.q }}</dt>
+                <dd class="faq__answer">
+                  {{ faq_item.a | markdownify }}
+                </dd>
+              {% endfor %}
+              </dl>
+            {% endif %}
+          </section>
+        {% endfor %}
       </div>
     </article>
   </main>

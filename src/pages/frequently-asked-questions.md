@@ -1,7 +1,7 @@
 ---
 layout: layouts/page.njk
 title: Frequently Asked Questions
-permalink: /faq/index.html
+permalink: /faq/old.html
 metaTitle: Frequently Asked Questions about Crafters Against COVID-19 Seattle
 ---
 ## **About Us**
