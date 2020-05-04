@@ -1,5 +1,6 @@
 {
-  "main": [{
+  "main": [
+    {
       "text": "Volunteer",
       "url": "/volunteer/"
     },
@@ -13,7 +14,8 @@
       "url": "/faq/"
     }
   ],
-  "footer": [{
+  "footer": [
+    {
       "text": "Volunteer",
       "url": "/volunteer/"
     },
@@ -28,12 +30,19 @@
     {
       "text": "Facebook",
       "url": "https://www.facebook.com/groups/2559223211033116",
-      "rel": "external"
+      "rel": "external",
+      "external": true
     },
     {
       "text": "GoFundMe",
       "url": "https://www.gofundme.com/f/crafters-against-covid19-seattle",
-      "rel": "external"
+      "rel": "external",
+      "external": true
+    },
+    {
+      "text": "Instagram",
+      "url": "https://www.instagram.com/craftersagainstcovid19/",
+      "external": true
     }
   ]
 }
