@@ -34,14 +34,14 @@
       "external": true
     },
     {
-      "text": "GoFundMe",
-      "url": "https://www.gofundme.com/f/crafters-against-covid19-seattle",
-      "rel": "external",
+      "text": "Instagram",
+      "url": "https://www.instagram.com/craftersagainstcovid19/",
       "external": true
     },
     {
-      "text": "Instagram",
-      "url": "https://www.instagram.com/craftersagainstcovid19/",
+      "text": "GoFundMe",
+      "url": "https://www.gofundme.com/f/crafters-against-covid19-seattle",
+      "rel": "external",
       "external": true
     }
   ]
