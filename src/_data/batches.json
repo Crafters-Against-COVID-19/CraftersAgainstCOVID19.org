@@ -1,12 +1,10 @@
 {
   "masks_made": "30,000",
   "drivers_needed": false,
-  "list": [
-    {
+  "list": [{
       "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
       "start": "2020-04-18",
       "beneficiaries": "This batch will be going to urgent cares and higher risk health care professionals all over the Puget Sound area.",
-      "open": true,
       "name": "Batch 9",
       "cutoff": "2020-04-19",
       "skill_level": "Beginner",
@@ -17,7 +15,6 @@
       "pattern_url": "https://craftersagainstcovid19.org/patterns/fitted-mask/",
       "start": "2020-04-21",
       "beneficiaries": "This batch will be going to urgent cares and higher risk health care professionals all over the Puget Sound area.",
-      "open": true,
       "name": "Batch 10",
       "cutoff": "2020-04-23",
       "skill_level": "Intermediate",
