@@ -23,6 +23,22 @@ collections:
           - {label: "Archive Link Text", name: "archiveButtonText", widget: "string", default: "See all posts"}
           - {label: "Social Image", name: "socialImage", widget: "image", required: false}
           - {label: "Body", name: "body", widget: "markdown"}
+      - name: "faqs"
+        label: "FAQs"
+        file: "src/frequently-asked-questions.md"
+        slug: "{{slug}}"
+        create: true
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/faq.njk"}
+          - {label: "Title", name: "title", widget: "string", required: true, default: "Frequently Asked Questions"}
+          - {label: "Intro", name: "body", widget: "markdown", required: true}
+          - label: "Questions"
+            name: "faq"
+            required: false
+            widget: "list"
+            fields:
+              - {label: "Question", name: "question", widget: "string", required: true}
+              - {label: "Answer", name: "answer", widget: "markdown", required: true}
   - name: "generic_pages"
     label: "Generic Pages"
     folder: "src/pages"

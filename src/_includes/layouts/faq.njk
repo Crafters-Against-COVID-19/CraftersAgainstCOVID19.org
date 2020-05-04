@@ -1,0 +1,28 @@
+{% extends 'layouts/base.njk' %}
+{% set pageType = 'FAQ' %}
+
+{# Intro content #}
+{% set introHeading = title %}
+
+{% block content %}
+  <main id="main-content" tabindex="-1">
+    <article class="[ post ] [ h-entry ]">
+      {% include "partials/components/intro.njk" %}
+      <div class="[ post__body ] [ inner-wrapper ] [ leading-loose pad-top-900 pad-bottom-900 text-500 ] [ sf-flow ] [ e-content ]">
+        {{ content | safe }}
+        {% if faq %}
+          <dl class="faq">
+          {% for item in faq %}
+            <dt class="faq__question" id="{{ item.question | slugify }}">{{ item.question }}</dt>
+            <dd class="faq__answer">
+              {{ item.answer }}
+            </dd>
+          {% endfor %}
+          </dl>
+        {% endif %}
+      </div>
+    </article>
+  </main>
+{% endblock %}
+
+{{ content | safe }}
