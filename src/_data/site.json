@@ -1,7 +1,7 @@
 {
   "showThemeCredit": false,
   "name": "Crafters Against COVID-19 Seattle",
-  "shortDesc": "Now is the time to get into action to and support the medical community! If you have a sewing machine and some basic skills you can help in a big way! We are creating masks for medical centers, hospice organizations, homelessness workers, etc. in the Seattle-area.",
+  "shortDesc": "Uniting crafters with the organizations that need them most.",
   "url": "https://CraftersAgainstCOVID19.org",
   "authorEmail": "CraftersAgainstCOVID19Seattle@gmail.com",
   "authorHandle": "",
@@ -9,5 +9,5 @@
   "enableThirdPartyComments": false,
   "paymentPointer": "",
   "faviconPath": "/images/favicon.png",
-  "maxPostsPerPage": 5
+  "maxPostsPerPage": 10
 }
