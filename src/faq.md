@@ -156,4 +156,5 @@ sections:
           we ask that no immunocompromised individuals sign up for this
           position.
 ---
-You’ve got questions, we’ve got answers.
+
+## What would you like to know?
