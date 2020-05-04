@@ -7,7 +7,9 @@ socialImage: /images/89940184_10105285531150173_7030790935894032384_o.jpg
 ---
 ![Handmade masks.](/images/masks.jpg)
 
-Now is the time to get into action to and support the medical community! If you have a sewing machine and some basic skills you can help in a big way! We are creating masks for medical centers, hospice organizations, homelessness workers, etc. in the Seattle-area.
+Now is the time to get into action to and support our community! If you have a sewing machine and some basic skills you can help in a big way! We are creating masks for medical centers, hospice organizations, homelessness workers, and other organizations in the Seattle-area.
+
+
 
 ## Does your organization need help?
 
