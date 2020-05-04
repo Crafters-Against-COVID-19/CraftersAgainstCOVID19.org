@@ -16,10 +16,10 @@
       cutoff = new Date( batch.cutoff + "T12:00:00" );
       if ( cutoff > now )
       {
-        updated_batches.push( batch );
+        updated_batches.unshift( batch );
       }
     }
-    open_batches = updated_batches.reverse();
+    open_batches = updated_batches;
   }
   function updateDisplayBatches() {
     var html = "",
@@ -40,7 +40,7 @@
   }
   function setBatchDetails()
   {
-    var batches = open_batches.reverse(),
+    var batches = open_batches,
         pattern = $pattern.value,
         count = batches.length,
         batch,

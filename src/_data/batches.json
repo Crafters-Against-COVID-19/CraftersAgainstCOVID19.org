@@ -1,10 +1,9 @@
 {
   "masks_made": "30,000",
   "drivers_needed": false,
-  "list": [
-    {
+  "list": [{
       "name": "Batch 13",
-      "pattern_name": "Surgical Mask",
+      "pattern_name": "Rectangular Surgical-Style Mask",
       "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
       "start": "2020-04-26",
       "cutoff": "2020-05-03",
@@ -24,7 +23,7 @@
     },
     {
       "name": "Batch 15",
-      "pattern_name": "Surgical Mask",
+      "pattern_name": "Rectangular Surgical-Style Mask",
       "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
       "start": "2020-05-03",
       "cutoff": "2020-05-10",
@@ -43,7 +42,7 @@
     },
     {
       "name": "Batch 17",
-      "pattern_name": "Surgical Mask",
+      "pattern_name": "Rectangular Surgical-Style Mask",
       "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
       "start": "2020-05-10",
       "cutoff": "2020-05-17",
@@ -61,7 +60,7 @@
     },
     {
       "name": "Batch 19",
-      "pattern_name": "Surgical Mask",
+      "pattern_name": "Rectangular Surgical-Style Mask",
       "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
       "start": "2020-05-17",
       "cutoff": "2020-05-24",
