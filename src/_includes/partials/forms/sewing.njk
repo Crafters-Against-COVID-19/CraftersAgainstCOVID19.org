@@ -53,7 +53,7 @@
       {{ hidden_field( "total_masks", batches.masks_made ) }}
     </li>
     <li class="question">
-      {{ radios("How many masks can you make?", "quantity", [ "25", "50", "75", "100", "125", {label: "150+ (in increments of 25)", value: "150+"} ] ) }}
+      {{ radios("How many masks can you make by the due date?", "quantity", [ "25", "50", "75", "100", "125", {label: "150+ (in increments of 25)", value: "150+"} ], { description: 'You can reference <a href="#display-batches">the due date for your batch, above</a>.' } ) }}
     </li>
     <li class="question">
       {{ label("What neighborhood are you closest to?", "neighborhood") }}
