@@ -3,7 +3,7 @@ layout: layouts/post.njk
 title: Cheers to You!
 date: 2020-04-03T01:36:07.164Z
 tags:
-  - Updates
+  - Thank Yous
 excerpt: Here's to all of you who are making a difference one mask at a time.
 ---
 
