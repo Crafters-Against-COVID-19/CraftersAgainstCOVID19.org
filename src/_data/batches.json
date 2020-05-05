@@ -1,7 +1,8 @@
 {
-  "masks_made": "30,000",
+  "masks_made": "32,000",
   "drivers_needed": false,
-  "list": [{
+  "list": [
+    {
       "name": "Batch 13",
       "pattern_name": "Rectangular Surgical-Style Mask",
       "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
