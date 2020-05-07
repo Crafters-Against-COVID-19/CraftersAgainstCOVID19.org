@@ -39,7 +39,8 @@
       "start": "2020-05-07",
       "cutoff": "2020-05-14",
       "end": "2020-05-18",
-      "skill_level": "Intermediate"
+      "skill_level": "Intermediate",
+      "beneficiaries": "Immigrant Rescue Committee (IRC), Seattle Veteran's Affairs"
     },
     {
       "name": "Batch 17",
@@ -48,7 +49,8 @@
       "start": "2020-05-10",
       "cutoff": "2020-05-17",
       "end": "2020-05-21",
-      "skill_level": "Beginner"
+      "skill_level": "Beginner",
+      "beneficiaries": "REACH Homelessness Outreach"
     },
     {
       "name": "Batch 18",
