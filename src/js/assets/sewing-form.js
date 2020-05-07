@@ -58,14 +58,21 @@
       }
     }
   }
-
-  window.addEventListener( "DOMContentLoaded", function(){
-    // update open batches
+  function update()
+  {
     updateOpenBatches();
     updateDisplayBatches();
-    // Setup the batch info
     setBatchDetails();
+  }
+
+  window.addEventListener( "DOMContentLoaded", function(){
+    // update everything
+    update();
+    // track changes
     $pattern.addEventListener("change", setBatchDetails, false);
   }, false);
+
+  // update the details every minute
+  setInterval( update, 60000 );
 
 }(window, window.document));
