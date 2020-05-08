@@ -75,6 +75,6 @@
   // update the details every minute
   setInterval( update, 60000 );
 
-  document.getElementById("js-on").value = "on";
+  document.getElementById("field-js-on").value = "on";
 
 }(window, window.document));
