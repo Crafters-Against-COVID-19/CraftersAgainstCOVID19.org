@@ -90,7 +90,7 @@
 </template>
 <script type="module" src="/js/components/dependent-field.js" async defer></script>
 <script>
-  var open_batches = JSON.parse( '{{ openBatches | json | replace("'", "\\'") | safe }}' );
+  var open_batches = JSON.parse( '{{ openBatches | json | replace("'", "\\'") | replace('"', '\\"') | safe }}' );
   {% include "assets/js/sewing-form.js" %}
   {% include "assets/js/field-save.js" %}
 </script>
