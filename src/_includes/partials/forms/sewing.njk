@@ -51,6 +51,7 @@
       {{ hidden_field( "batch_name", openBatches[0].name ) }}
       {{ hidden_field( "batch_date", openBatches[0].end ) }}
       {{ hidden_field( "total_masks", batches.masks_made ) }}
+      {{ hidden_field( "js-on", "no" ) }}
     </li>
     <li class="question">
       {{ radios("How many masks can you make by the due date?", "quantity", [ "25", "50", "75", "100", "125", {label: "150+ (in increments of 25)", value: "150+"} ], { description: 'You can reference <a href="#display-batches">the due date for your batch, above</a>.' } ) }}
