@@ -109,6 +109,7 @@
                     name="{{ name }}"
                     id="field-{{ name }}-{{ option.value }}"
                     value="{{ option.value }}"
+                    {% if data.required %}required aria-required="true"{% endif %}
                     {% if option.note %}aria-describedby="description-{{ name }}-{{ option.value }}"{% endif %}
                     >{{ option.label }}</label>
           {% else %}
@@ -117,6 +118,7 @@
                     name="{{ name }}"
                     id="field-{{ name }}-{{ option }}"
                     value="{{ option }}"
+                    {% if data.required %}required aria-required="true"{% endif %}
                     >{{ option }}</label>
           {% endif %}
           {% if option.note %}

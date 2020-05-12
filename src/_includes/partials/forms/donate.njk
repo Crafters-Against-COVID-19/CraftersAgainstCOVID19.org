@@ -22,7 +22,7 @@
         </div>
       </li>
       <li class="question">
-        {{ radios("Are you or anyone in your home at high risk (immunocompromised, elderly, etc.)?", "risk", [ "Yes", "No" ] ) }}
+        {{ radios("Are you or anyone in your home at high risk (immunocompromised, elderly, etc.)?", "risk", [ "Yes", "No" ], { required: true } ) }}
       </li>
       <li class="question">
         {{ label("What neighborhood are you closest to?", "neighborhood") }}

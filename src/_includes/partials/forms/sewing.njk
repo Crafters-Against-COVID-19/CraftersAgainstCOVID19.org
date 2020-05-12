@@ -41,7 +41,7 @@
         </div>
       </li>
       <li class="question">
-        {{ radios("Are you or anyone in your home at high risk (immunocompromised, elderly, etc.)?", "risk", [ "Yes", "No" ] ) }}
+        {{ radios("Are you or anyone in your home at high risk (immunocompromised, elderly, etc.)?", "risk", [ "Yes", "No" ], { required: true } ) }}
       </li>
       <li class="question">
         {% set patterns = [] %}
@@ -56,21 +56,21 @@
         {{ hidden_field( "js-on", "no" ) }}
       </li>
       <li class="question">
-        {{ radios("How many masks can you make by the due date?", "quantity", [ "25", "50", "75", "100", "125", {label: "150+ (in increments of 25)", value: "150+"} ], { description: 'You can reference <a href="#display-batches">the due date for your batch, above</a>.' } ) }}
+        {{ radios("How many masks can you make by the due date?", "quantity", [ "25", "50", "75", "100", "125", {label: "150+ (in increments of 25)", value: "150+"} ], { required: true, description: 'You can reference <a href="#display-batches">the due date for your batch, above</a>.' } ) }}
       </li>
       <li class="question">
         {{ label("What neighborhood are you closest to?", "neighborhood") }}
         {{ select( "neighborhood", neighborhoods.list | extractKeyFilter("name"), { required: true, attributes: [ "data-save-for-later" ], options_before: [{label: "-- Choose One --", value: ""}] } ) }}
       </li>
       <li class="question">
-        {{ radios("Are you safe and willing to drop off/pick up from a nearby neighborhood location? (We will make sure to eliminate contact.)", "drop-off", [ "Yes", { label: "No, please set up porch pickups for me", value: "No" } ] ) }}
+        {{ radios("Are you safe and willing to drop off/pick up from a nearby neighborhood location? (We will make sure to eliminate contact.)", "drop-off", [ "Yes", { label: "No, please set up porch pickups for me", value: "No" } ], { required: true } ) }}
       </li>
       <li class="question" data-dependent-field data-dependent-field-controlled-by="drop-off" data-dependent-field-required-value="No">
         {{ label("What’s your street address?", "address") }}
         {{ textarea( "address", { required: true, autocapitalize: "off", rows: 3, description: "We need this in order to collect the finished masks from you and/or to drop off materials." } ) }}
       </li>
       <li class="question">
-        {{ radios("Do you need us to provide you with materials?", "materials", [ "Yes", { label: "No, I have read the requirements and have everything I need", value: "No" } ] ) }}
+        {{ radios("Do you need us to provide you with materials?", "materials", [ "Yes", { label: "No, I have read the requirements and have everything I need", value: "No" } ], { required: true } ) }}
       </li>
       <li hidden>
         <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
