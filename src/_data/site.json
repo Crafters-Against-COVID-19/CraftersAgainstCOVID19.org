@@ -2,7 +2,7 @@
   "showThemeCredit": false,
   "name": "Crafters Against COVID-19 Seattle",
   "shortDesc": "Uniting crafters with Seattle-area organizations that need them most.",
-  "forms": false,
+  "forms": true,
   "url": "https://CraftersAgainstCOVID19.org",
   "authorEmail": "CraftersAgainstCOVID19Seattle@gmail.com",
   "authorHandle": "",
