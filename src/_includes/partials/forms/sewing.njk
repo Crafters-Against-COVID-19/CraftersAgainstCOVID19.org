@@ -1,96 +1,105 @@
-{% from "macros.njk" import label, field, confirm, select, radios, hidden_field, checkboxes, textarea, button %}
+{% if site.forms %}
 
-{% set openBatches = batches.list | openBatchFilter %}
-{% if openBatches.length > 0 %}
-  <div class="batch_info">
-    <h2>Schedule</h2>
-    <ol class="batches" id="display-batches">
-      {% set displayBatches = openBatches | limit(2) %}
-      {% for batch in displayBatches %}
-        <li class="batch" data-batch-name="{{ batch.name}}" data-batch-cutoff="{{ batch.cutoff }}">
-          <span class="batch__title"><strong>{{ batch.name }}</strong>: <time>{{ batch.start | dayFilter }}</time>–<time>{{ batch.end | dayFilter }}</time></span><br>
-          {% if batch.beneficiaries %}
-            {{ batch.beneficiaries }}<br>
-          {% endif %}
-          <strong>Pattern:</strong> <a href="{{ batch.pattern_url }}">{{ batch.pattern_name }}</a>
-        </li>
-      {% endfor %}
+  {% from "macros.njk" import label, field, confirm, select, radios, hidden_field, checkboxes, textarea, button %}
+
+  {% set openBatches = batches.list | openBatchFilter %}
+  {% if openBatches.length > 0 %}
+    <div class="batch_info">
+      <h2>Schedule</h2>
+      <ol class="batches" id="display-batches">
+        {% set displayBatches = openBatches | limit(2) %}
+        {% for batch in displayBatches %}
+          <li class="batch" data-batch-name="{{ batch.name}}" data-batch-cutoff="{{ batch.cutoff }}">
+            <span class="batch__title"><strong>{{ batch.name }}</strong>: <time>{{ batch.start | dayFilter }}</time>–<time>{{ batch.end | dayFilter }}</time></span><br>
+            {% if batch.beneficiaries %}
+              {{ batch.beneficiaries }}<br>
+            {% endif %}
+            <strong>Pattern:</strong> <a href="{{ batch.pattern_url }}">{{ batch.pattern_name }}</a>
+          </li>
+        {% endfor %}
+      </ol>
+    </div>
+  {% endif %}
+
+  <p class="form_intro">Note: All fields are required</p>
+
+  <form name="sewing" method="POST" data-netlify="true" action="/volunteer/thanks/" netlify-honeypot="bot-field">
+    <ol class="questions">
+      <li class="question">
+        {{ label("What’s your full name?", "name") }}
+        {{ field( "text", "name", { required: true, autocomplete: "name", autocorrect: "off", autocapitalize: "off", description: "Please provide both your given and family names." } ) }}
+      </li>
+      <li class="question">
+        {{ label("What’s the best email to reach you at?", "email") }}
+        {{ field( "email", "email", { required: true, autocomplete: "email", description: "We will only use your email to coordinate this volunteer effort." } ) }}
+      </li>
+      <li class="question">
+        {{ label("What’s the best phone number to reach you on?", "phone") }}
+        {{ field( "tel", "phone", { required: true, autocomplete: "tel", description: "We will only use your phone number to coordinate this volunteer effort." } ) }}
+        <div class="question__addendum">
+          {{ confirm("This number can send/receive text messages", "text", {value: "Yes"}) }}
+        </div>
+      </li>
+      <li class="question">
+        {{ radios("Are you or anyone in your home at high risk (immunocompromised, elderly, etc.)?", "risk", [ "Yes", "No" ] ) }}
+      </li>
+      <li class="question">
+        {% set patterns = [] %}
+        {% for pattern in collections.patterns %}
+          {% set patterns = ( patterns.push( pattern.data.title ), patterns ) %}
+        {% endfor %}
+        {{ label("Which mask are you signing up for?", "skill") }}
+        {{ select( "pattern", patterns | reverse, { required: true, description: 'Please <a href="/patterns/">take a look at the patterns</a> before deciding.' } ) }}
+        {{ hidden_field( "batch_name", openBatches[0].name ) }}
+        {{ hidden_field( "batch_date", openBatches[0].end ) }}
+        {{ hidden_field( "total_masks", batches.masks_made ) }}
+        {{ hidden_field( "js-on", "no" ) }}
+      </li>
+      <li class="question">
+        {{ radios("How many masks can you make by the due date?", "quantity", [ "25", "50", "75", "100", "125", {label: "150+ (in increments of 25)", value: "150+"} ], { description: 'You can reference <a href="#display-batches">the due date for your batch, above</a>.' } ) }}
+      </li>
+      <li class="question">
+        {{ label("What neighborhood are you closest to?", "neighborhood") }}
+        {{ select( "neighborhood", neighborhoods.list | extractKeyFilter("name"), { required: true, attributes: [ "data-save-for-later" ], options_before: [{label: "-- Choose One --", value: ""}] } ) }}
+      </li>
+      <li class="question">
+        {{ radios("Are you safe and willing to drop off/pick up from a nearby neighborhood location? (We will make sure to eliminate contact.)", "drop-off", [ "Yes", { label: "No, please set up porch pickups for me", value: "No" } ] ) }}
+      </li>
+      <li class="question" data-dependent-field data-dependent-field-controlled-by="drop-off" data-dependent-field-required-value="No">
+        {{ label("What’s your street address?", "address") }}
+        {{ textarea( "address", { required: true, autocapitalize: "off", rows: 3, description: "We need this in order to collect the finished masks from you and/or to drop off materials." } ) }}
+      </li>
+      <li class="question">
+        {{ radios("Do you need us to provide you with materials?", "materials", [ "Yes", { label: "No, I have read the requirements and have everything I need", value: "No" } ] ) }}
+      </li>
+      <li hidden>
+        <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+      </li>
     </ol>
-  </div>
+    {{ button("Send it in") }}
+  </form>
+
+  <template id="batches" style="display: none">
+    {% for batch in openBatches %}
+      <li class="batch" data-batch-name="{{ batch.name}}" data-batch-cutoff="{{ batch.cutoff }}">
+        <span class="batch__title"><strong>{{ batch.name }}</strong>: <time>{{ batch.start | dayFilter }}</time>–<time>{{ batch.end | dayFilter }}</time></span><br>
+        {% if batch.beneficiaries %}
+          {{ batch.beneficiaries }}<br>
+        {% endif %}
+        <strong>Pattern:</strong> <a href="{{ batch.pattern_url }}">{{ batch.pattern_name }}</a>
+      </li>
+    {% endfor %}
+  </template>
+  <script type="module" src="/js/components/dependent-field.js" async defer></script>
+  <script>
+    var open_batches = JSON.parse( '{{ openBatches | json | replace("'", "\\'") | safe }}' );
+    {% include "assets/js/sewing-form.js" %}
+    {% include "assets/js/field-save.js" %}
+  </script>
+
+{% else %}
+
+  <hr>
+  <p><strong>We have taken our forms offline for maintenance. They should be back up shortly. Please try again in an hour.</strong></p>
+
 {% endif %}
-
-<p class="form_intro">Note: All fields are required</p>
-
-<form name="sewing" method="POST" data-netlify="true" action="/volunteer/thanks/" netlify-honeypot="bot-field">
-  <ol class="questions">
-    <li class="question">
-      {{ label("What’s your full name?", "name") }}
-      {{ field( "text", "name", { required: true, autocomplete: "name", autocorrect: "off", autocapitalize: "off", description: "Please provide both your given and family names." } ) }}
-    </li>
-    <li class="question">
-      {{ label("What’s the best email to reach you at?", "email") }}
-      {{ field( "email", "email", { required: true, autocomplete: "email", description: "We will only use your email to coordinate this volunteer effort." } ) }}
-    </li>
-    <li class="question">
-      {{ label("What’s the best phone number to reach you on?", "phone") }}
-      {{ field( "tel", "phone", { required: true, autocomplete: "tel", description: "We will only use your phone number to coordinate this volunteer effort." } ) }}
-      <div class="question__addendum">
-        {{ confirm("This number can send/receive text messages", "text", {value: "Yes"}) }}
-      </div>
-    </li>
-    <li class="question">
-      {{ radios("Are you or anyone in your home at high risk (immunocompromised, elderly, etc.)?", "risk", [ "Yes", "No" ] ) }}
-    </li>
-    <li class="question">
-      {% set patterns = [] %}
-      {% for pattern in collections.patterns %}
-        {% set patterns = ( patterns.push( pattern.data.title ), patterns ) %}
-      {% endfor %}
-      {{ label("Which mask are you signing up for?", "skill") }}
-      {{ select( "pattern", patterns | reverse, { required: true, description: 'Please <a href="/patterns/">take a look at the patterns</a> before deciding.' } ) }}
-      {{ hidden_field( "batch_name", openBatches[0].name ) }}
-      {{ hidden_field( "batch_date", openBatches[0].end ) }}
-      {{ hidden_field( "total_masks", batches.masks_made ) }}
-      {{ hidden_field( "js-on", "no" ) }}
-    </li>
-    <li class="question">
-      {{ radios("How many masks can you make by the due date?", "quantity", [ "25", "50", "75", "100", "125", {label: "150+ (in increments of 25)", value: "150+"} ], { description: 'You can reference <a href="#display-batches">the due date for your batch, above</a>.' } ) }}
-    </li>
-    <li class="question">
-      {{ label("What neighborhood are you closest to?", "neighborhood") }}
-      {{ select( "neighborhood", neighborhoods.list | extractKeyFilter("name"), { required: true, attributes: [ "data-save-for-later" ] } ) }}
-    </li>
-    <li class="question">
-      {{ radios("Are you safe and willing to drop off/pick up from a nearby neighborhood location? (We will make sure to eliminate contact.)", "drop-off", [ "Yes", { label: "No, please set up porch pickups for me", value: "No" } ] ) }}
-    </li>
-    <li class="question" data-dependent-field data-dependent-field-controlled-by="drop-off" data-dependent-field-required-value="No">
-      {{ label("What’s your street address?", "address") }}
-      {{ textarea( "address", { required: true, autocapitalize: "off", rows: 3, description: "We need this in order to collect the finished masks from you and/or to drop off materials." } ) }}
-    </li>
-    <li class="question">
-      {{ radios("Do you need us to provide you with materials?", "materials", [ "Yes", { label: "No, I have read the requirements and have everything I need", value: "No" } ] ) }}
-    </li>
-    <li hidden>
-      <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
-    </li>
-  </ol>
-  {{ button("Send it in") }}
-</form>
-
-<template id="batches" style="display: none">
-  {% for batch in openBatches %}
-    <li class="batch" data-batch-name="{{ batch.name}}" data-batch-cutoff="{{ batch.cutoff }}">
-      <span class="batch__title"><strong>{{ batch.name }}</strong>: <time>{{ batch.start | dayFilter }}</time>–<time>{{ batch.end | dayFilter }}</time></span><br>
-      {% if batch.beneficiaries %}
-        {{ batch.beneficiaries }}<br>
-      {% endif %}
-      <strong>Pattern:</strong> <a href="{{ batch.pattern_url }}">{{ batch.pattern_name }}</a>
-    </li>
-  {% endfor %}
-</template>
-<script type="module" src="/js/components/dependent-field.js" async defer></script>
-<script>
-  var open_batches = JSON.parse( '{{ openBatches | json | replace("'", "\\'") | safe }}' );
-  {% include "assets/js/sewing-form.js" %}
-  {% include "assets/js/field-save.js" %}
-</script>

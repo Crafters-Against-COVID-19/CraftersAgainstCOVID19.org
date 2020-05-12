@@ -71,7 +71,7 @@
 {% endmacro %}
 
 {% macro option( data ) %}
-  {% if data.value %}
+  {% if data.label %}
     <option value="{{ data.value }}">{{ data.label }}</option>
   {% else %}
     <option>{{ data }}</option>

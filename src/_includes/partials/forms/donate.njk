@@ -1,50 +1,59 @@
-{% from "macros.njk" import label, field, confirm, select, radios, checkboxes, textarea, button %}
+{% if site.forms %}
 
-<p class="form_intro">Note: All fields are required</p>
+  {% from "macros.njk" import label, field, confirm, select, radios, checkboxes, textarea, button %}
 
-<form name="donate" method="POST" data-netlify="true" action="/volunteer/thanks/" netlify-honeypot="bot-field">
-  <ol class="questions">
-    <li class="question">
-      {{ label("What’s your full name?", "name") }}
-      {{ field( "text", "name", { required: true, autocomplete: "name", autocorrect: "off", autocapitalize: "off", description: "Please provide both your given and family names." } ) }}
-    </li>
-    <li class="question">
-      {{ label("What’s the best email to reach you at?", "email") }}
-      {{ field( "email", "email", { required: true, autocomplete: "email", description: "We will only use your email to coordinate this volunteer effort." } ) }}
-    </li>
-    <li class="question">
-      {{ label("What’s the best phone number to reach you on?", "phone") }}
-      {{ field( "tel", "phone", { required: true, autocomplete: "tel", description: "We will only use your phone number to coordinate this volunteer effort." } ) }}
-      <div class="question__addendum">
-        {{ confirm("This number can send/receive text messages", "text", {value: "Yes"}) }}
-      </div>
-    </li>
-    <li class="question">
-      {{ radios("Are you or anyone in your home at high risk (immunocompromised, elderly, etc.)?", "risk", [ "Yes", "No" ] ) }}
-    </li>
-    <li class="question">
-      {{ label("What neighborhood are you closest to?", "neighborhood") }}
-      {{ select( "neighborhood", neighborhoods.list | extractKeyFilter("name"), { required: true, attributes: [ "data-save-for-later" ] } ) }}
-    </li>
-    <li class="question">
-      {{ radios("Are you safe and willing to drop off/pick up from a nearby neighborhood location? (We will make sure to eliminate contact.)", "drop-off", [ "Yes", { label: "No, please set up porch pickups for me", value: "No" } ] ) }}
-    </li>
-    <li class="question" data-dependent-field data-dependent-field-controlled-by="drop-off" data-dependent-field-required-value="No">
-      {{ label("What’s your street address?", "address") }}
-      {{ textarea( "address", { required: true, autocapitalize: "off", rows: 3, description: "We need this in order to collect the finished masks from you and/or to drop off materials." } ) }}
-    </li>
-    <li class="question">
-      {{ checkboxes("What materials do you have to donate?", "materials", [ "Elastic", "Woven Cotton", "Bias Tape", "Wires", { label: "Laundry detergent", value: "Laundry detergent", description: "must be free of scents and dyes" } ] ) }}
-    </li>
-    <li class="question">
-      {{ label("What quantity of materials would you like to donate?", "quantity") }}
-      {{ field( "text", "quantity", { required: true, autocorrect: "off", autocapitalize: "off", description: "All material donations must be new and clean." } ) }}
-    </li>
-    <li hidden>
-      <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
-    </li>
-  </ol>
-  {{ button("Send it in") }}
-</form>
+  <p class="form_intro">Note: All fields are required</p>
 
-<script type="module" src="/js/components/dependent-field.js" async defer></script>
+  <form name="donate" method="POST" data-netlify="true" action="/volunteer/thanks/" netlify-honeypot="bot-field">
+    <ol class="questions">
+      <li class="question">
+        {{ label("What’s your full name?", "name") }}
+        {{ field( "text", "name", { required: true, autocomplete: "name", autocorrect: "off", autocapitalize: "off", description: "Please provide both your given and family names." } ) }}
+      </li>
+      <li class="question">
+        {{ label("What’s the best email to reach you at?", "email") }}
+        {{ field( "email", "email", { required: true, autocomplete: "email", description: "We will only use your email to coordinate this volunteer effort." } ) }}
+      </li>
+      <li class="question">
+        {{ label("What’s the best phone number to reach you on?", "phone") }}
+        {{ field( "tel", "phone", { required: true, autocomplete: "tel", description: "We will only use your phone number to coordinate this volunteer effort." } ) }}
+        <div class="question__addendum">
+          {{ confirm("This number can send/receive text messages", "text", {value: "Yes"}) }}
+        </div>
+      </li>
+      <li class="question">
+        {{ radios("Are you or anyone in your home at high risk (immunocompromised, elderly, etc.)?", "risk", [ "Yes", "No" ] ) }}
+      </li>
+      <li class="question">
+        {{ label("What neighborhood are you closest to?", "neighborhood") }}
+        {{ select( "neighborhood", neighborhoods.list | extractKeyFilter("name"), { required: true, attributes: [ "data-save-for-later" ], options_before: [{ label: "Choose One", value: "" }] } ) }}
+      </li>
+      <li class="question">
+        {{ radios("Are you safe and willing to drop off/pick up from a nearby neighborhood location? (We will make sure to eliminate contact.)", "drop-off", [ "Yes", { label: "No, please set up porch pickups for me", value: "No" } ] ) }}
+      </li>
+      <li class="question" data-dependent-field data-dependent-field-controlled-by="drop-off" data-dependent-field-required-value="No">
+        {{ label("What’s your street address?", "address") }}
+        {{ textarea( "address", { required: true, autocapitalize: "off", rows: 3, description: "We need this in order to collect the finished masks from you and/or to drop off materials." } ) }}
+      </li>
+      <li class="question">
+        {{ checkboxes("What materials do you have to donate?", "materials", [ "Elastic", "Woven Cotton", "Bias Tape", "Wires", { label: "Laundry detergent", value: "Laundry detergent", description: "must be free of scents and dyes" } ] ) }}
+      </li>
+      <li class="question">
+        {{ label("What quantity of materials would you like to donate?", "quantity") }}
+        {{ field( "text", "quantity", { required: true, autocorrect: "off", autocapitalize: "off", description: "All material donations must be new and clean." } ) }}
+      </li>
+      <li hidden>
+        <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+      </li>
+    </ol>
+    {{ button("Send it in") }}
+  </form>
+
+  <script type="module" src="/js/components/dependent-field.js" async defer></script>
+
+{% else %}
+
+  <hr>
+  <p><strong>We have taken our forms offline for maintenance. They should be back up shortly. Please try again in an hour.</strong></p>
+
+{% endif %}
