@@ -10,5 +10,5 @@
   "paymentPointer": "",
   "faviconPath": "/images/favicon.png",
   "maxPostsPerPage": 7,
-  "forms": false
+  "forms": true
 }
