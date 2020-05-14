@@ -1,5 +1,6 @@
 {
-  "list": [{
+  "list": [
+    {
       "name": "CENTRAL SEATTLE: Central/International District"
     },
     {
@@ -72,7 +73,7 @@
       "name": "EASTSIDE: Renton/Newcastle"
     },
     {
-      "name": "SOUTHSIDE:Burien/Seatac"
+      "name": "SOUTHSIDE: Burien/Seatac"
     },
     {
       "name": "SOUTHSIDE: Kent/Auburn"
