@@ -73,7 +73,7 @@
         {{ select( "neighborhood", neighborhoods.list | extractKeyFilter("name"), { required: true, attributes: [ "data-save-for-later" ], options_before: [{label: "-- Choose One --", value: ""}] } ) }}
       </li>
       <li class="question">
-        {{ radios("Are you safe and willing to drop off/pick up from a nearby neighborhood location? (We will make sure to eliminate contact.)", "drop-off", [ "Yes", { label: "No, please set up porch pickups for me", value: "No" } ], { required: true } ) }}
+        {{ radios("Are you safe and willing to drop off/pick up from a nearby neighborhood location? (We will make sure to eliminate contact.)", "drop-off", [ "Yes", { label: "No, please set up porch pickups for me (must be within a 10 mile radius of neighborhood)", value: "No" } ], { required: true } ) }}
       </li>
       <li class="question" data-dependent-field data-dependent-field-controlled-by="drop-off" data-dependent-field-required-value="No">
         {{ label("What’s your street address?", "address") }}
