@@ -17,6 +17,6 @@ In order to keep our sewers sewing, we need materials. Please fill out the follo
 * **Wires** - Pipe cleaners, craft wire (moldable), etc. are all acceptable.
 * **Laundry Soap** - Must be unscented & dye free.
 
-If you are looking to help but cannot donate materials, [we need folks to sew masks](/volunteer/sewing/){% if batches.drivers_needed %}, [help with distribution](/volunteer/logistics/),{% endif %} or you can [donate to our GoFundMe to pay for materials, gas, laundering, etc.](https://www.gofundme.com/f/crafters-against-covid19-seattle).
+If you are looking to help but cannot donate materials, [we need folks to sew masks](/volunteer/sewing/), [help with non-sewing activities](/volunteer/non-sewing/), or you can [donate to our GoFundMe to pay for materials, gas, laundering, etc.](https://www.gofundme.com/f/crafters-against-covid19-seattle).
 
 **Please do not sign up if you have shown any symptoms at all or have knowingly been exposed to Coronavirus!**

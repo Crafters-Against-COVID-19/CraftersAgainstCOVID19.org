@@ -1,6 +1,10 @@
 {
   "masks_made": "32,000",
-  "drivers_needed": false,
+  "volunteer_activities": [
+    "clerical",
+    "cutting",
+    "3D printing"
+  ],
   "list": [{
       "name": "Batch 13",
       "pattern_name": "Rectangular Surgical-Style Mask",

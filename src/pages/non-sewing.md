@@ -1,14 +1,14 @@
 ---
 layout: layouts/form.njk
 title: Volunteer Your Time
-permalink: /volunteer/logistics/index.html
-metaTitle: Volunteer to help with logistics for Crafters Against COVID-19 Seattle
-form: logistics
+permalink: /volunteer/non-sewing/index.html
+metaTitle: Volunteer to help with non-sewing activities for Crafters Against COVID-19 Seattle
+form: non-sewing
 ---
 
 ![A bin full of completed masks, ready for delivery.](/images/bin.jpg)
 
-In order to collect and distribute the materials to make the masks and the masks themselves, we rely on a network of Neighborhood Captains and drivers. If you can help us with this, we’d be greatly appreciative.
+We have a variety of non-sewing activities we could use your help with, including cutting, clerical, 3D printing, driving, and more. If you can help us with this, we’d be greatly appreciative.
 
 If you are looking to help but this isn’t a good fit, we have other options. You could [help sew masks](/volunteer/sewing/), [donate materials to make masks](/volunteer/donate/), or [donate to our GoFundMe to pay for materials, gas, laundering, etc.](https://www.gofundme.com/f/crafters-against-covid19-seattle).
 

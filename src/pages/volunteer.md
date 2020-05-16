@@ -13,11 +13,11 @@ If you can sew, we need your help. We will provide the pattern and instructions 
 
 <a class="button" href="/volunteer/sewing/">Volunteer to Sew</a>
 
-## Do you want to help with materials{% if batches.drivers_needed %} or logistics{% endif %}?
+## Do you want to help with materials or non-sewing activities}?
 
-If you can’t sew or can’t commit to sewing at least 25 masks, you can help in other ways. We are looking for materials donations of woven cotton fabric, wire, and elastic.{% if batches.drivers_needed %} We are also looking for both drivers and Neighborhood Captains to help with the collection and distribution of both supplies and masks.{% endif %}
+If you can’t sew or can’t commit to sewing at least 25 masks, you can help in other ways. We are looking for materials donations of woven cotton fabric, wire, and elastic. We’re also looking for help with non-sewing activities like cutting, clerical, 3D printing, driving, and more.
 
-<a class="button" href="/volunteer/donate/">Donate Materials</a>{% if batches.drivers_needed %} <a class="button" href="/volunteer/logistics/">Volunteer Your Time</a>{% endif %}
+<a class="button" href="/volunteer/donate/">Donate Materials</a> <a class="button" href="/volunteer/non-sewing/">Volunteer Your Time</a>
 
 ## Do you want to help in other ways?
 
