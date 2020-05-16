@@ -1,8 +1,7 @@
 {
   "masks_made": "32,000",
   "drivers_needed": false,
-  "list": [
-    {
+  "list": [{
       "name": "Batch 13",
       "pattern_name": "Rectangular Surgical-Style Mask",
       "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
@@ -38,6 +37,7 @@
       "pattern_url": "https://craftersagainstcovid19.org/patterns/fitted-mask/",
       "start": "2020-05-07",
       "cutoff": "2020-05-14",
+      "pickup": "2020-05-15",
       "end": "2020-05-18",
       "skill_level": "Intermediate",
       "beneficiaries": "Immigrant International Rescue Committee (IRC), Seattle Veteran's Affairs"
@@ -48,6 +48,7 @@
       "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
       "start": "2020-05-10",
       "cutoff": "2020-05-17",
+      "pickup": "2020-05-18",
       "end": "2020-05-21",
       "skill_level": "Beginner",
       "beneficiaries": "REACH Homelessness Outreach"
@@ -58,6 +59,7 @@
       "pattern_url": "https://craftersagainstcovid19.org/patterns/fitted-mask/",
       "start": "2020-05-14",
       "cutoff": "2020-05-21",
+      "pickup": "2020-05-22",
       "end": "2020-05-25",
       "skill_level": "Intermediate"
     },
@@ -67,6 +69,7 @@
       "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
       "start": "2020-05-17",
       "cutoff": "2020-05-24",
+      "pickup": "2020-05-25",
       "end": "2020-05-28",
       "skill_level": "Beginner"
     },
@@ -76,6 +79,7 @@
       "pattern_url": "https://craftersagainstcovid19.org/patterns/fitted-mask/",
       "start": "2020-05-21",
       "cutoff": "2020-05-28",
+      "pickup": "2020-05-29",
       "end": "2020-06-01",
       "skill_level": "Intermediate"
     }

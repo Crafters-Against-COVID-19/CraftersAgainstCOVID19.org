@@ -109,6 +109,7 @@ collections:
               - {label: "Name", name: "name", widget: "string", default: "Batch X", required: true}
               - {label: "Starts On", name: "start", widget: "date", required: true, format: "YYYY-MM-DD"}
               - {label: "Signup Cutoff", name: "cutoff", widget: "date", required: true, format: "YYYY-MM-DD"}
+              - {label: "Kit Pickup", name: "pickup", widget: "date", required: true, format: "YYYY-MM-DD"}
               - {label: "Ends On", name: "end", widget: "date", required: true, format: "YYYY-MM-DD"}
               - {label: "Skill Level", name: "skill_level", widget: "select", options: ["Beginner", "Intermediate"], required: true}
               - {label: "Pattern Name", name: "pattern_name", widget: "string", default: "Fitted Mask with Pocket", required: true}

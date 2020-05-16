@@ -4,9 +4,23 @@
   padding: 0;
 }
 .batch {
-  margin: .5rem 0 0;
+  margin: .75rem 0 0;
 
   &__title {
+    @include apply-utility('font', 'base');
     font-size: get-size(600);
   }
+
+  &__details {
+
+    dt {
+      float: left;
+      font-weight: bold;
+
+      &::after {
+        content: ":\00A0";
+      }
+    }
+  }
+
 }

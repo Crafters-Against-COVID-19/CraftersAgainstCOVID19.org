@@ -10,11 +10,21 @@
         {% set displayBatches = openBatches | limit(2) %}
         {% for batch in displayBatches %}
           <li class="batch" data-batch-name="{{ batch.name}}" data-batch-cutoff="{{ batch.cutoff }}">
-            <span class="batch__title"><strong>{{ batch.name }}</strong>: <time>{{ batch.start | dayFilter }}</time>–<time>{{ batch.end | dayFilter }}</time></span><br>
-            {% if batch.beneficiaries %}
-              {{ batch.beneficiaries }}<br>
-            {% endif %}
-            <strong>Pattern:</strong> <a href="{{ batch.pattern_url }}">{{ batch.pattern_name }}</a>
+            <h3 class="batch__title">{{ batch.name }}</h3>
+            <dl>
+              <dt>Sign up</dt>
+              <dd><time>{{ batch.start | dayFilter }}</time>–noon, {{ batch.cutoff | dayFilter }}</time></dd>
+              <dt>Kit Pickup</dt>
+              <dd><time>{{ batch.pickup | dayFilter }}</time></dd>
+              <dt>Suggested Completion Date</dt>
+              <dd><time>{{ batch.end | dayFilter }}</time></dd>
+              {% if batch.beneficiaries %}
+                <dt>Benefitting</dt>
+                <dd>{{ batch.beneficiaries }}</dd>
+              {% endif %}
+              <dt>Pattern</dt>
+              <dd><a href="{{ batch.pattern_url }}">{{ batch.pattern_name }}</a></dd>
+            </dl>
           </li>
         {% endfor %}
       </ol>
@@ -82,11 +92,21 @@
   <template id="batches" style="display: none">
     {% for batch in openBatches %}
       <li class="batch" data-batch-name="{{ batch.name}}" data-batch-cutoff="{{ batch.cutoff }}">
-        <span class="batch__title"><strong>{{ batch.name }}</strong>: <time>{{ batch.start | dayFilter }}</time>–<time>{{ batch.end | dayFilter }}</time></span><br>
-        {% if batch.beneficiaries %}
-          {{ batch.beneficiaries }}<br>
-        {% endif %}
-        <strong>Pattern:</strong> <a href="{{ batch.pattern_url }}">{{ batch.pattern_name }}</a>
+        <h3 class="batch__title">{{ batch.name }}</h3>
+        <dl class="batch__details">
+          <dt>Sign up</dt>
+          <dd><time>{{ batch.start | dayFilter }}</time>–noon, {{ batch.cutoff | dayFilter }}</time></dd>
+          <dt>Kit Pickup</dt>
+          <dd><time>{{ batch.pickup | dayFilter }}</time></dd>
+          <dt>Suggested Completion Date</dt>
+          <dd><time>{{ batch.end | dayFilter }}</time></dd>
+          {% if batch.beneficiaries %}
+            <dt>Benefitting</dt>
+            <dd>{{ batch.beneficiaries }}</dd>
+          {% endif %}
+          <dt>Pattern</dt>
+          <dd><a href="{{ batch.pattern_url }}">{{ batch.pattern_name }}</a></dd>
+        </dl>
       </li>
     {% endfor %}
   </template>
