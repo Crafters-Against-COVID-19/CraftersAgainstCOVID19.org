@@ -1,5 +1,5 @@
 {
-  "masks_made": "36,000",
+  "masks_made": "40,000",
   "volunteer_activities": [
     "clerical",
     "cutting",
@@ -62,34 +62,37 @@
       "pickup": "2020-05-19"
     },
     {
-      "name": "Batch 18",
-      "pattern_name": "Fitted Mask with Pocket",
       "pattern_url": "https://craftersagainstcovid19.org/patterns/fitted-mask/",
       "start": "2020-05-14",
+      "beneficiaries": "PCC Farmland Trust",
+      "name": "Batch 18",
       "cutoff": "2020-05-21",
-      "pickup": "2020-05-22",
+      "skill_level": "Intermediate",
+      "pattern_name": "Fitted Mask with Pocket",
       "end": "2020-05-25",
-      "skill_level": "Intermediate"
+      "pickup": "2020-05-22"
     },
     {
-      "name": "Batch 19",
-      "pattern_name": "Rectangular Surgical-Style Mask",
       "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
       "start": "2020-05-18",
+      "beneficiaries": "Allegro Pediatrics (treating children with COVID-19), Catholic Community Services",
+      "name": "Batch 19",
       "cutoff": "2020-05-25",
-      "pickup": "2020-05-26",
+      "skill_level": "Beginner",
+      "pattern_name": "Rectangular Surgical-Style Mask",
       "end": "2020-05-28",
-      "skill_level": "Beginner"
+      "pickup": "2020-05-26"
     },
     {
-      "name": "Batch 20",
-      "pattern_name": "Fitted Mask with Pocket",
       "pattern_url": "https://craftersagainstcovid19.org/patterns/fitted-mask/",
       "start": "2020-05-21",
+      "beneficiaries": "UW Medical Center",
+      "name": "Batch 20",
       "cutoff": "2020-05-28",
-      "pickup": "2020-05-29",
+      "skill_level": "Intermediate",
+      "pattern_name": "Fitted Mask with Pocket",
       "end": "2020-06-01",
-      "skill_level": "Intermediate"
+      "pickup": "2020-05-29"
     }
   ]
 }
