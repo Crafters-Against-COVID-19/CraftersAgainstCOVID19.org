@@ -1,91 +1,98 @@
 {
-  "masks_made": "32,000",
+  "masks_made": "40,000",
   "volunteer_activities": [
     "clerical",
     "cutting",
     "3D printing"
   ],
-  "list": [{
-      "name": "Batch 13",
-      "pattern_name": "Rectangular Surgical-Style Mask",
+  "list": [
+    {
       "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
       "start": "2020-04-26",
+      "beneficiaries": "HealthPoint Clinics and Angel Resource Connection",
+      "name": "Batch 13",
       "cutoff": "2020-05-03",
-      "end": "2020-05-07",
       "skill_level": "Beginner",
-      "beneficiaries": "HealthPoint Clinics and Angel Resource Connection"
+      "pattern_name": "Rectangular Surgical-Style Mask",
+      "end": "2020-05-07",
+      "pickup": "2020-05-17"
     },
     {
-      "name": "Batch 14",
-      "pattern_name": "Fitted Mask with Pocket",
       "pattern_url": "https://craftersagainstcovid19.org/patterns/fitted-mask/",
       "start": "2020-04-30",
+      "beneficiaries": "The Yakama Nation and the Hualapai Tribe",
+      "name": "Batch 14",
       "cutoff": "2020-05-07",
-      "end": "2020-05-11",
       "skill_level": "Intermediate",
-      "beneficiaries": "The Yakama Nation and the Hualapai Tribe"
+      "pattern_name": "Fitted Mask with Pocket",
+      "end": "2020-05-11",
+      "pickup": "2020-05-17"
     },
     {
-      "name": "Batch 15",
-      "pattern_name": "Rectangular Surgical-Style Mask",
       "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
       "start": "2020-05-03",
+      "beneficiaries": "Downtown Emergency Services (DESC)",
+      "name": "Batch 15",
       "cutoff": "2020-05-11",
-      "end": "2020-05-14",
       "skill_level": "Beginner",
-      "beneficiaries": "Downtown Emergency Services (DESC)"
+      "pattern_name": "Rectangular Surgical-Style Mask",
+      "end": "2020-05-14",
+      "pickup": "2020-05-17"
     },
     {
-      "name": "Batch 16",
-      "pattern_name": "Fitted Mask with Pocket",
       "pattern_url": "https://craftersagainstcovid19.org/patterns/fitted-mask/",
       "start": "2020-05-07",
+      "beneficiaries": "Immigrant International Rescue Committee (IRC), Seattle Veteran's Affairs",
+      "name": "Batch 16",
       "cutoff": "2020-05-14",
-      "pickup": "2020-05-15",
-      "end": "2020-05-18",
       "skill_level": "Intermediate",
-      "beneficiaries": "Immigrant International Rescue Committee (IRC), Seattle Veteran's Affairs"
+      "pattern_name": "Fitted Mask with Pocket",
+      "end": "2020-05-18",
+      "pickup": "2020-05-15"
     },
     {
-      "name": "Batch 17",
-      "pattern_name": "Rectangular Surgical-Style Mask",
       "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
       "start": "2020-05-10",
-      "cutoff": "2020-05-17",
-      "pickup": "2020-05-18",
-      "end": "2020-05-21",
+      "beneficiaries": "REACH Homelessness Outreach",
+      "name": "Batch 17",
+      "cutoff": "2020-05-18",
       "skill_level": "Beginner",
-      "beneficiaries": "REACH Homelessness Outreach"
+      "pattern_name": "Rectangular Surgical-Style Mask",
+      "end": "2020-05-21",
+      "pickup": "2020-05-19"
     },
     {
-      "name": "Batch 18",
-      "pattern_name": "Fitted Mask with Pocket",
       "pattern_url": "https://craftersagainstcovid19.org/patterns/fitted-mask/",
       "start": "2020-05-14",
+      "beneficiaries": "PCC Farmland Trust",
+      "name": "Batch 18",
       "cutoff": "2020-05-21",
-      "pickup": "2020-05-22",
-      "end": "2020-05-25",
-      "skill_level": "Intermediate"
-    },
-    {
-      "name": "Batch 19",
-      "pattern_name": "Rectangular Surgical-Style Mask",
-      "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
-      "start": "2020-05-17",
-      "cutoff": "2020-05-24",
-      "pickup": "2020-05-25",
-      "end": "2020-05-28",
-      "skill_level": "Beginner"
-    },
-    {
-      "name": "Batch 20",
+      "skill_level": "Intermediate",
       "pattern_name": "Fitted Mask with Pocket",
+      "end": "2020-05-25",
+      "pickup": "2020-05-22"
+    },
+    {
+      "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
+      "start": "2020-05-18",
+      "beneficiaries": "Allegro Pediatrics (treating children with COVID-19), Catholic Community Services",
+      "name": "Batch 19",
+      "cutoff": "2020-05-25",
+      "skill_level": "Beginner",
+      "pattern_name": "Rectangular Surgical-Style Mask",
+      "end": "2020-05-28",
+      "pickup": "2020-05-26"
+    },
+    {
       "pattern_url": "https://craftersagainstcovid19.org/patterns/fitted-mask/",
       "start": "2020-05-21",
+      "beneficiaries": "UW Medical Center",
+      "name": "Batch 20",
       "cutoff": "2020-05-28",
-      "pickup": "2020-05-29",
+      "skill_level": "Intermediate",
+      "pattern_name": "Fitted Mask with Pocket",
       "end": "2020-06-01",
-      "skill_level": "Intermediate"
+      "pickup": "2020-05-29"
     }
   ]
 }
