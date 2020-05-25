@@ -3,7 +3,8 @@
       $pattern = document.getElementById("field-pattern"),
       $batch_name = document.getElementById("field-batch_name"),
       $batch_date = document.getElementById("field-batch_date"),
-      days = "Sunday Monday Tuesday Wednesday Thursday Friday Saturday".split(" ");
+      days = "Sunday Monday Tuesday Wednesday Thursday Friday Saturday".split(" "),
+      minute_timer = new Worker('/js/components/minute-timer.js');
 
   function updateOpenBatches() {
     var updated_batches = [],
@@ -70,10 +71,15 @@
     update();
     // track changes
     $pattern.addEventListener("change", setBatchDetails, false);
+    // start the timer
+    minute_timer.postMessage("start");
+    minute_timer.addEventListener("message", update, false);
+    // set the timer stopper
+    document.querySelector("form[name=sewing]").addEventListener("submit",function(){
+      minute_timer.postMessage("stop");
+      return true;
+    });
   }, false);
-
-  // update the details every minute
-  setInterval( update, 60000 );
 
   document.getElementById("field-js-on").value = "on";
 
