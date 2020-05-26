@@ -93,6 +93,17 @@
       "pattern_name": "Fitted Mask with Pocket",
       "end": "2020-06-01",
       "pickup": "2020-05-29"
+    },
+    {
+      "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
+      "start": "2020-05-25",
+      "beneficiaries": " Providence Joseph House",
+      "name": "Batch 21",
+      "cutoff": "2020-06-01",
+      "skill_level": "Beginner",
+      "pattern_name": "Rectangular Surgical-Style Mask",
+      "end": "2020-05-28",
+      "pickup": "2020-06-02"
     }
   ]
 }
