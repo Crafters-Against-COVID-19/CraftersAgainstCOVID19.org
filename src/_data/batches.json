@@ -117,14 +117,15 @@
       "pickup": "2020-06-05"
     },
     {
-      "name": "Batch 23",
-      "pattern_name": "Rectangular Surgical-Style Mask",
       "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
       "start": "2020-06-01",
+      "beneficiaries": "Child Care Aware WA",
+      "name": "Batch 23",
       "cutoff": "2020-06-03",
-      "pickup": "2020-06-04",
+      "skill_level": "Beginner",
+      "pattern_name": "Rectangular Surgical-Style Mask",
       "end": "2020-06-11",
-      "skill_level": "Beginner"
+      "pickup": "2020-06-04"
     }
   ]
 }
