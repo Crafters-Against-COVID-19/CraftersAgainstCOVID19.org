@@ -104,6 +104,17 @@
       "pattern_name": "Rectangular Surgical-Style Mask",
       "end": "2020-06-04",
       "pickup": "2020-06-02"
+    },
+    {
+      "pattern_url": "https://craftersagainstcovid19.org/patterns/fitted-mask/",
+      "start": "2020-05-28",
+      "beneficiaries": "Sea/King Co Coalition on Homelessness",
+      "name": "Batch 22",
+      "cutoff": "2020-06-04",
+      "skill_level": "Intermediate",
+      "pattern_name": "Fitted Mask with Pocket",
+      "end": "2020-06-08",
+      "pickup": "2020-06-05"
     }
   ]
 }
