@@ -82,6 +82,9 @@
       <li class="question">
         {{ radios("Do you need us to provide you with materials?", "materials", [ "Yes", { label: "No, I have read the requirements and have everything I need", value: "No" } ], { required: true } ) }}
       </li>
+      <li class="question">
+        {{ radios("Are you a part of Made Sewing Studio?", "made_studio", [ "Yes", "No" ], { required: true, description: 'Don’t know what Made Sewing Studio is? Please <a href="https://madesewing.com/">visit their site</a>.' } ) }}
+      </li>
       <li hidden>
         <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
       </li>
