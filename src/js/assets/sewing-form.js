@@ -14,7 +14,8 @@
     while ( count-- )
     {
       batch = open_batches[count];
-      cutoff = new Date( batch.cutoff + "T12:00:00-0700" );
+      cutoff = new Date( batch.cutoff + "T12:00:00" );
+      // cutoff = new Date( batch.cutoff + "T12:00:00-0700" );
       if ( cutoff > now )
       {
         updated_batches.unshift( batch );
@@ -51,7 +52,8 @@
       batch = batches[count];
       if ( batch.pattern_name == pattern )
       {
-        end_date = new Date( batch.end + "T12:00:00-0700" );
+        end_date = new Date( batch.end + "T12:00:00" );
+        // end_date = new Date( batch.end + "T12:00:00-0700" );
         day = days[end_date.getDay()];
         date = ( end_date.getMonth() + 1 ) + "/" + end_date.getDate();
         $batch_name.value = batch.name;
