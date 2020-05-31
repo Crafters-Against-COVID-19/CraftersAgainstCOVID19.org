@@ -73,9 +73,9 @@
           <fieldset>
             <legend>How many masks is your organization requesting?</legend>
             <ul class="question__list">
-              <li class="question question--inline">{{ field( "text", "adult", { inputmode: "numeric", pattern: "\d*", length: 4 } ) }} {{ label("Rectangular (adult sized)", "adult") }}</li>
-              <li class="question question--inline">{{ field( "text", "child", { inputmode: "numeric", pattern: "\d*", length: 4 } ) }} {{ label("Rectangular (kid sized)", "child") }}</li>
-              <li class="question question--inline">{{ field( "text", "fitted", { inputmode: "numeric", pattern: "\d*", length: 4 } ) }} {{ label("Fitted", "fitted") }}</li>
+              <li class="question question--inline">{{ field( "text", "adult", { inputmode: "numeric", pattern: "\\d*", size: 5 } ) }} {{ label("Rectangular (adult sized)", "adult") }}</li>
+              <li class="question question--inline">{{ field( "text", "child", { inputmode: "numeric", pattern: "\\d*", size: 5 } ) }} {{ label("Rectangular (kid sized)", "child") }}</li>
+              <li class="question question--inline">{{ field( "text", "fitted", { inputmode: "numeric", pattern: "\\d*", size: 5 } ) }} {{ label("Fitted", "fitted") }}</li>
             </ul>
           </fieldset>
         </li>

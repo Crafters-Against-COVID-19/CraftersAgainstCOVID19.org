@@ -73,6 +73,15 @@ legend {
     margin-top: 0;
   }
 
+  &--inline {
+    label {
+      display: inline;
+    }
+    input {
+      width: auto;
+    }
+  }
+
   &--confirm {
     font-weight: normal;
   }
