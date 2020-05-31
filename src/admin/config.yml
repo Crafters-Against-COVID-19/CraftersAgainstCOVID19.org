@@ -46,6 +46,14 @@ collections:
                 fields:
                   - {label: "Question", name: "q", widget: "string", required: true}
                   - {label: "Answer", name: "a", widget: "markdown", required: true}
+      - label: "Mask Request Form"
+        name: "request_form"
+        delete: false
+        file: "src/_data/request_form.json"
+        fields:
+          - {label: "Intro Text", name: "intro", widget: "markdown"}
+          - {label: "Masks Text", name: "masks", widget: "markdown"}
+          - {label: "Delivery Text", name: "delivery", widget: "markdown"}
   - name: "generic_pages"
     label: "Generic Pages"
     folder: "src/pages"
@@ -124,14 +132,6 @@ collections:
             widget: "list"
             fields:
               - {label: "Name", name: "name", widget: "string"}
-      - label: "Mask Request Form"
-        name: "request_form"
-        delete: false
-        file: "src/_data/request_form.json"
-        fields:
-          - {label: "Intro Text", name: "intro", widget: "markdown"}
-          - {label: "Masks Text", name: "masks", widget: "markdown"}
-          - {label: "Delivery Text", name: "delivery", widget: "markdown"}
       - label: "Site Data"
         name: "site_data"
         delete: false
