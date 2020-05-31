@@ -45,6 +45,12 @@ legend {
   font-weight: bold;
 }
 
+.text-block {
+  @extend .sf-flow;
+  margin-bottom: 1em;
+  margin-bottom: var(--flow-space);
+}
+
 .questions {
   margin: 0;
   padding: 0;

@@ -67,7 +67,9 @@
     </fieldset>
     <fieldset>
       <h2>Mask Request</h2>
-      {{ request_form.masks | markdownFilter | safe }}
+      <div class="text-block">
+        {{ request_form.masks | markdownFilter | safe }}
+      </div>
       <ul class="question__list">
         <li class="question">
           <fieldset>
@@ -83,7 +85,9 @@
     </fieldset>
     <fieldset>
       <h2>Delivery Information</h2>
-      {{ request_form.delivery | markdownFilter | safe }}
+      <div class="text-block">
+        {{ request_form.delivery | markdownFilter | safe }}
+      </div>
       <ol class="questions">
         <li class="question">
           {{ label("What is the drop off contact’s name?", "dropoff-contact") }}
