@@ -1,5 +1,5 @@
 {
-  "intro": "text",
-  "masks": "text",
-  "delivery": "text"
+  "intro": "Thank you for giving us the opportunity to mask your organization. We have donated over {{ batches.masks_made }} masks to medical professionals, essential workers, and under-privileged individuals… and plan to donate thousands more!\n\nPlease fill out this form with as much detail as possible. We prioritize mask donations based on impact, vulnerability, and existing support your organization already has. For that reason, we cannot guarantee delivery by a certain date, so please let us know if you have any timeline concern.",
+  "masks": "We provide two styles of masks.\n\nOur rectangular surgical style masks are flat and pleated on the sides. These come with a mixture of ear loops and head ties and fit a wide range of face sizes. These are ideal for people putting masks on and off quickly and are the most common mask seen in public. These masks come in children’s and adult sizes.\n\nOur fitted masks are curved across the front and include a nose wire and a pocket for a filter. These come with elastic and/or ties that go behind the head. These masks create the best seal and are ideal for those wearing their masks for extended periods of time. These masks come in adult sizes only.",
+  "delivery": "Mask deliveries happen Monday and Wednesday 10–3p. You will be contacted 1–2 days prior to delivery via email, text, or phone to arrange details. Most deliveries happen within 4 weeks of requests, so please fill in drop off details with that in mind."
 }
