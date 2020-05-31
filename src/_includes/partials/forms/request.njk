@@ -1,6 +1,6 @@
 {% if site.forms %}
 
-  {{ request_form.intro | markdownFilter | safe }}
+  {{ request_form.intro | replace("%MASKS_MADE%", batches.masks_made) | markdownFilter | safe }}
 
   <p class="form_intro">Note: All fields are required</p>
 
