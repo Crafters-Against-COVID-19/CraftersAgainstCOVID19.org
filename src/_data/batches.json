@@ -5,8 +5,7 @@
     "cutting",
     "3D printing"
   ],
-  "list": [
-    {
+  "list": [{
       "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
       "start": "2020-04-26",
       "beneficiaries": "HealthPoint Clinics and Angel Resource Connection",
@@ -97,7 +96,7 @@
     {
       "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
       "start": "2020-05-25",
-      "beneficiaries": " Providence Joseph House",
+      "beneficiaries": "Providence Joseph House",
       "name": "Batch 21",
       "cutoff": "2020-06-01",
       "skill_level": "Beginner",
