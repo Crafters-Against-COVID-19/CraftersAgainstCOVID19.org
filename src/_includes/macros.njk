@@ -127,6 +127,53 @@
           {% endif %}
         </li>
       {% endfor %}
+      {% if data.other %}
+        <li>
+          <label for="field-{{ name }}-other">
+            <input type="radio"
+                   name="{{ name }}"
+                   id="field-{{ name }}-other"
+                   >
+            Other
+            <input type="text"
+                   name="{{ name }}"
+                   id="field-{{ name }}-other-value"
+                   aria-label="Other value"
+                   >
+          </label>
+          <script>
+            (function(){
+              var $other_checkbox = document.getElementById("field-{{ name }}-other"),
+                  $other_field = document.getElementById("field-{{ name }}-other-value"),
+                  other_value = '';
+              $other_field.disabled = true;
+              $other_field.setAttribute( 'aria-hidden', 'true' );
+              $other_checkbox.addEventListener('change', updateOther);
+              function updateOther()
+              {
+                if ( $other_checkbox.checked )
+                {
+                  $other_field.value = other_value;
+                  $other_field.disabled = false;
+                  $other_field.required = true;
+                  $other_field.setAttribute( 'aria-hidden', 'false' );
+                  $other_field.setAttribute( 'aria-required', 'true' );
+                  $other_field.focus();
+                }
+                else
+                {
+                  other_value = $other_field.value;
+                  $other_field.disabled = true;
+                  $other_field.required = false;
+                  $other_field.setAttribute( 'aria-hidden', 'true' );
+                  $other_field.removeAttribute('aria-required');
+                  $other_field.value = '';
+                }
+              }
+            }(window, document))
+          </script>
+        </li>
+      {% endif %}
     </ul>
     {% if data.description %}
       {{ description( name, data.description ) }}
@@ -168,7 +215,6 @@
         <li>
           <label for="field-{{ name }}-other">
             <input type="checkbox"
-                   id="field-{{ name }}-other"
                    id="field-{{ name }}-other"
                    >
             Other
