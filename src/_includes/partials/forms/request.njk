@@ -1,13 +1,13 @@
 {% if site.forms %}
 
-  {{ request_form.intro | markdownFilter }}
+  {{ request_form.intro | markdownFilter | safe }}
 
   <p class="form_intro">Note: All fields are required</p>
 
   {% from "macros.njk" import label, field, confirm, select, radios, checkboxes, textarea, button %}
   <form name="donate" method="POST" data-netlify="true" action="/volunteer/thanks/" netlify-honeypot="bot-field">
     <fieldset>
-      <legend>About Your Organization</legend>
+      <h2>About Your Organization</h2>
       <ol class="questions">
         <li class="question">
           {{ label("What’s your organization’s name?", "name") }}
@@ -30,7 +30,7 @@
         </li>
         <li class="question">
           {{ label("What’s your organization’s street address?", "address") }}
-          {{ textarea( "address", { required: true, autocapitalize: "off", rows: 3, description: "We need this in order to collect the finished masks from you and/or to drop off materials." } ) }}
+          {{ textarea( "address", { required: true, autocapitalize: "off", rows: 3 } ) }}
         </li>
         <li class="question">
           {{ label("What neighborhood is your organization located in?", "neighborhood") }}
@@ -66,24 +66,24 @@
       </ol>
     </fieldset>
     <fieldset>
-      <legend>Mask Request</legend>
-      {{ request_form.masks | markdownFilter }}
-      <ol>
+      <h2>Mask Request</h2>
+      {{ request_form.masks | markdownFilter | safe }}
+      <ul class="question__list">
         <li class="question">
           <fieldset>
             <legend>How many masks is your organization requesting?</legend>
-            <ul>
-              <li>{{ field( "text", "adult", { inputmode: "numeric", pattern: "\d*" } ) }} {{ label("Rectangular (adult sized)", "adult") }}</li>
-              <li>{{ field( "text", "child", { inputmode: "numeric", pattern: "\d*" } ) }} {{ label("Rectangular (kid sized)", "child") }}</li>
-              <li>{{ field( "text", "fitted", { inputmode: "numeric", pattern: "\d*" } ) }} {{ label("Fitted", "fitted") }}</li>
+            <ul class="question__list">
+              <li class="question question--inline">{{ field( "text", "adult", { inputmode: "numeric", pattern: "\d*", length: 4 } ) }} {{ label("Rectangular (adult sized)", "adult") }}</li>
+              <li class="question question--inline">{{ field( "text", "child", { inputmode: "numeric", pattern: "\d*", length: 4 } ) }} {{ label("Rectangular (kid sized)", "child") }}</li>
+              <li class="question question--inline">{{ field( "text", "fitted", { inputmode: "numeric", pattern: "\d*", length: 4 } ) }} {{ label("Fitted", "fitted") }}</li>
             </ul>
           </fieldset>
         </li>
-      </ol>
+      </ul>
     </fieldset>
     <fieldset>
-      <legend>Delivery Information</legend>
-      {{ request_form.delivery | markdownFilter }}
+      <h2>Delivery Information</h2>
+      {{ request_form.delivery | markdownFilter | safe }}
       <ol class="questions">
         <li class="question">
           {{ label("What is the drop off contact’s name?", "dropoff-contact") }}
