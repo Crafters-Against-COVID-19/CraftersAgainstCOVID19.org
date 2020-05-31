@@ -8,14 +8,26 @@
         type="{{ type }}"
         name="{{ name }}"
         id="field-{{ name }}"
-        {% if data.required %}required aria-required="true"{% endif %}
-        {% if data.placeholder %}placeholder="{{ data.placeholder }}"{% endif %}
-        {% if data.pattern %}pattern="{{ data.pattern }}"{% endif %}
-        {% if data.description %}aria-describedby="description-{{ name }}"{% endif %}
+        {% if data.autofocus %}autofocus{% endif %}
+        {% if data.disabled %}disabled{% endif %}
+        {% if data.autocapitalize %}autocapitalize="{{ data.autocapitalize }}"{% endif %}
         {% if data.autocomplete %}autocomplete="{{ data.autocomplete }}"{% endif %}
         {% if data.autocorrect %}autocorrect="{{ data.autocorrect }}"{% endif %}
+        {% if data.description %}aria-describedby="description-{{ name }}"{% endif %}
+        {% if data.inputmode %}inputmode="{{ data.inputmode }}"{% endif %}
+        {% if data.list %}list="{{ data.list }}"{% endif %}
+        {% if data.max %}max="{{ data.max }}"{% endif %}
+        {% if data.maxlength %}maxlength="{{ data.maxlength }}"{% endif %}
+        {% if data.min %}min="{{ data.min }}"{% endif %}
+        {% if data.minlength %}minlength="{{ data.minlength }}"{% endif %}
+        {% if data.multiple %}multiple{% endif %}
+        {% if data.pattern %}pattern="{{ data.pattern }}"{% endif %}
+        {% if data.placeholder %}placeholder="{{ data.placeholder }}"{% endif %}
+        {% if data.readonly %}readonly{% endif %}
+        {% if data.required %}required aria-required="true"{% endif %}
+        {% if data.size %}size="{{ data.size }}"{% endif %}
         {% if data.spellcheck %}spellcheck="{{ data.spellcheck }}"{% endif %}
-        {% if data.autocapitalize %}autocapitalize="{{ data.autocapitalize }}"{% endif %}
+        {% if data.step %}step="{{ data.step }}"{% endif %}
         >
   {% if data.description %}
     <br>
