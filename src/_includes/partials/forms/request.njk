@@ -1,0 +1,126 @@
+{% if site.forms %}
+
+  {{ request_form.intro | markdownFilter }}
+
+  <p class="form_intro">Note: All fields are required</p>
+
+  {% from "macros.njk" import label, field, confirm, select, radios, checkboxes, textarea, button %}
+  <form name="donate" method="POST" data-netlify="true" action="/volunteer/thanks/" netlify-honeypot="bot-field">
+    <fieldset>
+      <legend>About Your Organization</legend>
+      <ol class="questions">
+        <li class="question">
+          {{ label("What’s your organization’s name?", "name") }}
+          {{ field( "text", "name", { required: true, autocomplete: "organization", autocorrect: "off", autocapitalize: "off" } ) }}
+        </li>
+        <li class="question">
+          {{ label("Who is the point of contact for your organization?", "contact") }}
+          {{ field( "text", "contact", { required: true, autocomplete: "name", autocorrect: "off", autocapitalize: "off" } ) }}
+        </li>
+        <li class="question">
+          {{ label("What’s the best email to reach them at?", "email") }}
+          {{ field( "email", "email", { required: true, autocomplete: "email" } ) }}
+        </li>
+        <li class="question">
+          {{ label("What’s the best phone number to reach them on?", "phone") }}
+          {{ field( "tel", "phone", { required: true, autocomplete: "tel" } ) }}
+          <div class="question__addendum">
+            {{ confirm("This number can send/receive text messages", "text", {value: "Yes"}) }}
+          </div>
+        </li>
+        <li class="question">
+          {{ label("What’s your organization’s street address?", "address") }}
+          {{ textarea( "address", { required: true, autocapitalize: "off", rows: 3, description: "We need this in order to collect the finished masks from you and/or to drop off materials." } ) }}
+        </li>
+        <li class="question">
+          {{ label("What neighborhood is your organization located in?", "neighborhood") }}
+          {{ field( "text", "neighborhood", { required: true, autocomplete: "name", autocorrect: "off", autocapitalize: "off" } ) }}
+        </li>
+        <li class="question">
+          {{ label("What is your organization’s website?", "website") }}
+          {{ field( "url", "website", { autocomplete: "name", autocorrect: "off", autocapitalize: "off" } ) }}
+        </li>
+        <li class="question">
+          {{ radios( "Which best describes your organization?", "org-type", ["Non-profit business", "For-profit business", "Community organization"], { required: true, other: true } ) }}
+        </li>
+        <li class="question">
+          {{ radios("Is your organization considered an “essential business”?", "essential", [ "Yes", "No" ] ) }}
+        </li>
+        <li class="question">
+          {{ checkboxes("What populations does your organization serve?", "populations", [ "Elderly", "Medical Patients", "Children", "Homeless", "Indigenous Peoples" ], { other: true } ) }}
+        </li>
+        <li class="question">
+          {{ radios("Do you serve COVID-19 positive clients?", "covid-positive", [ "Yes", "No" ] ) }}
+        </li>
+        <li class="question">
+          {{ label("Who will be wearing your masks?", "mask-wearers") }}
+          {{ textarea( "mask-wearers", { required: true, autocapitalize: "off", rows: 3 } ) }}
+        </li>
+        <li class="question">
+          {{ label("Anything else we should know about your organization?", "additional-info") }}
+          {{ textarea( "additional-info", { required: true, autocapitalize: "off", rows: 3 } ) }}
+        </li>
+        <li hidden>
+          <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+        </li>
+      </ol>
+    </fieldset>
+    <fieldset>
+      <legend>Mask Request</legend>
+      {{ request_form.masks | markdownFilter }}
+      <ol>
+        <li class="question">
+          <fieldset>
+            <legend>How many masks is your organization requesting?</legend>
+            <ul>
+              <li>{{ field( "text", "adult", { inputmode: "numeric", pattern: "\d*" } ) }} {{ label("Rectangular (adult sized)", "adult") }}</li>
+              <li>{{ field( "text", "child", { inputmode: "numeric", pattern: "\d*" } ) }} {{ label("Rectangular (kid sized)", "child") }}</li>
+              <li>{{ field( "text", "fitted", { inputmode: "numeric", pattern: "\d*" } ) }} {{ label("Fitted", "fitted") }}</li>
+            </ul>
+          </fieldset>
+        </li>
+      </ol>
+    </fieldset>
+    <fieldset>
+      <legend>Delivery Information</legend>
+      {{ request_form.delivery | markdownFilter }}
+      <ol class="questions">
+        <li class="question">
+          {{ label("What is the drop off contact’s name?", "dropoff-contact") }}
+          {{ field( "text", "dropoff-contact", { required: true, autocomplete: "name", autocorrect: "off", autocapitalize: "off" } ) }}
+        </li>
+        <li class="question">
+          {{ label("What’s the best phone number to reach them on?", "dropoff-phone") }}
+          {{ field( "tel", "dropoff-phone", { required: true, autocomplete: "tel" } ) }}
+          <div class="question__addendum">
+            {{ confirm("This number can send/receive text messages", "dropoff-text", {value: "Yes"}) }}
+          </div>
+        </li>
+        <li class="question">
+          {{ label("What’s the best email to reach them at?", "dropoff-email") }}
+          {{ field( "email", "dropoff-email", { required: true, autocomplete: "email" } ) }}
+        </li>
+        <li class="question">
+          {{ label("What’s the dropoff address?", "dropoff-address") }}
+          {{ textarea( "dropoff-address", { required: true, autocapitalize: "off", rows: 3 } ) }}
+        </li>
+        <li class="question">
+          {{ label("Anything we need to know about dropping off your masks?", "dropoff-additional-info") }}
+          {{ textarea( "dropoff-additional-info", { required: true, autocapitalize: "off", rows: 3 } ) }}
+        </li>
+        <li hidden>
+          <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+        </li>
+      </ol>
+    </fieldset>
+    {{ button("Send it in") }}
+  </form>
+
+  <script type="module" src="/js/components/dependent-field.js" async defer></script>
+
+{% else %}
+
+  <hr>
+  <p><strong>We have taken our forms offline for maintenance. They should be back up shortly. Please try again in an hour.</strong></p>
+
+{% endif %}
