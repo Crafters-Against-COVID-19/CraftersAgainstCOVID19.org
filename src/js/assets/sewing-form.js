@@ -14,8 +14,10 @@
     while ( count-- )
     {
       batch = open_batches[count];
-      cutoff = new Date( batch.cutoff + "T12:00:00" );
+      // cutoff = new Date( batch.cutoff + "T12:00:00" );
       // cutoff = new Date( batch.cutoff + " 12:00:00 GMT-07:00" );
+      cutoff = batch.cutoff.split('-');
+      cutoff = new Date( Date.UTC( cutoff[0], cutoff[1], cutoff[2], 19, 0, 0 ) );
       if ( cutoff > now )
       {
         updated_batches.unshift( batch );
@@ -52,7 +54,8 @@
       batch = batches[count];
       if ( batch.pattern_name == pattern )
       {
-        end_date = new Date( batch.end + "T12:00:00" );
+        end_date = batch.end.split('-');
+        end_date = new Date( Date.UTC( end_date[0], end_date[1], end_date[2], 19, 0, 0 ) );
         // end_date = new Date( batch.end + " 12:00:00 GMT-0700" );
         day = days[end_date.getDay()];
         date = ( end_date.getMonth() + 1 ) + "/" + end_date.getDate();
