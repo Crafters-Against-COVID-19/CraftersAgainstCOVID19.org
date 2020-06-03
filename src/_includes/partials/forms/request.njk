@@ -88,7 +88,10 @@
       <div class="text-block">
         {{ request_form.delivery | markdownFilter | safe }}
       </div>
-      <ol class="questions">
+      <ol class="questions"
+          data-copy-fields="contact::dropoff-contact|phone::dropoff-phone|text::dropoff-text|email::dropoff-email|address::dropoff-address"
+          data-copy-fields-label="Copy organization contact details into the fields below"
+          >
         <li class="question">
           {{ label("What is the drop off contact’s name?", "dropoff-contact") }}
           {{ field( "text", "dropoff-contact", { required: true, autocomplete: "name", autocorrect: "off", autocapitalize: "off" } ) }}
@@ -120,7 +123,7 @@
     {{ button("Send it in") }}
   </form>
 
-  <script type="module" src="/js/components/dependent-field.js" async defer></script>
+  <script type="module" src="/js/components/copy-fields.js" async defer></script>
 
 {% else %}
 
