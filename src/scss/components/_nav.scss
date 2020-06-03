@@ -3,6 +3,9 @@
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
     -ms-overflow-style: none;
+    
+    flex-wrap: wrap;
+    justify-content: flex-end;
 
     &::-webkit-scrollbar {
       display: none;
