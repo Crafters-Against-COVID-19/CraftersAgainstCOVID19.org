@@ -128,6 +128,17 @@
       "pickup": "2020-06-04"
     },
     {
+      "pattern_url": "https://craftersagainstcovid19.org/patterns/fitted-mask/",
+      "start": "2020-06-04",
+      "beneficiaries": "International District Non-Profits",
+      "name": "Batch 24",
+      "cutoff": "2020-06-07",
+      "skill_level": "Intermediate",
+      "pattern_name": "Fitted Mask with Pocket",
+      "end": "2020-06-15",
+      "pickup": "2020-06-08"
+    },
+    {
       "name": "Batch 25",
       "pattern_name": "Rectangular Surgical-Style Mask",
       "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
@@ -136,17 +147,6 @@
       "pickup": "2020-06-11",
       "end": "2020-06-18",
       "skill_level": "Beginner"
-    },
-    {
-      "pattern_url": "https://craftersagainstcovid19.org/patterns/fitted-mask/",
-      "start": "2020-06-06",
-      "beneficiaries": "International District Non-Profits",
-      "name": "Batch 24",
-      "cutoff": "2020-06-07",
-      "skill_level": "Intermediate",
-      "pattern_name": "Fitted Mask with Pocket",
-      "end": "2020-06-15",
-      "pickup": "2020-06-08"
     }
   ]
 }
