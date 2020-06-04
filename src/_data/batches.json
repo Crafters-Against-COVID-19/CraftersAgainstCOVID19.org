@@ -106,17 +106,6 @@
       "pickup": "2020-06-02"
     },
     {
-      "pattern_url": "https://craftersagainstcovid19.org/patterns/fitted-mask/",
-      "start": "2020-05-28",
-      "beneficiaries": "Sea/King Co Coalition on Homelessness",
-      "name": "Batch 22",
-      "cutoff": "2020-06-04",
-      "skill_level": "Intermediate",
-      "pattern_name": "Fitted Mask with Pocket",
-      "end": "2020-06-08",
-      "pickup": "2020-06-05"
-    },
-    {
       "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
       "start": "2020-06-01",
       "beneficiaries": "Child Care Aware WA",
@@ -128,14 +117,15 @@
       "pickup": "2020-06-04"
     },
     {
-      "name": "Batch 25",
-      "pattern_name": "Rectangular Surgical-Style Mask",
-      "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
-      "start": "2020-06-02",
-      "cutoff": "2020-06-10",
-      "pickup": "2020-06-11",
-      "end": "2020-06-18",
-      "skill_level": "Beginner"
+      "pattern_url": "https://craftersagainstcovid19.org/patterns/fitted-mask/",
+      "start": "2020-05-28",
+      "beneficiaries": "Sea/King Co Coalition on Homelessness",
+      "name": "Batch 22",
+      "cutoff": "2020-06-04",
+      "skill_level": "Intermediate",
+      "pattern_name": "Fitted Mask with Pocket",
+      "end": "2020-06-08",
+      "pickup": "2020-06-05"
     },
     {
       "pattern_url": "https://craftersagainstcovid19.org/patterns/fitted-mask/",
@@ -147,6 +137,16 @@
       "pattern_name": "Fitted Mask with Pocket",
       "end": "2020-06-15",
       "pickup": "2020-06-08"
+    },
+    {
+      "name": "Batch 25",
+      "pattern_name": "Rectangular Surgical-Style Mask",
+      "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
+      "start": "2020-06-02",
+      "cutoff": "2020-06-10",
+      "pickup": "2020-06-11",
+      "end": "2020-06-18",
+      "skill_level": "Beginner"
     }
   ]
 }
