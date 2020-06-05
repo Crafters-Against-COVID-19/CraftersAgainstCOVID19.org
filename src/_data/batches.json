@@ -176,6 +176,16 @@
       "pickup": "2020-06-22",
       "end": "2020-06-29",
       "skill_level": "Intermediate"
+    },
+    {
+      "name": "Batch 29",
+      "pattern_name": "Rectangular Surgical-Style Mask",
+      "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
+      "start": "2020-06-18",
+      "cutoff": "2020-06-24",
+      "pickup": "2020-06-25",
+      "end": "2020-07-02",
+      "skill_level": "Beginner"
     }
   ]
 }
