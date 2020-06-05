@@ -186,6 +186,16 @@
       "pickup": "2020-06-25",
       "end": "2020-07-02",
       "skill_level": "Beginner"
+    },
+    {
+      "name": "Batch 30",
+      "pattern_name": "Fitted Mask with Pocket",
+      "pattern_url": "https://craftersagainstcovid19.org/patterns/fitted-mask/",
+      "start": "2020-06-22",
+      "cutoff": "2020-06-28",
+      "pickup": "2020-06-29",
+      "end": "2020-07-06",
+      "skill_level": "Intermediate"
     }
   ]
 }
