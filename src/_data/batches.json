@@ -148,24 +148,26 @@
       "skill_level": "Beginner"
     },
     {
-      "name": "Batch 26",
-      "pattern_name": "Fitted Mask with Pocket",
       "pattern_url": "https://craftersagainstcovid19.org/patterns/fitted-mask/",
       "start": "2020-06-07",
+      "beneficiaries": "Neighborhood House, Mountain View Community Center, Judson Park, NW Immigrants Rights",
+      "name": "Batch 26",
       "cutoff": "2020-06-13",
-      "pickup": "2020-06-15",
+      "skill_level": "Intermediate",
+      "pattern_name": "Fitted Mask with Pocket",
       "end": "2020-06-22",
-      "skill_level": "Intermediate"
+      "pickup": "2020-06-15"
     },
     {
-      "name": "Batch 27",
-      "pattern_name": "Rectangular Surgical-Style Mask",
       "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
       "start": "2020-06-10",
+      "beneficiaries": "REACH Homelessness",
+      "name": "Batch 27",
       "cutoff": "2020-06-16",
-      "pickup": "2020-06-18",
+      "skill_level": "Beginner",
+      "pattern_name": "Rectangular Surgical-Style Mask",
       "end": "2020-06-25",
-      "skill_level": "Beginner"
+      "pickup": "2020-06-18"
     },
     {
       "name": "Batch 28",
