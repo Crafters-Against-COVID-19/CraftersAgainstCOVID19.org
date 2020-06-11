@@ -14,10 +14,10 @@
     while ( count-- )
     {
       batch = open_batches[count];
-      // cutoff = new Date( batch.cutoff + "T12:00:00" );
-      // cutoff = new Date( batch.cutoff + " 12:00:00 GMT-07:00" );
+      // cutoff = new Date( batch.cutoff + " 23:59:59 GMT-07:00" );
       cutoff = batch.cutoff.split('-');
-      cutoff = new Date( Date.UTC( cutoff[0], cutoff[1] - 1, cutoff[2], 19, 0, 0 ) );
+      // UTC = +7 hours from Seattle
+      cutoff = new Date( Date.UTC( cutoff[0], cutoff[1] - 1, cutoff[2] + 1, 06, 59, 59 ) );
       if ( cutoff > now )
       {
         updated_batches.unshift( batch );
@@ -54,9 +54,10 @@
       batch = batches[count];
       if ( batch.pattern_name == pattern )
       {
+        // end_date = new Date( batch.end + " 23:59:59 GMT-0700" );
         end_date = batch.end.split('-');
-        end_date = new Date( Date.UTC( end_date[0], end_date[1] - 1, end_date[2], 19, 0, 0 ) );
-        // end_date = new Date( batch.end + " 12:00:00 GMT-0700" );
+        // UTC = +7 hours from Seattle
+        end_date = new Date( Date.UTC( end_date[0], end_date[1] - 1, end_date[2] + 1, 06, 59, 59 ) );
         day = days[end_date.getDay()];
         date = ( end_date.getMonth() + 1 ) + "/" + end_date.getDate();
         $batch_name.value = batch.name;
