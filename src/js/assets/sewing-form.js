@@ -16,6 +16,9 @@
       batch = open_batches[count];
       // cutoff = new Date( batch.cutoff + " 23:59:59 GMT-07:00" );
       cutoff = batch.cutoff.split('-');
+      cutoff.forEach( (value, key) => {
+        cutoff[key] = parseInt( value, 10 );
+      });
       // UTC = +7 hours from Seattle
       cutoff = new Date( Date.UTC( cutoff[0], cutoff[1] - 1, cutoff[2] + 1, 06, 59, 59 ) );
       if ( cutoff > now )
@@ -56,6 +59,9 @@
       {
         // end_date = new Date( batch.end + " 23:59:59 GMT-0700" );
         end_date = batch.end.split('-');
+        end_date.forEach( (value, key) => {
+          end_date[key] = parseInt( value, 10 );
+        });
         // UTC = +7 hours from Seattle
         end_date = new Date( Date.UTC( end_date[0], end_date[1] - 1, end_date[2] + 1, 06, 59, 59 ) );
         day = days[end_date.getDay()];
