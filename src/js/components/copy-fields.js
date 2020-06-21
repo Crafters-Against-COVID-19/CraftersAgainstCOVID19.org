@@ -56,7 +56,7 @@
     // set up the field
     $copy_field.addEventListener('change', toggle, false);
     $copy.appendChild( $copy_field );
-    console.log(label);
+    // console.log(label);
     $copy.appendChild( doc.createTextNode(label) );
     $container.innerHTML = '';
     $container.appendChild( $copy );
