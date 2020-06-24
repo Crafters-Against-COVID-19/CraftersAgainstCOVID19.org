@@ -204,6 +204,66 @@
       "pattern_name": "Fitted Mask with Pocket",
       "end": "2020-07-06",
       "pickup": "2020-06-29"
+    },
+    {
+      "name": "Batch 31",
+      "pattern_name": "Rectangular Surgical-Style Mask",
+      "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
+      "start": "2020-06-24",
+      "cutoff": "2020-06-30",
+      "pickup": "2020-07-02",
+      "end": "2020-07-09",
+      "skill_level": "Beginner"
+    },
+    {
+      "name": "Batch 32",
+      "pattern_name": "Fitted Mask with Pocket",
+      "pattern_url": "https://craftersagainstcovid19.org/patterns/fitted-mask/",
+      "start": "2020-06-28",
+      "cutoff": "2020-07-04",
+      "pickup": "2020-07-06",
+      "end": "2020-07-13",
+      "skill_level": "Intermediate"
+    },
+    {
+      "name": "Batch 33",
+      "pattern_name": "Rectangular Surgical-Style Mask",
+      "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
+      "start": "2020-07-01",
+      "cutoff": "2020-07-07",
+      "pickup": "2020-07-09",
+      "end": "2020-07-16",
+      "skill_level": "Beginner"
+    },
+    {
+      "name": "Batch 34",
+      "pattern_name": "Fitted Mask with Pocket",
+      "pattern_url": "https://craftersagainstcovid19.org/patterns/fitted-mask/",
+      "start": "2020-07-05",
+      "cutoff": "2020-06-11",
+      "pickup": "2020-06-13",
+      "end": "2020-06-20",
+      "skill_level": "Intermediate"
+    },
+    {
+      "name": "Batch 35",
+      "pattern_name": "Rectangular Surgical-Style Mask",
+      "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
+      "start": "2020-07-08",
+      "cutoff": "2020-07-14",
+      "pickup": "2020-07-16",
+      "end": "2020-07-23",
+      "skill_level": "Beginner"
+    },
+    {
+      "name": "Batch 36",
+      "pattern_name": "Fitted Mask with Pocket",
+      "pattern_url": "https://craftersagainstcovid19.org/patterns/fitted-mask/",
+      "start": "2020-07-12",
+      "cutoff": "2020-07-18",
+      "pickup": "2020-07-20",
+      "end": "2020-07-20",
+      "skill_level": "Intermediate"
     }
   ]
 }
