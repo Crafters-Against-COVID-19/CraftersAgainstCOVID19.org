@@ -205,7 +205,7 @@
     {
       "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
       "start": "2020-06-24",
-      "beneficiaries": "Yakama Farmworkers",
+      "beneficiaries": "",
       "name": "Batch 31",
       "cutoff": "2020-06-30",
       "skill_level": "Beginner",
@@ -227,7 +227,7 @@
     {
       "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
       "start": "2020-07-01",
-      "beneficiaries": "",
+      "beneficiaries": "Yakama Farmworkers",
       "name": "Batch 33",
       "cutoff": "2020-07-07",
       "skill_level": "Beginner",
