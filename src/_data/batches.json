@@ -237,24 +237,25 @@
     },
     {
       "pattern_url": "https://craftersagainstcovid19.org/patterns/fitted-mask/",
-      "start": "2020-07-05",
+      "start": "2020-07-04",
       "beneficiaries": "Kittitas Valley Healthcare",
       "name": "Batch 34",
-      "cutoff": "2020-06-11",
+      "cutoff": "2020-07-12",
       "skill_level": "Intermediate",
       "pattern_name": "Fitted Mask with Pocket",
       "end": "2020-06-20",
-      "pickup": "2020-06-13"
+      "pickup": "2020-07-14"
     },
     {
-      "name": "Batch 35",
-      "pattern_name": "Rectangular Surgical-Style Mask",
       "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
       "start": "2020-07-08",
+      "beneficiaries": "Kids in Need of Defense, National VA",
+      "name": "Batch 35",
       "cutoff": "2020-07-14",
-      "pickup": "2020-07-16",
+      "skill_level": "Beginner",
+      "pattern_name": "Rectangular Surgical-Style Mask",
       "end": "2020-07-23",
-      "skill_level": "Beginner"
+      "pickup": "2020-07-16"
     },
     {
       "name": "Batch 36",
