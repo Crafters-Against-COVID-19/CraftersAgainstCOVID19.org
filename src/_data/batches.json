@@ -249,7 +249,7 @@
     {
       "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
       "start": "2020-07-07",
-      "beneficiaries": "Kids in Need of Defense, National VA",
+      "beneficiaries": "Yakima Farmworkers DIRE NEED",
       "name": "Batch 35",
       "cutoff": "2020-07-14",
       "skill_level": "Beginner",
@@ -268,14 +268,15 @@
       "skill_level": "Intermediate"
     },
     {
-      "name": "Batch 37",
-      "pattern_name": "Rectangular Surgical-Style Mask",
       "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
       "start": "2020-07-14",
+      "beneficiaries": "Kids in Need of Defense, National VA",
+      "name": "Batch 37",
       "cutoff": "2020-07-21",
-      "pickup": "2020-07-23",
+      "skill_level": "Beginner",
+      "pattern_name": "Rectangular Surgical-Style Mask",
       "end": "2020-07-30",
-      "skill_level": "Beginner"
+      "pickup": "2020-07-23"
     },
     {
       "name": "Batch 38",
