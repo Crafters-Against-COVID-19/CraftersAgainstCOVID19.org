@@ -260,7 +260,7 @@
     {
       "pattern_url": "https://craftersagainstcovid19.org/patterns/fitted-mask/",
       "start": "2020-07-11",
-      "beneficiaries": "Virginia Mason Medical Center",
+      "beneficiaries": "Virginia Mason Medical Center, Sound Employment Services",
       "name": "Batch 36",
       "cutoff": "2020-07-18",
       "skill_level": "Intermediate",
@@ -280,14 +280,15 @@
       "pickup": "2020-07-23"
     },
     {
-      "name": "Batch 38",
-      "pattern_name": "Fitted Mask with Pocket",
       "pattern_url": "https://craftersagainstcovid19.org/patterns/fitted-mask/",
       "start": "2020-07-18",
+      "beneficiaries": "Seattle Veterinary Outreach, Seattle Public Schools Special Ed Classroom",
+      "name": "Batch 38",
       "cutoff": "2020-07-25",
-      "pickup": "2020-07-27",
+      "skill_level": "Intermediate",
+      "pattern_name": "Fitted Mask with Pocket",
       "end": "2020-08-03",
-      "skill_level": "Intermediate"
+      "pickup": "2020-07-27"
     },
     {
       "name": "Batch 39",
