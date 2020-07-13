@@ -240,7 +240,7 @@
       "start": "2020-07-04",
       "beneficiaries": "Kittitas Valley Healthcare",
       "name": "Batch 34",
-      "cutoff": "2020-07-11",
+      "cutoff": "2020-07-12",
       "skill_level": "Intermediate",
       "pattern_name": "Fitted Mask with Pocket",
       "end": "2020-06-20",
@@ -258,14 +258,15 @@
       "pickup": "2020-07-16"
     },
     {
-      "name": "Batch 36",
-      "pattern_name": "Fitted Mask with Pocket",
       "pattern_url": "https://craftersagainstcovid19.org/patterns/fitted-mask/",
       "start": "2020-07-11",
+      "beneficiaries": "the GivingHope Project, WA Immigrant Solidarity Network - KIDS MASKS ONLY THIS BATCH",
+      "name": "Batch 36",
       "cutoff": "2020-07-18",
-      "pickup": "2020-07-20",
+      "skill_level": "Intermediate",
+      "pattern_name": "Fitted Mask with Pocket",
       "end": "2020-07-27",
-      "skill_level": "Intermediate"
+      "pickup": "2020-07-20"
     },
     {
       "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
