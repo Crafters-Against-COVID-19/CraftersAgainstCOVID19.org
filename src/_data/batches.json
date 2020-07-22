@@ -291,14 +291,15 @@
       "pickup": "2020-07-27"
     },
     {
-      "name": "Batch 39",
-      "pattern_name": "Rectangular Surgical-Style Mask",
       "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
       "start": "2020-07-21",
+      "beneficiaries": "the GivingHope Project, WA Immigrant Solidarity Network - BOTH KIDS AND ADULTS MASKS",
+      "name": "Batch 39",
       "cutoff": "2020-07-28",
-      "pickup": "2020-07-30",
+      "skill_level": "Beginner",
+      "pattern_name": "Rectangular Surgical-Style Mask",
       "end": "2020-08-06",
-      "skill_level": "Beginner"
+      "pickup": "2020-07-30"
     },
     {
       "name": "Batch 40",
