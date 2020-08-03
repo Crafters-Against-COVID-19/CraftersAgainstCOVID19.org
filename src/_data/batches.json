@@ -323,14 +323,15 @@
       "pickup": "2020-08-06"
     },
     {
-      "name": "Batch 42",
-      "pattern_name": "Fitted Mask with Pocket",
       "pattern_url": "https://craftersagainstcovid19.org/patterns/fitted-mask/",
       "start": "2020-08-01",
+      "beneficiaries": "Washington State Veterans Affairs",
+      "name": "Batch 42",
       "cutoff": "2020-08-08",
-      "pickup": "2020-08-10",
+      "skill_level": "Intermediate",
+      "pattern_name": "Fitted Mask with Pocket",
       "end": "2020-08-17",
-      "skill_level": "Intermediate"
+      "pickup": "2020-08-10"
     }
   ]
 }
