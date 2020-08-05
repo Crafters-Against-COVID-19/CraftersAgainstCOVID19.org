@@ -332,6 +332,17 @@
       "pattern_name": "Fitted Mask with Pocket",
       "end": "2020-08-17",
       "pickup": "2020-08-10"
+    },
+    {
+      "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
+      "start": "2020-08-04",
+      "beneficiaries": "The Peacekeeper Society KIDS MASKS ONLY",
+      "name": "Batch 43",
+      "cutoff": "2020-08-11",
+      "skill_level": "Beginner",
+      "pattern_name": "Rectangular Surgical-Style Mask",
+      "end": "2020-08-20",
+      "pickup": "2020-08-13"
     }
   ]
 }
