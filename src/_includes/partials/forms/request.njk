@@ -60,9 +60,6 @@
           {{ label("Anything else we should know about your organization?", "additional-info") }}
           {{ textarea( "additional-info", { autocapitalize: "off", rows: 3 } ) }}
         </li>
-        <li class="question">
-          {{ confirm("I want to be part of the Free Mask Project (only one sign up each please)", "free-mask-project", {value: "Yes"}) }}
-        </li>
         <li hidden>
           <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
         </li>
