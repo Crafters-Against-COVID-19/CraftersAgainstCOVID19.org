@@ -82,6 +82,11 @@
       <li class="question">
         {{ radios("Do you need us to provide you with materials?", "materials", [ "Yes", { label: "No, I have read the requirements and have everything I need", value: "No" } ], { required: true } ) }}
       </li>
+      {% if showFreeMaskProject %}
+      <li class="question">
+          {{ confirm("I want to be part of the Free Mask Project (only one sign up each please)", "free-mask-project", {value: "Yes"}) }}
+      </li>
+      {% endif %}
       <!--li class="question">
         {{ radios("Are you a part of Made Sewing Studio?", "made_studio", [ "Yes", "No" ], { required: true, description: 'Don’t know what Made Sewing Studio is? Please <a href="https://madesewstudio.com/">visit their site</a>.' } ) }}
       </li-->
