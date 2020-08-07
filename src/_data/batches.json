@@ -1,12 +1,8 @@
 {
-  "masks_made": "55,000",
+  "masks_made": "70,000",
   "volunteer_activities": [
     "3D Printing",
-    "Bookkeeping",
-    "Clerical",
-    "Cutting",
-    "Neighborhood Captain: Bellevue",
-    "Neighborhood Captain: Cap Hill"
+    "Cutting"
   ],
   "list": [
     {
@@ -195,14 +191,158 @@
       "pickup": "2020-06-25"
     },
     {
-      "name": "Batch 30",
-      "pattern_name": "Fitted Mask with Pocket",
       "pattern_url": "https://craftersagainstcovid19.org/patterns/fitted-mask/",
       "start": "2020-06-21",
+      "beneficiaries": "Northwest Immigrant's Rights Project",
+      "name": "Batch 30",
       "cutoff": "2020-06-27",
-      "pickup": "2020-06-29",
+      "skill_level": "Intermediate",
+      "pattern_name": "Fitted Mask with Pocket",
       "end": "2020-07-06",
-      "skill_level": "Intermediate"
+      "pickup": "2020-06-29"
+    },
+    {
+      "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
+      "start": "2020-06-24",
+      "beneficiaries": "Yakima Farmworkers",
+      "name": "Batch 31",
+      "cutoff": "2020-07-01",
+      "skill_level": "Beginner",
+      "pattern_name": "Rectangular Surgical-Style Mask",
+      "end": "2020-07-09",
+      "pickup": "2020-07-02"
+    },
+    {
+      "pattern_url": "https://craftersagainstcovid19.org/patterns/fitted-mask/",
+      "start": "2020-06-28",
+      "beneficiaries": "Harborview Medical Center Pioneer Square Clinic ",
+      "name": "Batch 32",
+      "cutoff": "2020-07-04",
+      "skill_level": "Intermediate",
+      "pattern_name": "Fitted Mask with Pocket",
+      "end": "2020-07-13",
+      "pickup": "2020-07-06"
+    },
+    {
+      "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
+      "start": "2020-07-01",
+      "beneficiaries": "Yakima Farmworkers",
+      "name": "Batch 33",
+      "cutoff": "2020-07-07",
+      "skill_level": "Beginner",
+      "pattern_name": "Rectangular Surgical-Style Mask",
+      "end": "2020-07-16",
+      "pickup": "2020-07-09"
+    },
+    {
+      "pattern_url": "https://craftersagainstcovid19.org/patterns/fitted-mask/",
+      "start": "2020-07-04",
+      "beneficiaries": "Kittitas Valley Healthcare",
+      "name": "Batch 34",
+      "cutoff": "2020-07-12",
+      "skill_level": "Intermediate",
+      "pattern_name": "Fitted Mask with Pocket",
+      "end": "2020-06-20",
+      "pickup": "2020-07-14"
+    },
+    {
+      "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
+      "start": "2020-07-07",
+      "beneficiaries": "Yakima Farmworkers DIRE NEED",
+      "name": "Batch 35",
+      "cutoff": "2020-07-14",
+      "skill_level": "Beginner",
+      "pattern_name": "Rectangular Surgical-Style Mask",
+      "end": "2020-07-23",
+      "pickup": "2020-07-16"
+    },
+    {
+      "pattern_url": "https://craftersagainstcovid19.org/patterns/fitted-mask/",
+      "start": "2020-07-11",
+      "beneficiaries": "Virginia Mason Medical Center, Sound Employment Services",
+      "name": "Batch 36",
+      "cutoff": "2020-07-18",
+      "skill_level": "Intermediate",
+      "pattern_name": "Fitted Mask with Pocket",
+      "end": "2020-07-27",
+      "pickup": "2020-07-20"
+    },
+    {
+      "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
+      "start": "2020-07-14",
+      "beneficiaries": "the GivingHope Project, WA Immigrant Solidarity Network - KIDS MASKS ONLY THIS BATCH",
+      "name": "Batch 37",
+      "cutoff": "2020-07-21",
+      "skill_level": "Beginner",
+      "pattern_name": "Rectangular Surgical-Style Mask",
+      "end": "2020-07-30",
+      "pickup": "2020-07-23"
+    },
+    {
+      "pattern_url": "https://craftersagainstcovid19.org/patterns/fitted-mask/",
+      "start": "2020-07-18",
+      "beneficiaries": "Seattle Veterinary Outreach, Seattle Public Schools Special Ed Classroom",
+      "name": "Batch 38",
+      "cutoff": "2020-07-25",
+      "skill_level": "Intermediate",
+      "pattern_name": "Fitted Mask with Pocket",
+      "end": "2020-08-03",
+      "pickup": "2020-07-27"
+    },
+    {
+      "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
+      "start": "2020-07-21",
+      "beneficiaries": "the GivingHope Project, WA Immigrant Solidarity Network - BOTH KIDS AND ADULTS MASKS",
+      "name": "Batch 39",
+      "cutoff": "2020-07-28",
+      "skill_level": "Beginner",
+      "pattern_name": "Rectangular Surgical-Style Mask",
+      "end": "2020-08-06",
+      "pickup": "2020-07-30"
+    },
+    {
+      "pattern_url": "https://craftersagainstcovid19.org/patterns/fitted-mask/",
+      "start": "2020-07-25",
+      "beneficiaries": "Washington State Veterans Affiars",
+      "name": "Batch 40",
+      "cutoff": "2020-08-01",
+      "skill_level": "Intermediate",
+      "pattern_name": "Fitted Mask with Pocket",
+      "end": "2020-08-10",
+      "pickup": "2020-08-03"
+    },
+    {
+      "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
+      "start": "2020-07-28",
+      "beneficiaries": "The Peacekeeper Society KIDS MASKS ONLY",
+      "name": "Batch 41",
+      "cutoff": "2020-08-04",
+      "skill_level": "Beginner",
+      "pattern_name": "Rectangular Surgical-Style Mask",
+      "end": "2020-08-13",
+      "pickup": "2020-08-06"
+    },
+    {
+      "pattern_url": "https://craftersagainstcovid19.org/patterns/fitted-mask/",
+      "start": "2020-08-01",
+      "beneficiaries": "Washington State Veterans Affairs",
+      "name": "Batch 42",
+      "cutoff": "2020-08-08",
+      "skill_level": "Intermediate",
+      "pattern_name": "Fitted Mask with Pocket",
+      "end": "2020-08-17",
+      "pickup": "2020-08-10"
+    },
+    {
+      "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
+      "start": "2020-08-04",
+      "beneficiaries": "The Peacekeeper Society KIDS MASKS ONLY",
+      "name": "Batch 43",
+      "cutoff": "2020-08-11",
+      "skill_level": "Beginner",
+      "pattern_name": "Rectangular Surgical-Style Mask",
+      "end": "2020-08-20",
+      "pickup": "2020-08-13"
     }
   ]
 }
