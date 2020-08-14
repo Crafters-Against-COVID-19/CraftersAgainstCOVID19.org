@@ -7,6 +7,7 @@ const CACHE_KEYS = {
 const EXCLUDED_URLS = [
   'admin',
   '.netlify',
+  '/volunteer/sewing',
   '/volunteer/thanks',
   '/request/thanks',
   'https://identity.netlify.com/v1/netlify-identity-widget.js',
