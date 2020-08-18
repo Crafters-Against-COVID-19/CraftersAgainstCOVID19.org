@@ -1,8 +1,8 @@
 {
-  "masks_made": "70,000",
+  "masks_made": "75,000",
   "volunteer_activities": [
-    "3D Printing",
-    "Cutting"
+    "Kid's Mask Test",
+    "Clerical"
   ],
   "list": [
     {
@@ -94,24 +94,26 @@
       "pickup": "2020-08-20"
     },
     {
-      "name": "Batch 46",
-      "pattern_name": "Fitted Mask with Pocket",
       "pattern_url": "https://craftersagainstcovid19.org/patterns/fitted-mask/",
       "start": "2020-08-15",
+      "beneficiaries": "Sound Employment Services",
+      "name": "Batch 46",
       "cutoff": "2020-08-22",
-      "pickup": "2020-08-24",
+      "skill_level": "Intermediate",
+      "pattern_name": "Fitted Mask with Pocket",
       "end": "2020-08-31",
-      "skill_level": "Intermediate"
+      "pickup": "2020-08-24"
     },
     {
-      "name": "Batch 47",
-      "pattern_name": "Rectangular Surgical-Style Mask",
       "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
       "start": "2020-08-18",
+      "beneficiaries": "WashMask (Yakima Farmworkers)",
+      "name": "Batch 47",
       "cutoff": "2020-08-25",
-      "pickup": "2020-08-27",
+      "skill_level": "Beginner",
+      "pattern_name": "Rectangular Surgical-Style Mask",
       "end": "2020-09-03",
-      "skill_level": "Beginner"
+      "pickup": "2020-08-27"
     }
   ]
 }
