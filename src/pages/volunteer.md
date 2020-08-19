@@ -21,6 +21,6 @@ If you can’t sew or can’t commit to sewing at least 25 masks, you can help i
 
 ## Do you want to help in other ways?
 
-If you are looking to help but don't have the skills or resources to sew/donate material/distribute, [we have a GoFundMe campaign](https://www.gofundme.com/f/crafters-against-covid19-seattle). The money will be put towards materials, gas, laundering, etc.
+If you are looking to help but don't have the skills or resources to sew/donate material/distribute, [we have a GoFundMe campaign](https://charity.gofundme.com/o/en/donate-widget/21157). The money will be put towards materials, gas, laundering, etc.
 
-<a class="button" href="https://www.gofundme.com/f/crafters-against-covid19-seattle">Donate Money</a>
+<a class="button" href="https://charity.gofundme.com/o/en/donate-widget/21157">Donate Money</a>

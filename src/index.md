@@ -17,7 +17,7 @@ Please let us know what you need by <a href="mailto:CraftersAgainstCOVID19Seattl
 
 ## Do you want to help out?
 
-We have [many ways for you to participate directly](/volunteer/) or you can [donate cash via our GoFundMe](https://www.gofundme.com/f/crafters-against-covid19-seattle).
+We have [many ways for you to participate directly](/volunteer/) or you can [donate cash via our GoFundMe](https://charity.gofundme.com/o/en/donate-widget/21157).
 
 <hr>
 

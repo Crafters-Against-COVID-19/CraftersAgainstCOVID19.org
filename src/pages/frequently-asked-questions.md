@@ -30,7 +30,7 @@ You need to live in the Seattle Metro area, encompassing Tacoma to the south, Ly
 Sign up via the form in the announcements section of our Facebook Group. If the form is unavailable we have filled our pledge goal for the current project, and should have the next project posted within a few days.
 
 **What if I can’t sew?**\
-There are other ways to help. You can get involved as a driver, contribute materials you may have already, or donate to [our GoFundMe](https://www.gofundme.com/f/crafters-against-covid19-seattle).
+There are other ways to help. You can get involved as a driver, contribute materials you may have already, or donate to [our GoFundMe](https://charity.gofundme.com/o/en/donate-widget/21157).
 
 **How do I sign up for other volunteering opportunities?**\
 Sign up via the form in the announcements section of our Facebook Group. There you will see options for how you’d like to volunteer. If the form is unavailable we have filled our pledge goal for the current project, and should have the next project posted within a few days.
@@ -44,7 +44,7 @@ Currently we do not. We have seen tutorials about masks made from 3D printed fra
 We’ve been thankful to receive numerous generous donations via our GoFundMe and from local fabric stores and costume shops. Still, supplies are expensive and demand for masks is only going up.
 
 **How can I donate to the cause?**\
-For monetary contributions check out [our GoFundMe](https://www.gofundme.com/f/crafters-against-covid19-seattle). We are also accepting good sized donations of elastic, wire, and tightly woven cotton fabrics. Generally we are looking for material donations large enough to make at least 50 masks (that’s roughly 25 yards of elastic, 7 yards of fabric, or 6’ of wire). If you have materials in at least these quantities please contact [CraftersAgainstCovid19Seattle@gmail.com](mailto:CraftersAgainstCOVID19Seattle@gmail.com).
+For monetary contributions check out [our GoFundMe](https://charity.gofundme.com/o/en/donate-widget/21157). We are also accepting good sized donations of elastic, wire, and tightly woven cotton fabrics. Generally we are looking for material donations large enough to make at least 50 masks (that’s roughly 25 yards of elastic, 7 yards of fabric, or 6’ of wire). If you have materials in at least these quantities please contact [CraftersAgainstCovid19Seattle@gmail.com](mailto:CraftersAgainstCOVID19Seattle@gmail.com).
 
 **Do you want my sewing machine?**\
 We love that so many of you are thinking of every option available to contribute! Unfortunately, we don’t currently have the space or bandwidth to handle sewing machine donations.

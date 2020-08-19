@@ -39,9 +39,8 @@ sections:
           project, and should have the next project posted within a few days.
       - q: What if I can’t sew?
         a: There are other ways to help. You can get involved as a driver, contribute
-          materials you may have already, or donate to [our GoFundMe*(opens in a
-          new
-          window)*](https://www.gofundme.com/f/crafters-against-covid19-seattle).
+          materials you may have already, or donate to [our 
+          GoFundMe](https://charity.gofundme.com/o/en/donate-widget/21157).
       - q: How do I sign up for other volunteering opportunities?
         a: Sign up via the form in the announcements section of our Facebook Group.
           There you will see options for how you’d like to volunteer. If the
@@ -58,8 +57,7 @@ sections:
           and from local fabric stores and costume shops. Still, supplies are
           expensive and demand for masks is only going up.
       - q: How can I donate to the cause?
-        a: For monetary contributions check out [our GoFundMe*(opens in a new
-          window)*](https://www.gofundme.com/f/crafters-against-covid19-seattle).
+        a: For monetary contributions check out [our GoFundMe](https://charity.gofundme.com/o/en/donate-widget/21157).
           We are also accepting good sized donations of elastic, wire, and
           tightly woven cotton fabrics. Generally we are looking for material
           donations large enough to make at least 50 masks (that’s roughly 25
@@ -79,10 +77,10 @@ sections:
           check the fit on yourself or your quarantine buddy. Ties can be made
           from shoelaces, ribbon, twill tape, or bias tape. If you don’t have
           any of those, try making your own with [this
-          video](http://localhost:8080/faq/%5Bhttps://youtu.be/O298NkkQelw%5D(https://youtu.be/O298NkkQelw?fbclid=IwAR29MiUz8dGRXEiYV8tQqFL4pQBfJiRPqrmRbDC_40SEeIWPBib1ZujGZoU)).
+          video](https://youtu.be/O298NkkQelw?fbclid=IwAR29MiUz8dGRXEiYV8tQqFL4pQBfJiRPqrmRbDC_40SEeIWPBib1ZujGZoU).
       - q: What do I use if I don’t have wire?
         a: Pipe cleaners, jewelry wire, a thin paper clip. Some masks call for wire
-          because the need to be formed to sit snuggly against the bridge of the
+          because the need to be formed to sit snugly against the bridge of the
           wearer’s nose. If the material is bendable and formable, it should
           work.
       - q: Can I use other material to make my masks?
@@ -116,7 +114,7 @@ sections:
           our current pattern and instructions.
       - q: How accurate are your patterns?
         a: We are working from patterns chosen by the organizations accepting the masks.
-          Before we share them with the sewests, we make a sample, check the
+          Before we share them with the sewists, we make a sample, check the
           pattern, alter language as needed, and make a tutorial video. Between
           the six people in our core team we have over 100 years of sewing
           experience. We have professionally sewn, run numerous costume shops,
