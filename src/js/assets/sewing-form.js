@@ -3,6 +3,7 @@
       $pattern = document.getElementById("field-pattern"),
       $batch_name = document.getElementById("field-batch_name"),
       $batch_date = document.getElementById("field-batch_date"),
+      $beneficiaries = document.getElementById("field-beneficiaries"),
       days = "Sunday Monday Tuesday Wednesday Thursday Friday Saturday".split(" "),
       minute_timer = new Worker('/js/components/minute-timer.js');
 
@@ -68,6 +69,7 @@
         date = ( end_date.getMonth() + 1 ) + "/" + end_date.getDate();
         $batch_name.value = batch.name;
         $batch_date.value = day + ", " + date;
+        $beneficiaries.value = batch.beneficiaries;
       }
     }
   }
