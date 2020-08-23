@@ -1,8 +1,7 @@
 {
-  "masks_made": "75,000",
+  "masks_made": "80,000",
   "volunteer_activities": [
-    "Kid Mask Test",
-    "Clerical"
+    "Cutting"
   ],
   "list": [
     {
@@ -114,6 +113,46 @@
       "pattern_name": "Rectangular Surgical-Style Mask",
       "end": "2020-09-03",
       "pickup": "2020-08-27"
+    },
+    {
+      "name": "Batch 48",
+      "pattern_name": "Fitted Mask with Pocket",
+      "pattern_url": "https://craftersagainstcovid19.org/patterns/fitted-mask/",
+      "start": "2020-08-22",
+      "cutoff": "2020-08-29",
+      "pickup": "2020-08-31",
+      "end": "2020-09-07",
+      "skill_level": "Intermediate"
+    },
+    {
+      "name": "Batch 49",
+      "pattern_name": "Rectangular Surgical-Style Mask",
+      "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
+      "start": "2020-08-25",
+      "cutoff": "2020-09-01",
+      "pickup": "2020-09-03",
+      "end": "2020-09-10",
+      "skill_level": "Beginner"
+    },
+    {
+      "name": "Batch 50",
+      "pattern_name": "Fitted Mask with Pocket",
+      "pattern_url": "https://craftersagainstcovid19.org/patterns/fitted-mask/",
+      "start": "2020-08-29",
+      "cutoff": "2020-09-05",
+      "pickup": "2020-09-07",
+      "end": "2020-09-14",
+      "skill_level": "Intermediate"
+    },
+    {
+      "name": "Batch 51",
+      "pattern_name": "Rectangular Surgical-Style Mask",
+      "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
+      "start": "2020-09-01",
+      "cutoff": "2020-09-08",
+      "pickup": "2020-09-10",
+      "end": "2020-09-17",
+      "skill_level": "Beginner"
     }
   ]
 }
