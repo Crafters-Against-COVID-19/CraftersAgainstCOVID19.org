@@ -63,7 +63,7 @@ sections:
           donations large enough to make at least 50 masks (that’s roughly 25
           yards of elastic, 7 yards of fabric, or 6’ of wire). If you have
           materials in at least these quantities please contact
-          [CraftersAgainstCovid19Seattle@gmail.com](mailto:CraftersAgainstCOVID19Seattle@gmail.com).
+          [info@craftersunited.org](mailto:info@craftersunited.org).
       - q: Do you want my sewing machine?
         a: We love that so many of you are thinking of every option available to
           contribute! Unfortunately, we don’t currently have the space or
@@ -122,8 +122,8 @@ sections:
       - q: What if I think I find a pattern mistake?
         a: Even with a collective century of sewing and pattern making experience, we
           are still human and still make mistakes. If you think you’ve found a
-          mistake in our pattern, please email us directly so we can take a
-          look[CraftersAgainstCOVID19Seattle@gmail.com](mailto:CraftersAgainstCOVID19Seattle@gmail.com).
+          mistake in our pattern, please [email us directly so we can take a
+          look](mailto:director@craftersunited.org).
   - name: Distribution & Collection
     faq:
       - q: How can I get supplies?
