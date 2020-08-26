@@ -154,16 +154,19 @@
                    >
           </label>
           <script>
-            (function(){
-              var $other_checkbox = document.getElementById("field-{{ name }}-other"),
+            (function(window, document){
+              var $other_radio = document.getElementById("field-{{ name }}-other"),
+                  $other_radios = document.querySelectorAll("[name='{{ name }}']"),
                   $other_field = document.getElementById("field-{{ name }}-other-value"),
                   other_value = '';
               $other_field.disabled = true;
               $other_field.setAttribute( 'aria-hidden', 'true' );
-              $other_checkbox.addEventListener('change', updateOther);
+              $other_radios.forEach(function($radio){
+                $radio.addEventListener('change', updateOther);
+              });
               function updateOther()
               {
-                if ( $other_checkbox.checked )
+                if ( $other_radio.checked )
                 {
                   $other_field.value = other_value;
                   $other_field.disabled = false;
@@ -182,6 +185,7 @@
                   $other_field.value = '';
                 }
               }
+              updateOther();
             }(window, document))
           </script>
         </li>
