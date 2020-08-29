@@ -1,119 +1,9 @@
 {
-  "masks_made": "80,000",
+  "masks_made": "81,000",
   "volunteer_activities": [
     "Cutting"
   ],
   "list": [
-    {
-      "pattern_url": "https://craftersagainstcovid19.org/patterns/fitted-mask/",
-      "start": "2020-07-18",
-      "beneficiaries": "Seattle Veterinary Outreach, Seattle Public Schools Special Ed Classroom",
-      "name": "Batch 38",
-      "cutoff": "2020-07-25",
-      "skill_level": "Intermediate",
-      "pattern_name": "Fitted Mask with Pocket",
-      "end": "2020-08-03",
-      "pickup": "2020-07-27"
-    },
-    {
-      "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
-      "start": "2020-07-21",
-      "beneficiaries": "the GivingHope Project, WA Immigrant Solidarity Network - BOTH KIDS AND ADULTS MASKS",
-      "name": "Batch 39",
-      "cutoff": "2020-07-28",
-      "skill_level": "Beginner",
-      "pattern_name": "Rectangular Surgical-Style Mask",
-      "end": "2020-08-06",
-      "pickup": "2020-07-30"
-    },
-    {
-      "pattern_url": "https://craftersagainstcovid19.org/patterns/fitted-mask/",
-      "start": "2020-07-25",
-      "beneficiaries": "Washington State Veterans Affiars",
-      "name": "Batch 40",
-      "cutoff": "2020-08-01",
-      "skill_level": "Intermediate",
-      "pattern_name": "Fitted Mask with Pocket",
-      "end": "2020-08-10",
-      "pickup": "2020-08-03"
-    },
-    {
-      "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
-      "start": "2020-07-28",
-      "beneficiaries": "The Peacekeeper Society KIDS MASKS ONLY",
-      "name": "Batch 41",
-      "cutoff": "2020-08-04",
-      "skill_level": "Beginner",
-      "pattern_name": "Rectangular Surgical-Style Mask",
-      "end": "2020-08-13",
-      "pickup": "2020-08-06"
-    },
-    {
-      "pattern_url": "https://craftersagainstcovid19.org/patterns/fitted-mask/",
-      "start": "2020-08-01",
-      "beneficiaries": "Washington State Veterans Affairs",
-      "name": "Batch 42",
-      "cutoff": "2020-08-08",
-      "skill_level": "Intermediate",
-      "pattern_name": "Fitted Mask with Pocket",
-      "end": "2020-08-17",
-      "pickup": "2020-08-10"
-    },
-    {
-      "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
-      "start": "2020-08-04",
-      "beneficiaries": "The Peacekeeper Society KIDS MASKS ONLY",
-      "name": "Batch 43",
-      "cutoff": "2020-08-11",
-      "skill_level": "Beginner",
-      "pattern_name": "Rectangular Surgical-Style Mask",
-      "end": "2020-08-20",
-      "pickup": "2020-08-13"
-    },
-    {
-      "pattern_url": "https://craftersagainstcovid19.org/patterns/fitted-mask/",
-      "start": "2020-08-08",
-      "beneficiaries": "Native American Boarding School Healing Coalition",
-      "name": "Batch 44",
-      "cutoff": "2020-08-15",
-      "skill_level": "Intermediate",
-      "pattern_name": "Fitted Mask with Pocket",
-      "end": "2020-08-24",
-      "pickup": "2020-08-17"
-    },
-    {
-      "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
-      "start": "2020-08-11",
-      "beneficiaries": "International Rescue Committee KIDS MASKS ONLY",
-      "name": "Batch 45",
-      "cutoff": "2020-08-18",
-      "skill_level": "Beginner",
-      "pattern_name": "Rectangular Surgical-Style Mask",
-      "end": "2020-08-27",
-      "pickup": "2020-08-20"
-    },
-    {
-      "pattern_url": "https://craftersagainstcovid19.org/patterns/fitted-mask/",
-      "start": "2020-08-15",
-      "beneficiaries": "Sound Employment Services",
-      "name": "Batch 46",
-      "cutoff": "2020-08-22",
-      "skill_level": "Intermediate",
-      "pattern_name": "Fitted Mask with Pocket",
-      "end": "2020-08-31",
-      "pickup": "2020-08-24"
-    },
-    {
-      "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
-      "start": "2020-08-18",
-      "beneficiaries": "WashMask (Yakima Farmworkers)",
-      "name": "Batch 47",
-      "cutoff": "2020-08-25",
-      "skill_level": "Beginner",
-      "pattern_name": "Rectangular Surgical-Style Mask",
-      "end": "2020-09-03",
-      "pickup": "2020-08-27"
-    },
     {
       "name": "Batch 48",
       "pattern_name": "Fitted Mask with Pocket",
@@ -125,34 +15,37 @@
       "skill_level": "Intermediate"
     },
     {
-      "name": "Batch 49",
-      "pattern_name": "Rectangular Surgical-Style Mask",
       "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
       "start": "2020-08-25",
+      "beneficiaries": "HeatlhPoint (KIDS ONLY)",
+      "name": "Batch 49",
       "cutoff": "2020-09-01",
-      "pickup": "2020-09-03",
+      "skill_level": "Beginner",
+      "pattern_name": "Rectangular Surgical-Style Mask",
       "end": "2020-09-10",
-      "skill_level": "Beginner"
+      "pickup": "2020-09-03"
     },
     {
-      "name": "Batch 50",
-      "pattern_name": "Fitted Mask with Pocket",
       "pattern_url": "https://craftersagainstcovid19.org/patterns/fitted-mask/",
       "start": "2020-08-29",
+      "beneficiaries": "Washington State Veteran's Affairs",
+      "name": "Batch 50",
       "cutoff": "2020-09-05",
-      "pickup": "2020-09-07",
+      "skill_level": "Intermediate",
+      "pattern_name": "Fitted Mask with Pocket",
       "end": "2020-09-14",
-      "skill_level": "Intermediate"
+      "pickup": "2020-09-07"
     },
     {
-      "name": "Batch 51",
-      "pattern_name": "Rectangular Surgical-Style Mask",
       "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
       "start": "2020-09-01",
+      "beneficiaries": "Seattle Housing Authority (KIDS ONLY)",
+      "name": "Batch 51",
       "cutoff": "2020-09-08",
-      "pickup": "2020-09-10",
+      "skill_level": "Beginner",
+      "pattern_name": "Rectangular Surgical-Style Mask",
       "end": "2020-09-17",
-      "skill_level": "Beginner"
+      "pickup": "2020-09-10"
     }
   ]
 }
