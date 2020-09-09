@@ -17,7 +17,7 @@
     {
       "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
       "start": "2020-08-25",
-      "beneficiaries": "HeatlhPoint (KIDS ONLY)",
+      "beneficiaries": "HealthPoint (KIDS ONLY)",
       "name": "Batch 49",
       "cutoff": "2020-09-01",
       "skill_level": "Beginner",
@@ -46,6 +46,26 @@
       "pattern_name": "Rectangular Surgical-Style Mask",
       "end": "2020-09-17",
       "pickup": "2020-09-10"
+    },
+    {
+      "name": "Batch 52",
+      "pattern_name": "Fitted Mask with Pocket",
+      "pattern_url": "https://craftersagainstcovid19.org/patterns/fitted-mask/",
+      "start": "2020-09-05",
+      "cutoff": "2020-09-12",
+      "pickup": "2020-09-14",
+      "end": "2020-09-21",
+      "skill_level": "Intermediate"
+    },
+    {
+      "name": "Batch 53",
+      "pattern_name": "Rectangular Surgical-Style Mask",
+      "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
+      "start": "2020-09-08",
+      "cutoff": "2020-09-15",
+      "pickup": "2020-09-17",
+      "end": "2020-09-24",
+      "skill_level": "Beginner"
     }
   ]
 }
