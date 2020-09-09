@@ -66,6 +66,26 @@
       "pickup": "2020-09-17",
       "end": "2020-09-24",
       "skill_level": "Beginner"
+    },
+    {
+      "name": "Batch 54",
+      "pattern_name": "Fitted Mask with Pocket",
+      "pattern_url": "https://craftersagainstcovid19.org/patterns/fitted-mask/",
+      "start": "2020-09-12",
+      "cutoff": "2020-09-19",
+      "pickup": "2020-09-21",
+      "end": "2020-09-28",
+      "skill_level": "Intermediate"
+    },
+    {
+      "name": "Batch 55",
+      "pattern_name": "Rectangular Surgical-Style Mask",
+      "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
+      "start": "2020-09-15",
+      "cutoff": "2020-09-22",
+      "pickup": "2020-09-24",
+      "end": "2020-10-01",
+      "skill_level": "Beginner"
     }
   ]
 }
