@@ -9,13 +9,16 @@
     <article class="[ post ] [ h-entry ]">
       {% include "partials/components/intro.njk" %}
       <div class="[ post__body ] [ inner-wrapper ] [ leading-loose pad-top-900 pad-bottom-900 text-500 ] [ sf-flow ] [ e-content ]">
-        <div class="video-player">
-          <iframe id="player" type="text/html"
-                  width="792" height="482"
-                  src="https://www.youtube-nocookie.com/embed/{{ video }}"
-                  frameborder="0"
-                  ></iframe>
-        </div>
+
+        {% if video %}
+          <div class="video-player">
+            <iframe id="player" type="text/html"
+                    width="792" height="482"
+                    src="https://www.youtube-nocookie.com/embed/{{ video }}"
+                    frameborder="0"
+                    ></iframe>
+          </div>
+        {% end %}
         
         {{ content | safe }}
 
