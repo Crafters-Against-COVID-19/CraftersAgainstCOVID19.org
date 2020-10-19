@@ -93,7 +93,7 @@
     {
       "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
       "start": "2020-10-13",
-      "beneficiaries": "Monroe Correctional Complex",
+      "beneficiaries": "Family First Community Center Foundation",
       "name": "Batch 63",
       "cutoff": "2020-10-20",
       "skill_level": "Beginner",
@@ -104,7 +104,7 @@
     {
       "pattern_url": "https://craftersagainstcovid19.org/patterns/fitted-mask/",
       "start": "2020-10-17",
-      "beneficiaries": "Monroe Correctional Complex NO WIRES",
+      "beneficiaries": "",
       "name": "Batch 64",
       "cutoff": "2020-10-24",
       "skill_level": "Intermediate",
@@ -113,14 +113,15 @@
       "pickup": "2020-10-27"
     },
     {
-      "name": "Batch 65",
-      "pattern_name": "Rectangular Surgical-Style Mask",
       "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
       "start": "2020-10-20",
+      "beneficiaries": "Family First Community Center Foundation",
+      "name": "Batch 65",
       "cutoff": "2020-10-27",
-      "pickup": "2020-10-22",
-      "end": "2020-10-29",
-      "skill_level": "Beginner"
+      "skill_level": "Beginner",
+      "pattern_name": "Rectangular Surgical-Style Mask",
+      "end": "2020-11-05",
+      "pickup": "2020-10-29"
     },
     {
       "name": "Batch 66",
