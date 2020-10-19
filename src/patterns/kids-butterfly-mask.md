@@ -1,8 +1,8 @@
 ---
 title: Kids Butterfly Mask
-description: 3D mask for kiddos large and small.
+description: "3D mask for kiddos large and small."
 pdf: /images/kids-butterfly-mask.pdf
-skill_level: Intermediate
+skill_level: Beginner
 ---
 
 This mask is made of two layers of fabric and is adaptable to different head attachment options. If you are making these for a Crafters United batch, please make the size and attachment style specifically noted in the sign up. If none is noted that means we need a variety. In this case please make 12 of one size and 13 of the other, and use the attachment style your kids like best.
@@ -35,7 +35,7 @@ For 25 masks:
 
 ### Top and Bottom Seams
 
-![](/images/kids-butterfly-mask-1.png)
+![](/images/kids-butterfly-mask-1.jpg)
 
 1. Cut two pattern pieces from cotton. If you are using two matching pieces inside and outside fold fabric right sides together and cut.
 
@@ -46,12 +46,12 @@ backstitch. Repeat along the bottom edge. Turn fabric right way out through the 
 
 **Pivoting**: To pivot while sewing a seam sew until you’ve come to the corner of the stitching line. Put your needle down and raise your presser foot, then move rotate your fabric until you’re lined up with the next part of the stitching line. Put your presser foot back down and continue sewing.
 
-###  Making Wire Pocket
+### Making Wire Pocket
 
-![](/images/kids-butterfly-mask-2.png)
-![](/images/kids-butterfly-mask-3.png)
-![](/images/kids-butterfly-mask-4.png)
-![](/images/kids-butterfly-mask-5.png)
+![](/images/kids-butterfly-mask-2.jpg)
+![](/images/kids-butterfly-mask-3.jpg)
+![](/images/kids-butterfly-mask-4.jpg)
+![](/images/kids-butterfly-mask-5.jpg)
 
 3. Fold you mask in half, and mark 1 ½" from the fold on both sides of the fabric (I’ve marked this with pins), creating a 3" center section.
 4. Starting at the first mark, perpendicular to the sewn edge, sew to 4 stitches, stopping about ⅜" from where you started. Backstitch this entire section. Then, pivot until the machine foot is parallel to the sewn edge. Sewn for 3" until you reach the next mark, then
@@ -63,17 +63,17 @@ backstitch. Clip these threads before the next step so they don’t get into you
 
 ### Adding Horizontal Folds
 
-![](/images/kids-butterfly-mask-6.png)
-![](/images/kids-butterfly-mask-7.png)
-![](/images/kids-butterfly-mask-8.png)
+![](/images/kids-butterfly-mask-6.jpg)
+![](/images/kids-butterfly-mask-7.jpg)
+![](/images/kids-butterfly-mask-8.jpg)
 
 7. Align sewn piece on top of your printed pattern with the inside face up, lining up with the dashed inner line. Fold along dashed horizontal line and pin in the middle as shown.
 8. Stitch horizontally across the mask along the top, ⅛" or less from folded edge. Repeat on the bottom folded edge.<br><br>Stitching doesn’t need a backstitch because the ends will be rolled into the attachment casings in the next step.
 
 ### Making the Mask 3D
 
-![](/images/kids-butterfly-mask-9.png)
-![](/images/kids-butterfly-mask-10.png)
+![](/images/kids-butterfly-mask-9.jpg)
+![](/images/kids-butterfly-mask-10.jpg)
 
 **Quick Tip:** Step 9 is where the mask becomes 3D, and therefore it’s a little fiddly, but I promise it’s actually easy once you see the fold. If you can’t tell from these instructions how to fold, make sure to watch the video on our YouTube.
 
@@ -83,10 +83,10 @@ backstitch. Clip these threads before the next step so they don’t get into you
 
 ### Head Attachment Options and Casing
 
-![](/images/kids-butterfly-mask-11.png)
-![](/images/kids-butterfly-mask-12.png)
-![](/images/kids-butterfly-mask-13.png)
-![](/images/kids-butterfly-mask-14.png)
+![](/images/kids-butterfly-mask-11.jpg)
+![](/images/kids-butterfly-mask-12.jpg)
+![](/images/kids-butterfly-mask-13.jpg)
+![](/images/kids-butterfly-mask-14.jpg)
 
 10. Place head attachment material centered along the short cut edge of the mask (a). Double turn twice to create a casing around the material (b). This casing should butt against the pleats you made in Step 10 without overlapping them, and allow your attachment material to move through freely. It may be helpful to roll your material lengthwise if it is wide.
 
