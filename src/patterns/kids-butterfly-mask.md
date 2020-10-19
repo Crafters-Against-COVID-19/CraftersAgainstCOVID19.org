@@ -35,11 +35,11 @@ For 25 masks:
 
 ### Top and Bottom Seams
 
-![](/images/kids-butterfly-mask-1.jpg)
-
 1. Cut two pattern pieces from cotton. If you are using two matching pieces inside and outside fold fabric right sides together and cut.
 
 **Quick Tip:** Pressing and steaming your fabric together after cutting helps keep your pieces together during sewing without pins.
+
+![](/images/kids-butterfly-mask-1.jpg)
 
 2. Sew along the top edge, starting at the diagonal cut and stopping to pivot when you get to the corners. Start and stop your stitch with a
 backstitch. Repeat along the bottom edge. Turn fabric right way out through the open sides. Roll the seams between your fingers to get the seams fully open. Press.
@@ -49,14 +49,18 @@ backstitch. Repeat along the bottom edge. Turn fabric right way out through the 
 ### Making Wire Pocket
 
 ![](/images/kids-butterfly-mask-2.jpg)
-![](/images/kids-butterfly-mask-3.jpg)
-![](/images/kids-butterfly-mask-4.jpg)
-![](/images/kids-butterfly-mask-5.jpg)
 
 3. Fold you mask in half, and mark 1 ½" from the fold on both sides of the fabric (I’ve marked this with pins), creating a 3" center section.
+
+![](/images/kids-butterfly-mask-3.jpg)
+![](/images/kids-butterfly-mask-4.jpg)
+
 4. Starting at the first mark, perpendicular to the sewn edge, sew to 4 stitches, stopping about ⅜" from where you started. Backstitch this entire section. Then, pivot until the machine foot is parallel to the sewn edge. Sewn for 3" until you reach the next mark, then
 backstitch. Clip these threads before the next step so they don’t get into your machine.
 5. Slide wire between the layers and into the opening you just stitched.
+
+![](/images/kids-butterfly-mask-5.jpg)
+
 6. Starting perpendicular to the finished edge, stitch down to the parallel stitching you did in Step 5, closing the wire opening. Backstitch the full length.
 
 **Quick Tip** Try to slightly cross the backstitching from Step 5, so there are no openings for the wire to escape through.
@@ -64,10 +68,12 @@ backstitch. Clip these threads before the next step so they don’t get into you
 ### Adding Horizontal Folds
 
 ![](/images/kids-butterfly-mask-6.jpg)
+
+7. Align sewn piece on top of your printed pattern with the inside face up, lining up with the dashed inner line. Fold along dashed horizontal line and pin in the middle as shown.
+
 ![](/images/kids-butterfly-mask-7.jpg)
 ![](/images/kids-butterfly-mask-8.jpg)
 
-7. Align sewn piece on top of your printed pattern with the inside face up, lining up with the dashed inner line. Fold along dashed horizontal line and pin in the middle as shown.
 8. Stitch horizontally across the mask along the top, ⅛" or less from folded edge. Repeat on the bottom folded edge.<br><br>Stitching doesn’t need a backstitch because the ends will be rolled into the attachment casings in the next step.
 
 ### Making the Mask 3D
@@ -83,19 +89,22 @@ backstitch. Clip these threads before the next step so they don’t get into you
 
 ### Head Attachment Options and Casing
 
-![](/images/kids-butterfly-mask-11.jpg)
-![](/images/kids-butterfly-mask-12.jpg)
-![](/images/kids-butterfly-mask-13.jpg)
-![](/images/kids-butterfly-mask-14.jpg)
-
 10. Place head attachment material centered along the short cut edge of the mask (a). Double turn twice to create a casing around the material (b). This casing should butt against the pleats you made in Step 10 without overlapping them, and allow your attachment material to move through freely. It may be helpful to roll your material lengthwise if it is wide.
 
 ### Finishing
 
+![](/images/kids-butterfly-mask-11.jpg)
+
 * **Earloops only**
   * **for personal masks:** Turn earloops so the knots are inside the casings.
   * **for donated masks:** Leave knots out so they can be easily adapted by the wearer.
+
+![](/images/kids-butterfly-mask-12.jpg)
+
 * **Headties only:** Knot your headtie in a loose slip know so he tie will remain in place until the recipient can tie it to their size.
+
+![](/images/kids-butterfly-mask-13.jpg)
+![](/images/kids-butterfly-mask-14.jpg)
 
 ----
 
