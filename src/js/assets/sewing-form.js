@@ -73,10 +73,32 @@
       }
     }
   }
+  function disableUnusedPatterns()
+  {
+    var patterns = [];
+    open_batches.forEach(function( batch ){
+      var pattern = batch.pattern_name;
+      if ( patterns.indexOf( pattern ) < 0 )
+      {
+        patterns.push( pattern );
+      }
+    });
+    $pattern.querySelectorAll('option').forEach(function( $option ){
+      if ( patterns.indexOf( $option.value ) < 0 )
+      {
+        $option.disabled = true;
+      }
+      else
+      {
+        $option.disabled = false;
+      }
+    });
+  }
   function update()
   {
     updateOpenBatches();
     updateDisplayBatches();
+    disableUnusedPatterns();
     setBatchDetails();
   }
 
