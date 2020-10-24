@@ -54,8 +54,8 @@ Please Note:
 ![](/images/fitted-mask-2.png)
 
 3. Sew center curves of outer layers, right sides together. Sew center curves of lining layers, right sides together. 
-4.  Clip the curved seam at about ½" intervals but not down to the seam.
-5.  Flip around to the right side, open flat. Fold seam allowance over to one side and top stitch down (for both lining and outer layer).
+4. Clip the curved seam at about ½" intervals but not down to the seam.
+5. Flip around to the right side, open flat. Fold seam allowance over to one side and top stitch down (for both lining and outer layer).
 
 ### Interior details
 
