@@ -6,17 +6,6 @@
   ],
   "list": [
     {
-      "pattern_url": "https://craftersagainstcovid19.org/patterns/fitted-mask/",
-      "start": "2020-10-17",
-      "beneficiaries": "",
-      "name": "Batch 64",
-      "cutoff": "2020-10-24",
-      "skill_level": "Intermediate",
-      "pattern_name": "Fitted Mask with Pocket",
-      "end": "2020-11-03",
-      "pickup": "2020-10-27"
-    },
-    {
       "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
       "start": "2020-10-20",
       "beneficiaries": "Family First Community Center Foundation",
@@ -59,6 +48,116 @@
       "pattern_name": "Fitted Mask with Pocket",
       "end": "2020-11-16",
       "pickup": "2020-11-09"
+    },
+    {
+      "name": "Batch 69",
+      "pattern_name": "Rectangular Surgical-Style Mask",
+      "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
+      "start": "2020-11-03",
+      "cutoff": "2020-11-10",
+      "pickup": "2020-11-12",
+      "end": "2020-11-19",
+      "skill_level": "Beginner"
+    },
+    {
+      "name": "Batch 70",
+      "pattern_name": "Fitted Mask with Pocket",
+      "pattern_url": "https://craftersagainstcovid19.org/patterns/fitted-mask/",
+      "start": "2020-11-07",
+      "cutoff": "2020-11-14",
+      "pickup": "2020-11-16",
+      "end": "2020-11-23",
+      "skill_level": "Intermediate"
+    },
+    {
+      "name": "Batch 71",
+      "pattern_name": "Rectangular Surgical-Style Mask",
+      "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
+      "start": "2020-11-10",
+      "cutoff": "2020-11-17",
+      "pickup": "2020-11-19",
+      "end": "2020-11-26",
+      "skill_level": "Beginner"
+    },
+    {
+      "name": "Batch 72",
+      "pattern_name": "Fitted Mask with Pocket",
+      "pattern_url": "https://craftersagainstcovid19.org/patterns/fitted-mask/",
+      "start": "2020-11-14",
+      "cutoff": "2020-11-21",
+      "pickup": "2020-11-23",
+      "end": "2020-11-30",
+      "skill_level": "Intermediate"
+    },
+    {
+      "name": "Batch 73",
+      "pattern_name": "Rectangular Surgical-Style Mask",
+      "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
+      "start": "2020-11-17",
+      "cutoff": "2020-11-24",
+      "pickup": "2020-11-26",
+      "end": "2020-12-03",
+      "skill_level": "Beginner"
+    },
+    {
+      "name": "Batch 74",
+      "pattern_name": "Fitted Mask with Pocket",
+      "pattern_url": "https://craftersagainstcovid19.org/patterns/fitted-mask/",
+      "start": "2020-11-21",
+      "cutoff": "2020-11-28",
+      "pickup": "2020-11-30",
+      "end": "2020-12-07",
+      "skill_level": "Intermediate"
+    },
+    {
+      "name": "Batch 75",
+      "pattern_name": "Rectangular Surgical-Style Mask",
+      "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
+      "start": "2020-11-24",
+      "cutoff": "2020-12-01",
+      "pickup": "2020-12-03",
+      "end": "2020-12-10",
+      "skill_level": "Beginner"
+    },
+    {
+      "name": "Batch 76",
+      "pattern_name": "Fitted Mask with Pocket",
+      "pattern_url": "https://craftersagainstcovid19.org/patterns/fitted-mask/",
+      "start": "2020-11-28",
+      "cutoff": "2020-12-05",
+      "pickup": "2020-12-07",
+      "end": "2020-12-14",
+      "skill_level": "Intermediate"
+    },
+    {
+      "name": "Batch 77",
+      "pattern_name": "Rectangular Surgical-Style Mask",
+      "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
+      "start": "2020-12-01",
+      "cutoff": "2020-12-08",
+      "pickup": "2020-12-10",
+      "end": "2020-12-17",
+      "skill_level": "Beginner"
+    },
+    {
+      "name": "Batch 78",
+      "pattern_name": "Fitted Mask with Pocket",
+      "pattern_url": "https://craftersagainstcovid19.org/patterns/fitted-mask/",
+      "start": "2020-12-05",
+      "cutoff": "2020-12-12",
+      "pickup": "2020-12-14",
+      "end": "2020-12-21",
+      "skill_level": "Intermediate"
+    },
+    {
+      "name": "Batch 79",
+      "pattern_name": "Rectangular Surgical-Style Mask",
+      "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
+      "start": "2020-12-08",
+      "cutoff": "2020-12-15",
+      "pickup": "2020-12-17",
+      "end": "2020-12-24",
+      "skill_level": "Beginner"
     }
   ]
 }
