@@ -6,102 +6,6 @@
   ],
   "list": [
     {
-      "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
-      "start": "2020-09-15",
-      "beneficiaries": "Monroe Correctional Complex (Adult masks only)",
-      "name": "Batch 55",
-      "cutoff": "2020-09-22",
-      "skill_level": "Beginner",
-      "pattern_name": "Rectangular Surgical-Style Mask",
-      "end": "2020-10-01",
-      "pickup": "2020-09-24"
-    },
-    {
-      "name": "Batch 56",
-      "pattern_name": "Fitted Mask with Pocket",
-      "pattern_url": "https://craftersagainstcovid19.org/patterns/fitted-mask/",
-      "start": "2020-09-19",
-      "cutoff": "2020-09-26",
-      "pickup": "2020-09-28",
-      "end": "2020-10-05",
-      "skill_level": "Intermediate"
-    },
-    {
-      "name": "Batch 57",
-      "pattern_name": "Rectangular Surgical-Style Mask",
-      "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
-      "start": "2020-09-22",
-      "cutoff": "2020-09-29",
-      "pickup": "2020-10-01",
-      "end": "2020-10-08",
-      "skill_level": "Beginner"
-    },
-    {
-      "name": "Batch 58",
-      "pattern_name": "Fitted Mask with Pocket",
-      "pattern_url": "https://craftersagainstcovid19.org/patterns/fitted-mask/",
-      "start": "2020-09-26",
-      "cutoff": "2020-10-03",
-      "pickup": "2020-10-05",
-      "end": "2020-10-12",
-      "skill_level": "Intermediate"
-    },
-    {
-      "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
-      "start": "2020-09-29",
-      "beneficiaries": "Monroe Correctional Complex",
-      "name": "Batch 59",
-      "cutoff": "2020-10-06",
-      "skill_level": "Beginner",
-      "pattern_name": "Rectangular Surgical-Style Mask",
-      "end": "2020-10-15",
-      "pickup": "2020-10-08"
-    },
-    {
-      "pattern_url": "https://craftersagainstcovid19.org/patterns/fitted-mask/",
-      "start": "2020-10-03",
-      "beneficiaries": "Monroe Correctional Complex NO WIRES",
-      "name": "Batch 60",
-      "cutoff": "2020-10-10",
-      "skill_level": "Intermediate",
-      "pattern_name": "Fitted Mask with Pocket",
-      "end": "2020-10-19",
-      "pickup": "2020-10-12"
-    },
-    {
-      "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
-      "start": "2020-10-06",
-      "beneficiaries": "Monroe Correctional Complex",
-      "name": "Batch 61",
-      "cutoff": "2020-10-13",
-      "skill_level": "Beginner",
-      "pattern_name": "Rectangular Surgical-Style Mask",
-      "end": "2020-10-22",
-      "pickup": "2020-10-15"
-    },
-    {
-      "pattern_url": "https://craftersagainstcovid19.org/patterns/fitted-mask/",
-      "start": "2020-10-10",
-      "beneficiaries": "Monroe Correctional Complex NO WIRES",
-      "name": "Batch 62",
-      "cutoff": "2020-10-17",
-      "skill_level": "Intermediate",
-      "pattern_name": "Fitted Mask with Pocket",
-      "end": "2020-10-26",
-      "pickup": "2020-10-19"
-    },
-    {
-      "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
-      "start": "2020-10-13",
-      "beneficiaries": "Family First Community Center Foundation",
-      "name": "Batch 63",
-      "cutoff": "2020-10-20",
-      "skill_level": "Beginner",
-      "pattern_name": "Rectangular Surgical-Style Mask",
-      "end": "2020-10-29",
-      "pickup": "2020-10-22"
-    },
-    {
       "pattern_url": "https://craftersagainstcovid19.org/patterns/fitted-mask/",
       "start": "2020-10-17",
       "beneficiaries": "",
@@ -124,34 +28,37 @@
       "pickup": "2020-10-29"
     },
     {
-      "name": "Batch 66",
-      "pattern_name": "Fitted Mask with Pocket",
       "pattern_url": "https://craftersagainstcovid19.org/patterns/fitted-mask/",
       "start": "2020-10-24",
+      "beneficiaries": "Operation Nightwatch",
+      "name": "Batch 66",
       "cutoff": "2020-10-31",
-      "pickup": "2020-11-02",
+      "skill_level": "Intermediate",
+      "pattern_name": "Fitted Mask with Pocket",
       "end": "2020-11-09",
-      "skill_level": "Intermediate"
+      "pickup": "2020-11-02"
     },
     {
-      "name": "Batch 67",
-      "pattern_name": "Rectangular Surgical-Style Mask",
       "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
       "start": "2020-10-27",
+      "beneficiaries": "Family First Community Foundation",
+      "name": "Batch 67",
       "cutoff": "2020-11-03",
-      "pickup": "2020-11-05",
+      "skill_level": "Beginner",
+      "pattern_name": "Rectangular Surgical-Style Mask",
       "end": "2020-11-12",
-      "skill_level": "Beginner"
+      "pickup": "2020-11-05"
     },
     {
-      "name": "Batch 68",
-      "pattern_name": "Fitted Mask with Pocket",
       "pattern_url": "https://craftersagainstcovid19.org/patterns/fitted-mask/",
       "start": "2020-10-31",
+      "beneficiaries": "Providence Mount St. Vincent",
+      "name": "Batch 68",
       "cutoff": "2020-11-07",
-      "pickup": "2020-11-09",
+      "skill_level": "Intermediate",
+      "pattern_name": "Fitted Mask with Pocket",
       "end": "2020-11-16",
-      "skill_level": "Intermediate"
+      "pickup": "2020-11-09"
     }
   ]
 }
