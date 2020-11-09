@@ -52,7 +52,7 @@
     {
       "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
       "start": "2020-11-03",
-      "beneficiaries": "H.O.P.E. Center Resources",
+      "beneficiaries": "H.O.P.E. Center Resources (kid's masks only please)",
       "name": "Batch 69",
       "cutoff": "2020-11-10",
       "skill_level": "Beginner",
@@ -61,14 +61,15 @@
       "pickup": "2020-11-12"
     },
     {
-      "name": "Batch 70",
-      "pattern_name": "Fitted Mask with Pocket",
       "pattern_url": "https://craftersagainstcovid19.org/patterns/fitted-mask/",
       "start": "2020-11-07",
+      "beneficiaries": "Evergreen Treatment Services",
+      "name": "Batch 70",
       "cutoff": "2020-11-14",
-      "pickup": "2020-11-16",
+      "skill_level": "Intermediate",
+      "pattern_name": "Fitted Mask with Pocket",
       "end": "2020-11-23",
-      "skill_level": "Intermediate"
+      "pickup": "2020-11-16"
     },
     {
       "name": "Batch 71",
