@@ -7,50 +7,6 @@
   "list": [
     {
       "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
-      "start": "2020-10-20",
-      "beneficiaries": "Family First Community Center Foundation",
-      "name": "Batch 65",
-      "cutoff": "2020-10-27",
-      "skill_level": "Beginner",
-      "pattern_name": "Rectangular Surgical-Style Mask",
-      "end": "2020-11-05",
-      "pickup": "2020-10-29"
-    },
-    {
-      "pattern_url": "https://craftersagainstcovid19.org/patterns/fitted-mask/",
-      "start": "2020-10-24",
-      "beneficiaries": "Operation Nightwatch",
-      "name": "Batch 66",
-      "cutoff": "2020-10-31",
-      "skill_level": "Intermediate",
-      "pattern_name": "Fitted Mask with Pocket",
-      "end": "2020-11-09",
-      "pickup": "2020-11-02"
-    },
-    {
-      "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
-      "start": "2020-10-27",
-      "beneficiaries": "Family First Community Foundation",
-      "name": "Batch 67",
-      "cutoff": "2020-11-03",
-      "skill_level": "Beginner",
-      "pattern_name": "Rectangular Surgical-Style Mask",
-      "end": "2020-11-12",
-      "pickup": "2020-11-05"
-    },
-    {
-      "pattern_url": "https://craftersagainstcovid19.org/patterns/fitted-mask/",
-      "start": "2020-10-31",
-      "beneficiaries": "Providence Mount St. Vincent",
-      "name": "Batch 68",
-      "cutoff": "2020-11-07",
-      "skill_level": "Intermediate",
-      "pattern_name": "Fitted Mask with Pocket",
-      "end": "2020-11-16",
-      "pickup": "2020-11-09"
-    },
-    {
-      "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
       "start": "2020-11-03",
       "beneficiaries": "H.O.P.E. Center Resources (kid's masks only please)",
       "name": "Batch 69",
@@ -63,103 +19,90 @@
     {
       "pattern_url": "https://craftersagainstcovid19.org/patterns/fitted-mask/",
       "start": "2020-11-07",
-      "beneficiaries": "Evergreen Treatment Services",
+      "beneficiaries": "Evergreen Treatment Services (Fall Holiday Signup. Please sign up for 2 weeks of masks!)",
       "name": "Batch 70",
       "cutoff": "2020-11-14",
       "skill_level": "Intermediate",
       "pattern_name": "Fitted Mask with Pocket",
-      "end": "2020-11-23",
+      "end": "2020-11-30",
       "pickup": "2020-11-16"
     },
     {
-      "name": "Batch 71",
-      "pattern_name": "Rectangular Surgical-Style Mask",
       "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
       "start": "2020-11-10",
+      "beneficiaries": "Evergreen Treatment Services (Fall Holiday Signup. Please sign up for 2 weeks of masks!)",
+      "name": "Batch 71",
       "cutoff": "2020-11-17",
-      "pickup": "2020-11-19",
-      "end": "2020-11-26",
-      "skill_level": "Beginner"
+      "skill_level": "Beginner",
+      "pattern_name": "Rectangular Surgical-Style Mask",
+      "end": "2020-12-03",
+      "pickup": "2020-11-19"
     },
     {
-      "name": "Batch 72",
-      "pattern_name": "Fitted Mask with Pocket",
       "pattern_url": "https://craftersagainstcovid19.org/patterns/fitted-mask/",
       "start": "2020-11-14",
-      "cutoff": "2020-11-21",
-      "pickup": "2020-11-23",
-      "end": "2020-11-30",
-      "skill_level": "Intermediate"
+      "beneficiaries": "Evergreen Treatment Services",
+      "name": "Batch 72",
+      "cutoff": "2020-11-28",
+      "skill_level": "Intermediate",
+      "pattern_name": "Fitted Mask with Pocket",
+      "end": "2020-12-07",
+      "pickup": "2020-11-30"
     },
     {
-      "name": "Batch 73",
-      "pattern_name": "Rectangular Surgical-Style Mask",
       "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
       "start": "2020-11-17",
-      "cutoff": "2020-11-24",
-      "pickup": "2020-11-26",
-      "end": "2020-12-03",
-      "skill_level": "Beginner"
-    },
-    {
-      "name": "Batch 74",
-      "pattern_name": "Fitted Mask with Pocket",
-      "pattern_url": "https://craftersagainstcovid19.org/patterns/fitted-mask/",
-      "start": "2020-11-21",
-      "cutoff": "2020-11-28",
-      "pickup": "2020-11-30",
-      "end": "2020-12-07",
-      "skill_level": "Intermediate"
-    },
-    {
-      "name": "Batch 75",
-      "pattern_name": "Rectangular Surgical-Style Mask",
-      "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
-      "start": "2020-11-24",
+      "beneficiaries": "Evergreen Treatment Services",
+      "name": "Batch 73",
       "cutoff": "2020-12-01",
-      "pickup": "2020-12-03",
+      "skill_level": "Beginner",
+      "pattern_name": "Rectangular Surgical-Style Mask",
       "end": "2020-12-10",
-      "skill_level": "Beginner"
+      "pickup": "2020-12-03"
     },
     {
-      "name": "Batch 76",
-      "pattern_name": "Fitted Mask with Pocket",
       "pattern_url": "https://craftersagainstcovid19.org/patterns/fitted-mask/",
       "start": "2020-11-28",
+      "beneficiaries": "",
+      "name": "Batch 74",
       "cutoff": "2020-12-05",
-      "pickup": "2020-12-07",
+      "skill_level": "Intermediate",
+      "pattern_name": "Fitted Mask with Pocket",
       "end": "2020-12-14",
-      "skill_level": "Intermediate"
+      "pickup": "2020-12-07"
     },
     {
-      "name": "Batch 77",
-      "pattern_name": "Rectangular Surgical-Style Mask",
       "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
       "start": "2020-12-01",
+      "beneficiaries": "Winter Holiday Signup! Sign up for 1 month worth of mask making.",
+      "name": "Batch 75",
       "cutoff": "2020-12-08",
-      "pickup": "2020-12-10",
+      "skill_level": "Beginner",
+      "pattern_name": "Rectangular Surgical-Style Mask",
       "end": "2020-12-17",
-      "skill_level": "Beginner"
+      "pickup": "2020-12-10"
     },
     {
-      "name": "Batch 78",
-      "pattern_name": "Fitted Mask with Pocket",
       "pattern_url": "https://craftersagainstcovid19.org/patterns/fitted-mask/",
       "start": "2020-12-05",
+      "beneficiaries": "Winter Holiday Signup! Sign up for 1 month worth of mask making.",
+      "name": "Batch 76",
       "cutoff": "2020-12-12",
-      "pickup": "2020-12-14",
-      "end": "2020-12-21",
-      "skill_level": "Intermediate"
+      "skill_level": "Intermediate",
+      "pattern_name": "Fitted Mask with Pocket",
+      "end": "2021-01-04",
+      "pickup": "2020-12-14"
     },
     {
-      "name": "Batch 79",
-      "pattern_name": "Rectangular Surgical-Style Mask",
       "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
       "start": "2020-12-08",
+      "beneficiaries": "Winter Holiday Signup! Sign up for 1 month worth of mask making.",
+      "name": "Batch 77",
       "cutoff": "2020-12-15",
-      "pickup": "2020-12-17",
-      "end": "2020-12-24",
-      "skill_level": "Beginner"
+      "skill_level": "Beginner",
+      "pattern_name": "Rectangular Surgical-Style Mask",
+      "end": "2021-01-04",
+      "pickup": "2020-12-17"
     }
   ]
 }
