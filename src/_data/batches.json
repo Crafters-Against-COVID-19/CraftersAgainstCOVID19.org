@@ -72,94 +72,59 @@
       "pickup": "2020-11-16"
     },
     {
-      "name": "Batch 71",
-      "pattern_name": "Rectangular Surgical-Style Mask",
       "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
       "start": "2020-11-10",
+      "beneficiaries": "Evergreen Treatment Services",
+      "name": "Batch 71",
       "cutoff": "2020-11-17",
-      "pickup": "2020-11-19",
+      "skill_level": "Beginner",
+      "pattern_name": "Rectangular Surgical-Style Mask",
       "end": "2020-11-26",
-      "skill_level": "Beginner"
+      "pickup": "2020-11-19"
     },
     {
-      "name": "Batch 72",
-      "pattern_name": "Fitted Mask with Pocket",
       "pattern_url": "https://craftersagainstcovid19.org/patterns/fitted-mask/",
       "start": "2020-11-14",
-      "cutoff": "2020-11-21",
-      "pickup": "2020-11-23",
-      "end": "2020-11-30",
-      "skill_level": "Intermediate"
+      "beneficiaries": "Evergreen Treatment Services",
+      "name": "Batch 72",
+      "cutoff": "2020-11-28",
+      "skill_level": "Intermediate",
+      "pattern_name": "Fitted Mask with Pocket",
+      "end": "2020-12-07",
+      "pickup": "2020-11-30"
     },
     {
-      "name": "Batch 73",
-      "pattern_name": "Rectangular Surgical-Style Mask",
       "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
       "start": "2020-11-17",
-      "cutoff": "2020-11-24",
-      "pickup": "2020-11-26",
-      "end": "2020-12-03",
-      "skill_level": "Beginner"
-    },
-    {
-      "name": "Batch 74",
-      "pattern_name": "Fitted Mask with Pocket",
-      "pattern_url": "https://craftersagainstcovid19.org/patterns/fitted-mask/",
-      "start": "2020-11-21",
-      "cutoff": "2020-11-28",
-      "pickup": "2020-11-30",
-      "end": "2020-12-07",
-      "skill_level": "Intermediate"
-    },
-    {
-      "name": "Batch 75",
-      "pattern_name": "Rectangular Surgical-Style Mask",
-      "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
-      "start": "2020-11-24",
+      "beneficiaries": "Evergreen Treatment Services",
+      "name": "Batch 73",
       "cutoff": "2020-12-01",
-      "pickup": "2020-12-03",
+      "skill_level": "Beginner",
+      "pattern_name": "Rectangular Surgical-Style Mask",
       "end": "2020-12-10",
-      "skill_level": "Beginner"
+      "pickup": "2020-12-03"
     },
     {
-      "name": "Batch 76",
-      "pattern_name": "Fitted Mask with Pocket",
       "pattern_url": "https://craftersagainstcovid19.org/patterns/fitted-mask/",
       "start": "2020-11-28",
+      "beneficiaries": "Winter Holiday Signup! Sign up for 1 month worth of mask making.",
+      "name": "Batch 74",
       "cutoff": "2020-12-05",
-      "pickup": "2020-12-07",
+      "skill_level": "Intermediate",
+      "pattern_name": "Fitted Mask with Pocket",
       "end": "2020-12-14",
-      "skill_level": "Intermediate"
+      "pickup": "2020-12-07"
     },
     {
-      "name": "Batch 77",
-      "pattern_name": "Rectangular Surgical-Style Mask",
       "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
       "start": "2020-12-01",
+      "beneficiaries": "Winter Holiday Signup! Sign up for 1 month worth of mask making.",
+      "name": "Batch 75",
       "cutoff": "2020-12-08",
-      "pickup": "2020-12-10",
-      "end": "2020-12-17",
-      "skill_level": "Beginner"
-    },
-    {
-      "name": "Batch 78",
-      "pattern_name": "Fitted Mask with Pocket",
-      "pattern_url": "https://craftersagainstcovid19.org/patterns/fitted-mask/",
-      "start": "2020-12-05",
-      "cutoff": "2020-12-12",
-      "pickup": "2020-12-14",
-      "end": "2020-12-21",
-      "skill_level": "Intermediate"
-    },
-    {
-      "name": "Batch 79",
+      "skill_level": "Beginner",
       "pattern_name": "Rectangular Surgical-Style Mask",
-      "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
-      "start": "2020-12-08",
-      "cutoff": "2020-12-15",
-      "pickup": "2020-12-17",
-      "end": "2020-12-24",
-      "skill_level": "Beginner"
+      "end": "2020-12-17",
+      "pickup": "2020-12-10"
     }
   ]
 }
