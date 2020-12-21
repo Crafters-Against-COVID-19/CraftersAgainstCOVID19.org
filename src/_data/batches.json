@@ -1,78 +1,12 @@
 {
   "masks_made": "97,000",
   "volunteer_activities": [
-    "Thank You Package Driver (one time commitment)",
     "Kit Making (ongoing)",
     "Public Relations (ongoing)",
+    "Mask Delivery Driver (ongoing)",
     "Social Media (ongoing)"
   ],
   "list": [
-    {
-      "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
-      "start": "2020-11-03",
-      "beneficiaries": "H.O.P.E. Center Resources (kid's masks only please)",
-      "name": "Batch 69",
-      "cutoff": "2020-11-10",
-      "skill_level": "Beginner",
-      "pattern_name": "Rectangular Surgical-Style Mask",
-      "end": "2020-11-19",
-      "pickup": "2020-11-12"
-    },
-    {
-      "pattern_url": "https://craftersagainstcovid19.org/patterns/fitted-mask/",
-      "start": "2020-11-07",
-      "beneficiaries": "Evergreen Treatment Services (Fall Holiday Signup. Please sign up for 2 weeks of masks!)",
-      "name": "Batch 70",
-      "cutoff": "2020-11-14",
-      "skill_level": "Intermediate",
-      "pattern_name": "Fitted Mask with Pocket",
-      "end": "2020-11-30",
-      "pickup": "2020-11-16"
-    },
-    {
-      "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
-      "start": "2020-11-10",
-      "beneficiaries": "Evergreen Treatment Services (Fall Holiday Signup. Please sign up for 2 weeks of masks!)",
-      "name": "Batch 71",
-      "cutoff": "2020-11-17",
-      "skill_level": "Beginner",
-      "pattern_name": "Rectangular Surgical-Style Mask",
-      "end": "2020-12-03",
-      "pickup": "2020-11-19"
-    },
-    {
-      "pattern_url": "https://craftersagainstcovid19.org/patterns/fitted-mask/",
-      "start": "2020-11-14",
-      "beneficiaries": "Evergreen Treatment Services",
-      "name": "Batch 72",
-      "cutoff": "2020-11-28",
-      "skill_level": "Intermediate",
-      "pattern_name": "Fitted Mask with Pocket",
-      "end": "2020-12-07",
-      "pickup": "2020-11-30"
-    },
-    {
-      "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
-      "start": "2020-11-17",
-      "beneficiaries": "Evergreen Treatment Services",
-      "name": "Batch 73",
-      "cutoff": "2020-12-01",
-      "skill_level": "Beginner",
-      "pattern_name": "Rectangular Surgical-Style Mask",
-      "end": "2020-12-10",
-      "pickup": "2020-12-03"
-    },
-    {
-      "pattern_url": "https://craftersagainstcovid19.org/patterns/fitted-mask/",
-      "start": "2020-11-28",
-      "beneficiaries": "",
-      "name": "Batch 74",
-      "cutoff": "2020-12-05",
-      "skill_level": "Intermediate",
-      "pattern_name": "Fitted Mask with Pocket",
-      "end": "2020-12-14",
-      "pickup": "2020-12-07"
-    },
     {
       "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
       "start": "2020-12-01",
