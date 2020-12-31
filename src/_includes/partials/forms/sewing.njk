@@ -51,9 +51,6 @@
         </div>
       </li>
       <li class="question">
-        {{ radios("Are you or anyone in your home at high risk (immunocompromised, elderly, etc.)?", "risk", [ "Yes", "No" ], { required: true } ) }}
-      </li>
-      <li class="question">
         {% set patterns = [] %}
         {% for pattern in collections.patterns %}
           {% set patterns = ( patterns.push( pattern.data.title ), patterns ) %}
