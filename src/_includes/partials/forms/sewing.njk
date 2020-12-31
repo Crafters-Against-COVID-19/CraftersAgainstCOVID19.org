@@ -2,6 +2,7 @@
 
   {% from "macros.njk" import label, field, confirm, select, radios, hidden_field, checkboxes, textarea, button %}
 
+  {% set patterns = batches.patterns %}
   {% set openBatches = batches.list | openBatchFilter %}
   {% if openBatches.length > 0 %}
     <div class="batch_info">
@@ -11,19 +12,25 @@
         {% for batch in displayBatches %}
           <li class="batch" data-batch-name="{{ batch.name}}" data-batch-cutoff="{{ batch.cutoff }}">
             <h3 class="batch__title">{{ batch.name }}</h3>
-            <dl>
-              <dt>Sign up</dt>
+            <dl class="batch__details">
+              <dt>Sign-up Period</dt>
               <dd><time>{{ batch.start | dayFilter }}</time>–noon, {{ batch.cutoff | dayFilter }}</time></dd>
-              <dt>Kit Pickup</dt>
+              <dt>Materials Available</dt>
               <dd><time>{{ batch.pickup | dayFilter }}</time></dd>
-              <dt>Suggested Completion Date</dt>
+              <dt>Complete By</dt>
               <dd><time>{{ batch.end | dayFilter }}</time></dd>
-              {% if batch.beneficiaries %}
-                <dt>Benefitting</dt>
-                <dd>{{ batch.beneficiaries }}</dd>
-              {% endif %}
-              <dt>Pattern</dt>
-              <dd><a href="{{ batch.pattern_url }}">{{ batch.pattern_name }}</a></dd>
+              <dt>Masks We’re Making</dt>
+              <dd>
+                <ul>
+                  {% for mask in batch.masks %}
+                    {% set pattern = patterns | findByProperty( "id", mask.pattern ) %}
+                    <li>
+                      <a href="{{ pattern.url }}">{{ pattern.name }}</a> for
+                      <a rel="external nofollow" href="{{ mask.beneficiary_url }}">{{ mask.beneficiary }}</a>
+                    </li>
+                  {% endfor %}
+                </ul>
+              </dd>
             </dl>
           </li>
         {% endfor %}
@@ -51,10 +58,6 @@
         </div>
       </li>
       <li class="question">
-        {% set patterns = [] %}
-        {% for pattern in collections.patterns %}
-          {% set patterns = ( patterns.push( pattern.data.title ), patterns ) %}
-        {% endfor %}
         {{ label("Which mask are you signing up for?", "skill") }}
         {{ select( "pattern", patterns | sort, { required: true, description: 'Please <a href="/patterns/">take a look at the patterns</a> before deciding.' } ) }}
         {{ hidden_field( "batch_name", openBatches[0].name ) }}
@@ -100,18 +103,24 @@
       <li class="batch" data-batch-name="{{ batch.name}}" data-batch-cutoff="{{ batch.cutoff }}">
         <h3 class="batch__title">{{ batch.name }}</h3>
         <dl class="batch__details">
-          <dt>Sign up</dt>
-          <dd><time>{{ batch.start | dayFilter }}</time>–noon, {{ batch.cutoff | dayFilter }}</time></dd>
-          <dt>Kit Pickup</dt>
+          <dt>Sign-up Period</dt>
+          <dd><time>{{ batch.start | dayFilter }}</time> – midnight, {{ batch.cutoff | dayFilter }}</time></dd>
+          <dt>Materials Available</dt>
           <dd><time>{{ batch.pickup | dayFilter }}</time></dd>
-          <dt>Suggested Completion Date</dt>
+          <dt>Complete By</dt>
           <dd><time>{{ batch.end | dayFilter }}</time></dd>
-          {% if batch.beneficiaries %}
-            <dt>Benefitting</dt>
-            <dd>{{ batch.beneficiaries }}</dd>
-          {% endif %}
-          <dt>Pattern</dt>
-          <dd><a href="{{ batch.pattern_url }}">{{ batch.pattern_name }}</a></dd>
+          <dt>Masks We’re Making</dt>
+          <dd>
+            <ul>
+              {% for mask in batch.masks %}
+                {% set pattern = patterns | findByProperty( "id", mask.pattern ) %}
+                <li>
+                  <a href="{{ pattern.url }}">{{ pattern.name }}</a> for
+                  <a rel="external nofollow" href="{{ mask.beneficiary_url }}">{{ mask.beneficiary }}</a>
+                </li>
+              {% endfor %}
+            </ul>
+          </dd>
         </dl>
       </li>
     {% endfor %}

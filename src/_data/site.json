@@ -10,5 +10,12 @@
   "enableThirdPartyComments": false,
   "paymentPointer": "",
   "faviconPath": "/images/favicon.png",
-  "maxPostsPerPage": 7
+  "maxPostsPerPage": 7,
+  "masks_made": "100,000",
+  "volunteer_activities": [
+    "Kit Making (ongoing)",
+    "Public Relations (ongoing)",
+    "Mask Delivery Driver (ongoing)",
+    "Social Media (ongoing)"
+  ]
 }

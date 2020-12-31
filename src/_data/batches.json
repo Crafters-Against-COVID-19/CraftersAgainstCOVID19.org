@@ -1,44 +1,48 @@
 {
-  "masks_made": "100,000",
-  "volunteer_activities": [
-    "Kit Making (ongoing)",
-    "Public Relations (ongoing)",
-    "Mask Delivery Driver (ongoing)",
-    "Social Media (ongoing)"
+  "patterns": [
+    {
+      "id": "1",
+      "name": "Rectangular Surgical-Style Mask",
+      "url": "/patterns/surgical-mask/",
+      "level": "Beginner"
+    },
+    {
+      "id": "2",
+      "name": "Fitted Mask with Pocket",
+      "url": "/patterns/fitted-mask/",
+      "level": "Intermediate"
+    },
+    {
+      "id": "3",
+      "name": "Kids Butterfly Mask",
+      "url": "/patterns/kids-butterfly-mask/",
+      "level": "Beginner"
+    }
   ],
   "list": [
     {
-      "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
-      "start": "2020-12-01",
-      "beneficiaries": "Winter Holiday Signup! Sign up for 1 month worth of mask making.",
       "name": "Batch 75",
-      "cutoff": "2020-12-08",
-      "skill_level": "Beginner",
-      "pattern_name": "Rectangular Surgical-Style Mask",
-      "end": "2020-12-17",
-      "pickup": "2020-12-10"
-    },
-    {
-      "pattern_url": "https://craftersagainstcovid19.org/patterns/fitted-mask/",
-      "start": "2020-12-05",
-      "beneficiaries": "Winter Holiday Signup! Sign up for 1 month worth of mask making.",
-      "name": "Batch 76",
-      "cutoff": "2020-12-12",
-      "skill_level": "Intermediate",
-      "pattern_name": "Fitted Mask with Pocket",
-      "end": "2021-01-04",
-      "pickup": "2020-12-14"
-    },
-    {
-      "pattern_url": "https://craftersagainstcovid19.org/patterns/surgical-mask/",
-      "start": "2020-12-08",
-      "beneficiaries": "Winter Holiday Signup! Sign up for 1 month worth of mask making.",
-      "name": "Batch 77",
-      "cutoff": "2020-12-15",
-      "skill_level": "Beginner",
-      "pattern_name": "Rectangular Surgical-Style Mask",
-      "end": "2021-01-04",
-      "pickup": "2020-12-17"
+      "start": "2020-12-30",
+      "cutoff": "2021-01-09",
+      "end": "2020-01-16",
+      "pickup": "2020-01-10",
+      "masks": [
+        {
+          "pattern": "1",
+          "beneficiary": "Organization A",
+          "beneficiary_url": "https://domain.tld"
+        },
+        {
+          "pattern": "2",
+          "beneficiary": "Organization B",
+          "beneficiary_url": "https://domain.tld"
+        },
+        {
+          "pattern": "3",
+          "beneficiary": "Organization C",
+          "beneficiary_url": "https://domain.tld"
+        }
+      ]
     }
   ]
 }

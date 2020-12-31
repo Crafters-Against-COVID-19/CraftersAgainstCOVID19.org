@@ -85,6 +85,23 @@ module.exports = function(config) {
     return array.slice(0, n);
   });
 
+  // Get an item by its id
+  config.addFilter("findByProperty", (array, property, value) => {
+    console.log(array, property, value);
+    var i = array.length;
+    while ( i-- )
+    {
+      if ( property in array[i] &&
+           array[i][property] == value )
+      {
+        console.log( array[i] );
+        return array[i];
+      }
+    }
+
+    return [];
+  });
+
   // Widont
   config.addFilter("widont", function(text) {
     return `${widont( text )}`;
