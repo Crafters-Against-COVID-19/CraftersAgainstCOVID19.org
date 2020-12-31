@@ -24,9 +24,15 @@
                 <ul>
                   {% for mask in batch.masks %}
                     {% set pattern = patterns | findByProperty( "id", mask.pattern ) %}
-                    <li>
+                    <li class="batch__mask"
+                        data-pattern="{{ pattern.name }}"
+                        data-beneficiary="{{ mask.beneficiary }}">
                       <a href="{{ pattern.url }}">{{ pattern.name }}</a> for
-                      <a rel="external nofollow" href="{{ mask.beneficiary_url }}">{{ mask.beneficiary }}</a>
+                      {% if mask.beneficiary_url %}
+                        <a rel="external nofollow" href="{{ mask.beneficiary_url }}">{{ mask.beneficiary }}</a>
+                      {% else %}
+                        {{ mask.beneficiary }}
+                      {% endif %}
                     </li>
                   {% endfor %}
                 </ul>
@@ -115,7 +121,9 @@
             <ul>
               {% for mask in batch.masks %}
                 {% set pattern = patterns | findByProperty( "id", mask.pattern ) %}
-                <li>
+                <li class="batch__mask"
+                    data-pattern="{{ pattern.name }}"
+                    data-beneficiary="{{ mask.beneficiary }}">
                   <a href="{{ pattern.url }}">{{ pattern.name }}</a> for
                   {% if mask.beneficiary_url %}
                     <a rel="external nofollow" href="{{ mask.beneficiary_url }}">{{ mask.beneficiary }}</a>
