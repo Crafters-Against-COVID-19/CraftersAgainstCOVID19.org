@@ -146,8 +146,8 @@ collections:
         delete: false
         file: "src/_data/site.json"
         fields:
-          - { label: "Number of Masks Made", name: "masks_made", widget: "string", required: true }
-          - { label: "Volunteer Activities", name: "volunteer_activities", required: true, widget: "list" }
+          - {label: "Number of Masks Made", name: "masks_made", widget: "string", required: true}
+          - {label: "Volunteer Activities", name: "volunteer_activities", required: true, widget: "list"}
           - {label: "Site Name", name: "name", widget: "string"}
           - {label: "Site Url", name: "url", widget: "string"}
           - {label: "Author Name", name: "authorName", widget: "string"}

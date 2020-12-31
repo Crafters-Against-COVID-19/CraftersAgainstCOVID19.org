@@ -111,7 +111,6 @@ module.exports = function(config) {
         }
       })
     });
-    console.log(array);
     return array;
   });
 
