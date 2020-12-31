@@ -108,19 +108,30 @@ collections:
         name: "batches"
         file: "src/_data/batches.json"
         fields:
+          - label: "Patterns"
+            name: "patterns"
+            widget: "list"
+            fields:
+              - {label: "ID", name: "id", widget: "string", default: "Pick a number", required: true}
+              - {label: "Name", name: "name", widget: "string", default: "Batch X", required: true}
+              - {label: "Pattern URL (leave off the domain)", name: "url", widget: "string", default: "/patterns/fitted-mask/", required: true}
+              - {label: "Skill Level", name: "skill_level", widget: "select", options: ["Beginner", "Intermediate"], required: true }
           - label: "Batches"
             name: "list"
             widget: "list"
             fields:
               - {label: "Name", name: "name", widget: "string", default: "Batch X", required: true}
-              - {label: "Starts On", name: "start", widget: "date", required: true, format: "YYYY-MM-DD"}
-              - {label: "Signup Cutoff", name: "cutoff", widget: "date", required: true, format: "YYYY-MM-DD"}
-              - {label: "Kit Pickup", name: "pickup", widget: "date", required: true, format: "YYYY-MM-DD"}
-              - {label: "Ends On", name: "end", widget: "date", required: true, format: "YYYY-MM-DD"}
-              - {label: "Skill Level", name: "skill_level", widget: "select", options: ["Beginner", "Intermediate"], required: true}
-              - {label: "Pattern Name", name: "pattern_name", widget: "string", default: "Fitted Mask with Pocket", required: true}
-              - {label: "Pattern URL", name: "pattern_url", widget: "string", default: "https://craftersagainstcovid19.org/patterns/fitted-mask/", required: true}
-              - {label: "Beneficiary Info", name: "beneficiaries", widget: "string", required: false}
+              - {label: "Sign-up Start", name: "start", widget: "date", required: true, format: "YYYY-MM-DD"}
+              - {label: "Sign-up Cutoff", name: "cutoff", widget: "date", required: true, format: "YYYY-MM-DD"}
+              - {label: "Materials Available", name: "pickup", widget: "date", required: true, format: "YYYY-MM-DD"}
+              - {label: "Complete By", name: "end", widget: "date", required: true, format: "YYYY-MM-DD"}
+              - label: "Masks"
+                name: "masks"
+                widget: "list"
+                fields: 
+                  - {label: "Pattern ID (see above)", name: "pattern", widget: "string", required: true}
+                  - {label: "Beneficiary Name", name: "beneficiary", widget: "string", required: true}
+                  - {label: "Beneficiary URL", name: "beneficiary_url", widget: "string", required: false}
       - label: "Neighborhoods"
         name: "neighborhoods"
         file: "src/_data/neighborhoods.json"
