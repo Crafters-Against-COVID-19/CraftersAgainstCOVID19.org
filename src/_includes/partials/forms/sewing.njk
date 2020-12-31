@@ -116,7 +116,11 @@
                 {% set pattern = patterns | findByProperty( "id", mask.pattern ) %}
                 <li>
                   <a href="{{ pattern.url }}">{{ pattern.name }}</a> for
-                  <a rel="external nofollow" href="{{ mask.beneficiary_url }}">{{ mask.beneficiary }}</a>
+                  {% if mask.beneficiary_url %}
+                    <a rel="external nofollow" href="{{ mask.beneficiary_url }}">{{ mask.beneficiary }}</a>
+                  {% else %}
+                    {{ mask.beneficiary }}
+                  {% endif %}
                 </li>
               {% endfor %}
             </ul>

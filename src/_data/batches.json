@@ -39,8 +39,7 @@
         },
         {
           "pattern": "3",
-          "beneficiary": "Organization C",
-          "beneficiary_url": "https://domain.tld"
+          "beneficiary": "Organization C"
         }
       ]
     }
