@@ -87,19 +87,32 @@ module.exports = function(config) {
 
   // Get an item by its id
   config.addFilter("findByProperty", (array, property, value) => {
-    console.log(array, property, value);
     var i = array.length;
     while ( i-- )
     {
       if ( property in array[i] &&
            array[i][property] == value )
       {
-        console.log( array[i] );
         return array[i];
       }
     }
 
     return [];
+  });
+
+  // Get an item by its id
+  config.addFilter("findPatterns", ( masks, patterns ) => {
+    var array = [];
+    masks.forEach( mask => {
+      patterns.forEach( pattern => {
+        if ( pattern.id === mask.pattern )
+        {
+          array.push( pattern.name + " (" + mask.beneficiary + ")" );
+        }
+      })
+    });
+    console.log(array);
+    return array;
   });
 
   // Widont
