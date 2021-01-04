@@ -85,6 +85,35 @@ module.exports = function(config) {
     return array.slice(0, n);
   });
 
+  // Get an item by its id
+  config.addFilter("findByProperty", (array, property, value) => {
+    var i = array.length;
+    while ( i-- )
+    {
+      if ( property in array[i] &&
+           array[i][property] == value )
+      {
+        return array[i];
+      }
+    }
+
+    return [];
+  });
+
+  // Get an item by its id
+  config.addFilter("findPatterns", ( masks, patterns ) => {
+    var array = [];
+    masks.forEach( mask => {
+      patterns.forEach( pattern => {
+        if ( pattern.id === mask.pattern )
+        {
+          array.push( pattern.name + " (" + mask.beneficiary + ")" );
+        }
+      })
+    });
+    return array;
+  });
+
   // Widont
   config.addFilter("widont", function(text) {
     return `${widont( text )}`;
