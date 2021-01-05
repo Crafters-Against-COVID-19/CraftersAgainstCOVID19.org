@@ -1,5 +1,5 @@
 ---
-layout: layouts/page.njk # layouts/form.njk
+layout: layouts/form.njk
 title: Volunteer to Sew
 permalink: /volunteer/sewing/index.html
 metaTitle: Volunteer to sew for Crafters Against COVID-19 Seattle
