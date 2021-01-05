@@ -1,9 +1,12 @@
 (function(window, document){
   var $display_batches = document.getElementById("display-batches"),
+      $pattern_picker = document.getElementById("field-pattern-picker"),
       $pattern = document.getElementById("field-pattern"),
       $batch_name = document.getElementById("field-batch_name"),
       $batch_date = document.getElementById("field-batch_date"),
-      $beneficiaries = document.getElementById("field-beneficiaries"),
+      $batch_pickup = document.getElementById("field-batch_pickup"),
+      $beneficiary = document.getElementById("field-beneficiary"),
+      $submit = document.querySelector("button"),
       days = "Sunday Monday Tuesday Wednesday Thursday Friday Saturday".split(" "),
       minute_timer = new Worker('/js/components/minute-timer.js');
 
@@ -45,74 +48,77 @@
       }
     }
     $display_batches.innerHTML = html;
+    
   }
-  function setBatchDetails()
-  {
-    var batches = open_batches,
-        pattern = $pattern.value,
-        count = batches.length,
-        batch,
-        end_date, day, date;
-    while ( count-- )
+  function updateHiddenFields() {
+    var batch = open_batches[0],
+        the_date,
+        day, date;
+    
+    $batch_name.value = batch.name;
+    
+    // end date
+    the_date = batch.end.split('-')
+    // end_date = new Date( batch.end + " 23:59:59 GMT-0700" );
+    the_date.forEach( (value, key) => {
+      the_date[key] = parseInt( value, 10 );
+    });
+    // UTC = +7 hours from Seattle
+    the_date = new Date( Date.UTC( the_date[0], the_date[1] - 1, the_date[2] + 1, 06, 59, 59 ) );
+    day = days[the_date.getDay()];
+    date = ( the_date.getMonth() + 1 ) + "/" + the_date.getDate();
+    $batch_date.value = day + ", " + date;
+
+    // pickup date
+    the_date = batch.pickup.split('-')
+    the_date.forEach( (value, key) => {
+      the_date[key] = parseInt( value, 10 );
+    });
+    // UTC = +7 hours from Seattle
+    the_date = new Date( Date.UTC( the_date[0], the_date[1] - 1, the_date[2] + 1, 06, 59, 59 ) );
+    day = days[the_date.getDay()];
+    date = ( the_date.getMonth() + 1 ) + "/" + the_date.getDate();
+    $batch_pickup.value = day + ", " + date;
+  }
+  function updatePatterns() {
+    var html = "",
+        $masks = $display_batches.querySelector( ".batch" ).querySelectorAll( ".batch__mask" ),
+        i = $masks.length;
+    while ( i-- )
     {
-      batch = batches[count];
-      if ( batch.pattern_name == pattern )
-      {
-        // end_date = new Date( batch.end + " 23:59:59 GMT-0700" );
-        end_date = batch.end.split('-');
-        end_date.forEach( (value, key) => {
-          end_date[key] = parseInt( value, 10 );
-        });
-        // UTC = +7 hours from Seattle
-        end_date = new Date( Date.UTC( end_date[0], end_date[1] - 1, end_date[2] + 1, 06, 59, 59 ) );
-        day = days[end_date.getDay()];
-        date = ( end_date.getMonth() + 1 ) + "/" + end_date.getDate();
-        $batch_name.value = batch.name;
-        $batch_date.value = day + ", " + date;
-        $beneficiaries.value = batch.beneficiaries;
-      }
+      html = "<option>" + $masks[i].dataset.pattern + " (" + $masks[i].dataset.beneficiary + ")</option>" + html;
     }
+    $pattern_picker.innerHTML = html;
   }
-  function disableUnusedPatterns()
+  function setPatternAndBeneficiary()
   {
-    var patterns = [];
-    open_batches.forEach(function( batch ){
-      var pattern = batch.pattern_name;
-      if ( patterns.indexOf( pattern ) < 0 )
-      {
-        patterns.push( pattern );
-      }
-    });
-    $pattern.querySelectorAll('option').forEach(function( $option ){
-      if ( patterns.indexOf( $option.value ) < 0 )
-      {
-        $option.disabled = true;
-      }
-      else
-      {
-        $option.disabled = false;
-      }
-    });
+    var pattern = $pattern_picker.value || $pattern_picker.options[0].value,
+        re = /(.+?)\s\((.+)\)/,
+        parsed = pattern.match( re );
+    $pattern.value = parsed[1];
+    $beneficiary.value = parsed[2];
   }
   function update()
   {
     updateOpenBatches();
     updateDisplayBatches();
-    disableUnusedPatterns();
-    setBatchDetails();
+    updateHiddenFields();
+    updatePatterns();
+    setPatternAndBeneficiary();
   }
 
   window.addEventListener( "DOMContentLoaded", function(){
     // update everything
     update();
     // track changes
-    $pattern.addEventListener("change", setBatchDetails, false);
+    $pattern_picker.addEventListener("change", setPatternAndBeneficiary, false);
     // start the timer
     minute_timer.postMessage("start");
     minute_timer.addEventListener("message", update, false);
     // set the timer stopper
     document.querySelector("form[name=sewing]").addEventListener("submit",function(){
       minute_timer.postMessage("stop");
+      $submit.disabled = true;
       return true;
     });
   }, false);
