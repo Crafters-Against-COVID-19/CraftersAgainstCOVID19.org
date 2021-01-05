@@ -29,17 +29,13 @@
       "masks": [
         {
           "pattern": "1",
-          "beneficiary": "Organization A",
-          "beneficiary_url": "https://domain.tld"
+          "beneficiary": "WASHMasks",
+          "beneficiary_url": "https://www.washmasks.org"
         },
         {
           "pattern": "2",
-          "beneficiary": "Organization B",
-          "beneficiary_url": "https://domain.tld"
-        },
-        {
-          "pattern": "3",
-          "beneficiary": "Organization C"
+          "beneficiary": "Evergreen Treatment Services",
+          "beneficiary_url": "https://www.evergreentx.org/"
         }
       ]
     }
