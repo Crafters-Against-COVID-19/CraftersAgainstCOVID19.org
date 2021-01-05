@@ -115,7 +115,7 @@ collections:
               - {label: "ID", name: "id", widget: "string", default: "Pick a number", required: true}
               - {label: "Name", name: "name", widget: "string", default: "Batch X", required: true}
               - {label: "Pattern URL (leave off the domain)", name: "url", widget: "string", default: "/patterns/fitted-mask/", required: true}
-              - {label: "Skill Level", name: "skill_level", widget: "select", options: ["Beginner", "Intermediate"], required: true }
+              - {label: "Skill Level", name: "level", widget: "select", options: ["Beginner", "Intermediate"], required: true }
           - label: "Batches"
             name: "list"
             widget: "list"
