@@ -57,6 +57,23 @@
           "beneficiary_url": "https://www.evergreentx.org/"
         }
       ]
+    },
+    {
+      "name": "Batch 80",
+      "start": "2021-01-17",
+      "cutoff": "2021-01-23",
+      "pickup": "2021-01-25",
+      "end": "2021-02-01",
+      "masks": [
+        {
+          "pattern": "1",
+          "beneficiary": "Stock"
+        },
+        {
+          "pattern": "2",
+          "beneficiary": "Stock"
+        }
+      ]
     }
   ]
 }
