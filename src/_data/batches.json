@@ -38,6 +38,42 @@
           "beneficiary_url": "https://www.evergreentx.org/"
         }
       ]
+    },
+    {
+      "name": "Batch 79",
+      "start": "2021-01-10",
+      "cutoff": "2021-01-16",
+      "pickup": "2021-01-18",
+      "end": "2021-01-25",
+      "masks": [
+        {
+          "pattern": "1",
+          "beneficiary": "Yakima farmworkers via WASHMasks",
+          "beneficiary_url": "https://www.washmasks.org"
+        },
+        {
+          "pattern": "2",
+          "beneficiary": "Recovering and Homeless Individuals via Evergreen Treatment Services",
+          "beneficiary_url": "https://www.evergreentx.org/"
+        }
+      ]
+    },
+    {
+      "name": "Batch 80",
+      "start": "2021-01-17",
+      "cutoff": "2021-01-23",
+      "pickup": "2021-01-25",
+      "end": "2021-02-01",
+      "masks": [
+        {
+          "pattern": "1",
+          "beneficiary": "Stock"
+        },
+        {
+          "pattern": "2",
+          "beneficiary": "Stock"
+        }
+      ]
     }
   ]
 }
