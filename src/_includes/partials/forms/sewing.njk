@@ -8,38 +8,36 @@
     <div class="batch_info">
       <h2>Schedule</h2>
       <ol class="batches" id="display-batches">
-        {% set displayBatches = openBatches | limit(2) %}
-        {% for batch in displayBatches %}
-          <li class="batch" data-batch-name="{{ batch.name}}" data-batch-cutoff="{{ batch.cutoff }}">
-            <h3 class="batch__title">{{ batch.name }}</h3>
-            <dl class="batch__details">
-              <dt>Sign-up Period</dt>
-              <dd><time>{{ batch.start | dayFilter }}</time>–noon, {{ batch.cutoff | dayFilter }}</time></dd>
-              <dt>Materials Available</dt>
-              <dd><time>{{ batch.pickup | dayFilter }}</time></dd>
-              <dt>Complete By</dt>
-              <dd><time>{{ batch.end | dayFilter }}</time></dd>
-              <dt>Masks We’re Making</dt>
-              <dd>
-                <ul>
-                  {% for mask in batch.masks %}
-                    {% set pattern = patterns | findByProperty( "id", mask.pattern ) %}
-                    <li class="batch__mask"
-                        data-pattern="{{ pattern.name }}"
-                        data-beneficiary="{{ mask.beneficiary }}">
-                      <a href="{{ pattern.url }}">{{ pattern.name }}</a> for
-                      {% if mask.beneficiary_url %}
-                        <a rel="external nofollow" href="{{ mask.beneficiary_url }}">{{ mask.beneficiary }}</a>
-                      {% else %}
-                        {{ mask.beneficiary }}
-                      {% endif %}
-                    </li>
-                  {% endfor %}
-                </ul>
-              </dd>
-            </dl>
-          </li>
-        {% endfor %}
+        {% set batch = openBatches | limit(1) %}
+        <li class="batch" data-batch-name="{{ batch.name}}" data-batch-cutoff="{{ batch.cutoff }}">
+          <h3 class="batch__title">{{ batch.name }}</h3>
+          <dl class="batch__details">
+            <dt>Sign-up Period</dt>
+            <dd><time>{{ batch.start | dayFilter }}</time>–noon, {{ batch.cutoff | dayFilter }}</time></dd>
+            <dt>Materials Available</dt>
+            <dd><time>{{ batch.pickup | dayFilter }}</time></dd>
+            <dt>Complete By</dt>
+            <dd><time>{{ batch.end | dayFilter }}</time></dd>
+            <dt>Masks We’re Making</dt>
+            <dd>
+              <ul>
+                {% for mask in batch.masks %}
+                  {% set pattern = patterns | findByProperty( "id", mask.pattern ) %}
+                  <li class="batch__mask"
+                      data-pattern="{{ pattern.name }}"
+                      data-beneficiary="{{ mask.beneficiary }}">
+                    <a href="{{ pattern.url }}">{{ pattern.name }}</a> for
+                    {% if mask.beneficiary_url %}
+                      <a rel="external nofollow" href="{{ mask.beneficiary_url }}">{{ mask.beneficiary }}</a>
+                    {% else %}
+                      {{ mask.beneficiary }}
+                    {% endif %}
+                  </li>
+                {% endfor %}
+              </ul>
+            </dd>
+          </dl>
+        </li>
       </ol>
     </div>
   {% endif %}
