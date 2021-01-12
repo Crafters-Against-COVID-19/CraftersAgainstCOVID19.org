@@ -38,7 +38,7 @@
         batches = open_batches,
         batch,
         i = 0,
-        limit = 2;
+        limit = 1;
     for ( ; i < limit; i++ )
     {
       batch = batches[i];
