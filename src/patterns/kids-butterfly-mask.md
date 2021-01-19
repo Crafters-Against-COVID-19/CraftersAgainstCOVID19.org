@@ -1,6 +1,7 @@
 ---
 title: Kids Butterfly Mask
-description: "3D mask for kiddos large and small."
+description: 3D mask for kiddos large and small.
+video: IlWrN15x7oI
 pdf: /images/kids-butterfly-mask.pdf
 skill_level: Beginner
 ---

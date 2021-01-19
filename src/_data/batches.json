@@ -67,11 +67,13 @@
       "masks": [
         {
           "pattern": "1",
-          "beneficiary": "Stock"
+          "beneficiary": "WASHmasks (kids masks with ties ONLY)",
+          "beneficiary_url": "https://www.washmasks.org"
         },
         {
-          "pattern": "2",
-          "beneficiary": "Stock"
+          "pattern": "3",
+          "beneficiary": "Look for the Helpers",
+          "beneficiary_url": "https://www.yesmagazine.org/issue/coronavirus-community-power/2020/05/08/coronavirus-neighborhood-ready-for-anything-2/"
         }
       ]
     }
