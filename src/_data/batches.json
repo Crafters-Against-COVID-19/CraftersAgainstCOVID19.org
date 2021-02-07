@@ -67,13 +67,13 @@
       "masks": [
         {
           "pattern": "1",
-          "beneficiary": "Stock (for future requests)",
-          "beneficiary_url": ""
+          "beneficiary": "Metlakatla Indian Community",
+          "beneficiary_url": "http://www.metlakatla.com/"
         },
         {
           "pattern": "3",
-          "beneficiary": "Stock (for future requests)",
-          "beneficiary_url": ""
+          "beneficiary": "Metlakatla Indian Community",
+          "beneficiary_url": "http://www.metlakatla.com/"
         }
       ]
     }
