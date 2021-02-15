@@ -76,6 +76,53 @@
           "beneficiary_url": "http://www.metlakatla.com/"
         }
       ]
+    },
+    {
+      "name": "Batch 84",
+      "start": "2021-02-13",
+      "cutoff": "2021-02-20",
+      "pickup": "2021-02-22",
+      "end": "2021-03-01",
+      "masks": [
+        {
+          "pattern": "1",
+          "beneficiary": "Pine Ridge Reservation",
+          "beneficiary_url": "https://friendsofpineridgereservation.org/"
+        },
+        {
+          "pattern": "2",
+          "beneficiary": "Pine Ridge Reservation",
+          "beneficiary_url": "https://friendsofpineridgereservation.org/"
+        }
+      ]
+    },
+    {
+      "name": "Batch 85",
+      "start": "2021-02-20",
+      "cutoff": "2021-02-27",
+      "pickup": "2021-03-01",
+      "end": "2021-03-08"
+    },
+    {
+      "name": "Batch 86",
+      "start": "2021-02-27",
+      "cutoff": "2021-03-06",
+      "pickup": "2021-03-08",
+      "end": "2021-03-15"
+    },
+    {
+      "name": "Batch 87",
+      "start": "2021-03-06",
+      "cutoff": "2021-03-13",
+      "pickup": "2021-03-15",
+      "end": "2021-03-22"
+    },
+    {
+      "name": "Batch 88",
+      "start": "2021-03-13",
+      "cutoff": "2021-03-20",
+      "pickup": "2021-03-22",
+      "end": "2021-03-29"
     }
   ]
 }
