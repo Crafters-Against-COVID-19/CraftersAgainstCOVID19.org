@@ -101,7 +101,23 @@
       "start": "2021-02-20",
       "cutoff": "2021-02-27",
       "pickup": "2021-03-01",
-      "end": "2021-03-08"
+      "end": "2021-03-08",
+      "masks": [
+        {
+          "pattern": "1",
+          "beneficiary": "Tukwilla School District (KIDS SURGICAL)"
+        },
+        {
+          "pattern": "2",
+          "beneficiary": "Fort Peck Reservation",
+          "beneficiary_url": "http://www.fortpecktribes.org/"
+        },
+        {
+          "pattern": "3",
+          "beneficiary": "Fort Peck Reservation",
+          "beneficiary_url": "http://www.fortpecktribes.org/"
+        }
+      ]
     },
     {
       "name": "Batch 86",
