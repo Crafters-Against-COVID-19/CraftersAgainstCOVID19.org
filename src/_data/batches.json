@@ -124,21 +124,70 @@
       "start": "2021-02-27",
       "cutoff": "2021-03-06",
       "pickup": "2021-03-08",
-      "end": "2021-03-15"
+      "end": "2021-03-15",
+      "masks": [
+        {
+          "pattern": "1",
+          "beneficiary": "WASHMasks (Kids with ties only)"
+        },
+        {
+          "pattern": "2",
+          "beneficiary": "Black Feet Nation",
+          "beneficiary_url": "https://blackfeetnation.com/"
+        },
+        {
+          "pattern": "3",
+          "beneficiary": "Black Feet Nation",
+          "beneficiary_url": "https://blackfeetnation.com/"
+        }
+      ]
     },
     {
       "name": "Batch 87",
       "start": "2021-03-06",
       "cutoff": "2021-03-13",
       "pickup": "2021-03-15",
-      "end": "2021-03-22"
+      "end": "2021-03-22",
+      "masks": [
+        {
+          "pattern": "1",
+          "beneficiary": "WASHMasks (kids only)"
+        },
+        {
+          "pattern": "2",
+          "beneficiary_url": "https://www.standingrock.org/",
+          "beneficiary": "Standing Rock Sioux Tribe"
+        },
+        {
+          "pattern": "3",
+          "beneficiary_url": "https://www.standingrock.org/",
+          "beneficiary": "Standing Rock Sioux Tribe"
+        }
+      ]
     },
     {
       "name": "Batch 88",
       "start": "2021-03-13",
       "cutoff": "2021-03-20",
       "pickup": "2021-03-22",
-      "end": "2021-03-29"
+      "end": "2021-03-29",
+      "masks": [
+        {
+          "pattern": "1",
+          "beneficiary": "Standing Rock Sioux Tribe",
+          "beneficiary_url": "https://www.standingrock.org/"
+        },
+        {
+          "pattern": "2",
+          "beneficiary": "Standing Rock Sioux Tribe",
+          "beneficiary_url": "https://www.standingrock.org/"
+        },
+        {
+          "pattern": "3",
+          "beneficiary": "Standing Rock Sioux Tribe",
+          "beneficiary_url": "https://www.standingrock.org/"
+        }
+      ]
     }
   ]
 }
