@@ -21,21 +21,26 @@
   ],
   "list": [
     {
-      "name": "Batch 81",
-      "start": "2021-01-23",
-      "cutoff": "2021-01-30",
-      "end": "2021-02-08",
-      "pickup": "2021-02-01",
+      "name": "Batch 89",
+      "start": "2021-03-20",
+      "cutoff": "2021-03-27",
+      "end": "2021-04-05",
+      "pickup": "2021-03-29",
       "masks": [
         {
           "pattern": "1",
-          "beneficiary": "Stock (for future requests)",
-          "beneficiary_url": ""
+          "beneficiary": "Spirit Lake Nation",
+          "beneficiary_url": "http://www.spiritlakenation.com/"
+        },
+        {
+          "pattern": "2",
+          "beneficiary": "Spirit Lake Nation",
+          "beneficiary_url": "http://www.spiritlakenation.com/"
         },
         {
           "pattern": "3",
-          "beneficiary": "Stock (for future requests)",
-          "beneficiary_url": ""
+          "beneficiary": "Spirit Lake Nation",
+          "beneficiary_url": "http://www.spiritlakenation.com/"
         }
       ]
     },
