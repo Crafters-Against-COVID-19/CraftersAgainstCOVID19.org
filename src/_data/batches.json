@@ -32,6 +32,11 @@
           "beneficiary": "WASHMasks (Kids with ties only)"
         },
         {
+          "pattern": "2",
+          "beneficiary_url": "http://www.spiritlakenation.com/",
+          "beneficiary": "Spirit Lake Nation"
+        },
+        {
           "pattern": "3",
           "beneficiary": "WASH Masks (with ties only)",
           "beneficiary_url": ""
