@@ -24,173 +24,185 @@
       "name": "Batch 89",
       "start": "2021-03-20",
       "cutoff": "2021-03-27",
-      "end": "2021-04-05",
       "pickup": "2021-03-29",
-      "masks": [
-        {
-          "pattern": "1",
-          "beneficiary": "Spirit Lake Nation",
-          "beneficiary_url": "http://www.spiritlakenation.com/"
-        },
-        {
-          "pattern": "2",
-          "beneficiary": "Spirit Lake Nation",
-          "beneficiary_url": "http://www.spiritlakenation.com/"
-        },
-        {
-          "pattern": "3",
-          "beneficiary": "Spirit Lake Nation",
-          "beneficiary_url": "http://www.spiritlakenation.com/"
-        }
-      ]
-    },
-    {
-      "name": "Batch 82",
-      "start": "2021-01-30",
-      "cutoff": "2021-02-06",
-      "pickup": "2021-03-08",
-      "end": "2021-02-15",
-      "masks": [
-        {
-          "pattern": "1",
-          "beneficiary": "Stock (for future requests)",
-          "beneficiary_url": ""
-        },
-        {
-          "pattern": "2",
-          "beneficiary": "Stock (for future requests)",
-          "beneficiary_url": ""
-        }
-      ]
-    },
-    {
-      "name": "Batch 83",
-      "start": "2021-02-06",
-      "cutoff": "2021-02-13",
-      "pickup": "2021-02-15",
-      "end": "2021-03-22",
-      "masks": [
-        {
-          "pattern": "1",
-          "beneficiary": "Metlakatla Indian Community",
-          "beneficiary_url": "http://www.metlakatla.com/"
-        },
-        {
-          "pattern": "3",
-          "beneficiary": "Metlakatla Indian Community",
-          "beneficiary_url": "http://www.metlakatla.com/"
-        }
-      ]
-    },
-    {
-      "name": "Batch 84",
-      "start": "2021-02-13",
-      "cutoff": "2021-02-20",
-      "pickup": "2021-02-22",
-      "end": "2021-03-01",
-      "masks": [
-        {
-          "pattern": "1",
-          "beneficiary": "Pine Ridge Reservation",
-          "beneficiary_url": "https://friendsofpineridgereservation.org/"
-        },
-        {
-          "pattern": "2",
-          "beneficiary": "Pine Ridge Reservation",
-          "beneficiary_url": "https://friendsofpineridgereservation.org/"
-        }
-      ]
-    },
-    {
-      "name": "Batch 85",
-      "start": "2021-02-20",
-      "cutoff": "2021-02-27",
-      "pickup": "2021-03-01",
-      "end": "2021-03-08",
-      "masks": [
-        {
-          "pattern": "1",
-          "beneficiary": "Tukwilla School District (KIDS SURGICAL)"
-        },
-        {
-          "pattern": "2",
-          "beneficiary": "Fort Peck Reservation",
-          "beneficiary_url": "http://www.fortpecktribes.org/"
-        },
-        {
-          "pattern": "3",
-          "beneficiary": "Fort Peck Reservation",
-          "beneficiary_url": "http://www.fortpecktribes.org/"
-        }
-      ]
-    },
-    {
-      "name": "Batch 86",
-      "start": "2021-02-27",
-      "cutoff": "2021-03-06",
-      "pickup": "2021-03-08",
-      "end": "2021-03-15",
+      "end": "2021-04-05",
       "masks": [
         {
           "pattern": "1",
           "beneficiary": "WASHMasks (Kids with ties only)"
         },
         {
-          "pattern": "2",
-          "beneficiary": "Black Feet Nation",
-          "beneficiary_url": "https://blackfeetnation.com/"
-        },
-        {
           "pattern": "3",
-          "beneficiary": "Black Feet Nation",
-          "beneficiary_url": "https://blackfeetnation.com/"
+          "beneficiary": "WASH Masks (with ties only)",
+          "beneficiary_url": ""
         }
       ]
     },
     {
-      "name": "Batch 87",
-      "start": "2021-03-06",
-      "cutoff": "2021-03-13",
-      "pickup": "2021-03-15",
-      "end": "2021-03-22",
+      "name": "Batch 90",
+      "start": "2021-03-27",
+      "cutoff": "2021-04-03",
+      "end": "2021-04-12",
+      "pickup": "2021-04-05",
       "masks": [
         {
           "pattern": "1",
-          "beneficiary": "WASHMasks (kids only)"
+          "beneficiary": "Spirit Lake Nation",
+          "beneficiary_url": "http://www.spiritlakenation.com/"
         },
         {
           "pattern": "2",
-          "beneficiary_url": "https://www.standingrock.org/",
-          "beneficiary": "Standing Rock Sioux Tribe"
+          "beneficiary": "Spirit Lake Nation",
+          "beneficiary_url": "http://www.spiritlakenation.com/"
         },
         {
           "pattern": "3",
-          "beneficiary_url": "https://www.standingrock.org/",
-          "beneficiary": "Standing Rock Sioux Tribe"
+          "beneficiary": "Spirit Lake Nation",
+          "beneficiary_url": "http://www.spiritlakenation.com/"
         }
       ]
     },
     {
-      "name": "Batch 88",
-      "start": "2021-03-13",
-      "cutoff": "2021-03-20",
-      "pickup": "2021-03-22",
-      "end": "2021-03-29",
+      "name": "Batch 91",
+      "start": "2021-04-03",
+      "cutoff": "2021-04-10",
+      "pickup": "2021-04-12",
+      "end": "2021-04-19",
       "masks": [
         {
           "pattern": "1",
-          "beneficiary": "Standing Rock Sioux Tribe",
-          "beneficiary_url": "https://www.standingrock.org/"
+          "beneficiary": "Lower Brule Sioux Tribe",
+          "beneficiary_url": "https://www.lowerbrulesiouxtribe.com/"
         },
         {
           "pattern": "2",
-          "beneficiary": "Standing Rock Sioux Tribe",
-          "beneficiary_url": "https://www.standingrock.org/"
+          "beneficiary": "Lower Brule Sioux Tribe",
+          "beneficiary_url": "https://www.lowerbrulesiouxtribe.com/"
         },
         {
           "pattern": "3",
-          "beneficiary": "Standing Rock Sioux Tribe",
-          "beneficiary_url": "https://www.standingrock.org/"
+          "beneficiary": "Lower Brule Sioux Tribe",
+          "beneficiary_url": "https://www.lowerbrulesiouxtribe.com/"
+        }
+      ]
+    },
+    {
+      "name": "Batch 92",
+      "start": "2021-04-10",
+      "cutoff": "2021-04-17",
+      "pickup": "2021-04-19",
+      "end": "2021-04-26",
+      "masks": [
+        {
+          "pattern": "1",
+          "beneficiary": "Rosebud Sioux Tribe",
+          "beneficiary_url": "https://www.rosebudsiouxtribe-nsn.gov/"
+        },
+        {
+          "pattern": "2",
+          "beneficiary": "Rosebud Sioux Tribe",
+          "beneficiary_url": "https://www.rosebudsiouxtribe-nsn.gov/"
+        },
+        {
+          "pattern": "3",
+          "beneficiary": "Rosebud Sioux Tribe",
+          "beneficiary_url": "https://www.rosebudsiouxtribe-nsn.gov/"
+        }
+      ]
+    },
+    {
+      "name": "Batch 93",
+      "start": "2021-04-17",
+      "cutoff": "2021-04-24",
+      "pickup": "2021-04-26",
+      "end": "2021-05-03",
+      "masks": [
+        {
+          "pattern": "1",
+          "beneficiary": "Torres Martinez Desert Cahuilla Indians",
+          "beneficiary_url": "http://www.torresmartinez.org/"
+        },
+        {
+          "pattern": "2",
+          "beneficiary": "Torres Martinez Desert Cahuilla Indians",
+          "beneficiary_url": "http://www.torresmartinez.org/"
+        },
+        {
+          "pattern": "3",
+          "beneficiary_url": "http://www.torresmartinez.org/",
+          "beneficiary": "Torres Martinez Desert Cahuilla Indians"
+        }
+      ]
+    },
+    {
+      "name": "Batch 94",
+      "start": "2021-04-24",
+      "cutoff": "2021-05-01",
+      "pickup": "2021-05-03",
+      "end": "2021-05-10",
+      "masks": [
+        {
+          "pattern": "1",
+          "beneficiary": "Yurok Tribe",
+          "beneficiary_url": "https://www.yuroktribe.org/"
+        },
+        {
+          "pattern": "2",
+          "beneficiary": "Yurok Tribe",
+          "beneficiary_url": "https://www.yuroktribe.org/"
+        },
+        {
+          "pattern": "3",
+          "beneficiary": "Yurok Tribe",
+          "beneficiary_url": "https://www.yuroktribe.org/"
+        }
+      ]
+    },
+    {
+      "name": "Batch 95",
+      "start": "2021-05-01",
+      "cutoff": "2021-05-08",
+      "pickup": "2021-05-10",
+      "end": "2021-05-17",
+      "masks": [
+        {
+          "pattern": "1",
+          "beneficiary": "Bishop Paiute Tribe  ",
+          "beneficiary_url": "http://www.bishoppaiutetribe.com/"
+        },
+        {
+          "pattern": "2",
+          "beneficiary_url": "http://www.bishoppaiutetribe.com/",
+          "beneficiary": "Bishop Paiute Tribe  "
+        },
+        {
+          "pattern": "3",
+          "beneficiary_url": "http://www.bishoppaiutetribe.com/",
+          "beneficiary": "Bishop Paiute Tribe  "
+        }
+      ]
+    },
+    {
+      "name": "Batch 96",
+      "start": "2021-05-08",
+      "cutoff": "2021-05-15",
+      "pickup": "2021-05-17",
+      "end": "2021-05-24",
+      "masks": [
+        {
+          "pattern": "1",
+          "beneficiary": "Comanche Nation",
+          "beneficiary_url": "https://comanchenation.com/"
+        },
+        {
+          "pattern": "2",
+          "beneficiary": "Comanche Nation",
+          "beneficiary_url": "https://comanchenation.com/"
+        },
+        {
+          "pattern": "3",
+          "beneficiary": "Comanche Nation",
+          "beneficiary_url": "https://comanchenation.com/"
         }
       ]
     }
