@@ -21,58 +21,58 @@
   ],
   "list": [
     {
-      "name": "Batch 89",
-      "start": "2021-03-20",
-      "cutoff": "2021-03-27",
-      "pickup": "2021-03-29",
-      "end": "2021-04-05",
+      "name": "Batch 97",
+      "start": "2021-05-15",
+      "cutoff": "2021-05-22",
+      "pickup": "2021-05-24",
+      "end": "2021-05-31",
       "masks": [
         {
           "pattern": "1",
-          "beneficiary": "WASHMasks (Kids with ties only)"
+          "beneficiary": "WASHMasks"
         },
         {
           "pattern": "2",
-          "beneficiary_url": "http://www.spiritlakenation.com/",
-          "beneficiary": "Spirit Lake Nation"
+          "beneficiary_url": "",
+          "beneficiary": "WASHmasks"
         },
         {
           "pattern": "3",
-          "beneficiary": "WASH Masks (with ties only)",
+          "beneficiary": "WASHMasks",
           "beneficiary_url": ""
         }
       ]
     },
     {
-      "name": "Batch 90",
-      "start": "2021-03-27",
-      "cutoff": "2021-04-03",
-      "end": "2021-04-12",
-      "pickup": "2021-04-05",
+      "name": "Batch 98",
+      "start": "2021-05-22",
+      "cutoff": "2021-05-29",
+      "end": "2021-06-07",
+      "pickup": "2021-05-31",
       "masks": [
         {
           "pattern": "1",
-          "beneficiary": "Spirit Lake Nation",
-          "beneficiary_url": "http://www.spiritlakenation.com/"
+          "beneficiary": "WASHmasks",
+          "beneficiary_url": ""
         },
         {
           "pattern": "2",
-          "beneficiary": "Spirit Lake Nation",
-          "beneficiary_url": "http://www.spiritlakenation.com/"
+          "beneficiary": "WASHmasks",
+          "beneficiary_url": ""
         },
         {
           "pattern": "3",
-          "beneficiary": "Spirit Lake Nation",
-          "beneficiary_url": "http://www.spiritlakenation.com/"
+          "beneficiary": "WASHmasks",
+          "beneficiary_url": ""
         }
       ]
     },
     {
-      "name": "Batch 91",
-      "start": "2021-04-03",
-      "cutoff": "2021-04-10",
-      "pickup": "2021-04-12",
-      "end": "2021-04-19",
+      "name": "Batch 99",
+      "start": "2021-05-29",
+      "cutoff": "2021-06-05",
+      "pickup": "2021-06-07",
+      "end": "2021-06-14",
       "masks": [
         {
           "pattern": "1",
