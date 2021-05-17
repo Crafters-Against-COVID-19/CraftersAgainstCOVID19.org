@@ -76,123 +76,51 @@
       "masks": [
         {
           "pattern": "1",
-          "beneficiary": "Lower Brule Sioux Tribe",
-          "beneficiary_url": "https://www.lowerbrulesiouxtribe.com/"
-        },
-        {
-          "pattern": "2",
-          "beneficiary": "Lower Brule Sioux Tribe",
-          "beneficiary_url": "https://www.lowerbrulesiouxtribe.com/"
-        },
-        {
-          "pattern": "3",
-          "beneficiary": "Lower Brule Sioux Tribe",
-          "beneficiary_url": "https://www.lowerbrulesiouxtribe.com/"
-        }
-      ]
-    },
-    {
-      "name": "Batch 92",
-      "start": "2021-04-10",
-      "cutoff": "2021-04-17",
-      "pickup": "2021-04-19",
-      "end": "2021-04-26",
-      "masks": [
-        {
-          "pattern": "1",
-          "beneficiary": "Rosebud Sioux Tribe",
-          "beneficiary_url": "https://www.rosebudsiouxtribe-nsn.gov/"
-        },
-        {
-          "pattern": "2",
-          "beneficiary": "Rosebud Sioux Tribe",
-          "beneficiary_url": "https://www.rosebudsiouxtribe-nsn.gov/"
-        },
-        {
-          "pattern": "3",
-          "beneficiary": "Rosebud Sioux Tribe",
-          "beneficiary_url": "https://www.rosebudsiouxtribe-nsn.gov/"
-        }
-      ]
-    },
-    {
-      "name": "Batch 93",
-      "start": "2021-04-17",
-      "cutoff": "2021-04-24",
-      "pickup": "2021-04-26",
-      "end": "2021-05-03",
-      "masks": [
-        {
-          "pattern": "1",
-          "beneficiary": "Torres Martinez Desert Cahuilla Indians",
-          "beneficiary_url": "http://www.torresmartinez.org/"
-        },
-        {
-          "pattern": "2",
-          "beneficiary": "Torres Martinez Desert Cahuilla Indians",
-          "beneficiary_url": "http://www.torresmartinez.org/"
-        },
-        {
-          "pattern": "3",
-          "beneficiary_url": "http://www.torresmartinez.org/",
-          "beneficiary": "Torres Martinez Desert Cahuilla Indians"
-        }
-      ]
-    },
-    {
-      "name": "Batch 94",
-      "start": "2021-04-24",
-      "cutoff": "2021-05-01",
-      "pickup": "2021-05-03",
-      "end": "2021-05-10",
-      "masks": [
-        {
-          "pattern": "1",
-          "beneficiary": "Yurok Tribe",
+          "beneficiary": " Yurok Tribe",
           "beneficiary_url": "https://www.yuroktribe.org/"
         },
         {
           "pattern": "2",
-          "beneficiary": "Yurok Tribe",
+          "beneficiary": " Yurok Tribe",
           "beneficiary_url": "https://www.yuroktribe.org/"
         },
         {
           "pattern": "3",
-          "beneficiary": "Yurok Tribe",
+          "beneficiary": " Yurok Tribe",
           "beneficiary_url": "https://www.yuroktribe.org/"
         }
       ]
     },
     {
-      "name": "Batch 95",
-      "start": "2021-05-01",
-      "cutoff": "2021-05-08",
-      "pickup": "2021-05-10",
-      "end": "2021-05-17",
+      "name": "Batch 100",
+      "start": "2021-06-05",
+      "cutoff": "2021-06-12",
+      "pickup": "2021-06-14",
+      "end": "2021-06-21",
       "masks": [
         {
           "pattern": "1",
-          "beneficiary": "Bishop Paiute Tribe  ",
+          "beneficiary": "Bishop Paiute Tribe",
           "beneficiary_url": "http://www.bishoppaiutetribe.com/"
         },
         {
           "pattern": "2",
-          "beneficiary_url": "http://www.bishoppaiutetribe.com/",
-          "beneficiary": "Bishop Paiute Tribe  "
+          "beneficiary": "Bishop Paiute Tribe",
+          "beneficiary_url": "http://www.bishoppaiutetribe.com/"
         },
         {
           "pattern": "3",
-          "beneficiary_url": "http://www.bishoppaiutetribe.com/",
-          "beneficiary": "Bishop Paiute Tribe  "
+          "beneficiary": "Bishop Paiute Tribe",
+          "beneficiary_url": "http://www.bishoppaiutetribe.com/"
         }
       ]
     },
     {
-      "name": "Batch 96",
-      "start": "2021-05-08",
-      "cutoff": "2021-05-15",
-      "pickup": "2021-05-17",
-      "end": "2021-05-24",
+      "name": "Batch 101",
+      "start": "2021-06-12",
+      "cutoff": "2021-06-19",
+      "pickup": "2021-06-21",
+      "end": "2021-06-28",
       "masks": [
         {
           "pattern": "1",
@@ -206,8 +134,80 @@
         },
         {
           "pattern": "3",
-          "beneficiary": "Comanche Nation",
-          "beneficiary_url": "https://comanchenation.com/"
+          "beneficiary_url": "https://comanchenation.com/",
+          "beneficiary": "Comanche Nation"
+        }
+      ]
+    },
+    {
+      "name": "Batch 102",
+      "start": "2021-06-19",
+      "cutoff": "2021-06-26",
+      "pickup": "2021-06-28",
+      "end": "2021-07-05",
+      "masks": [
+        {
+          "pattern": "1",
+          "beneficiary": "Pawnee Nation of Oklahoma",
+          "beneficiary_url": "https://pawneenation.org/"
+        },
+        {
+          "pattern": "2",
+          "beneficiary": "Pawnee Nation of Oklahoma",
+          "beneficiary_url": "https://pawneenation.org/"
+        },
+        {
+          "pattern": "3",
+          "beneficiary": "Pawnee Nation of Oklahoma",
+          "beneficiary_url": "https://pawneenation.org/"
+        }
+      ]
+    },
+    {
+      "name": "Batch 103",
+      "start": "2021-06-26",
+      "cutoff": "2021-07-03",
+      "pickup": "2021-07-05",
+      "end": "2021-07-12",
+      "masks": [
+        {
+          "pattern": "1",
+          "beneficiary": "Pueblo of Zuni",
+          "beneficiary_url": "http://www.ashiwi.org/"
+        },
+        {
+          "pattern": "2",
+          "beneficiary_url": "http://www.ashiwi.org/",
+          "beneficiary": "Pueblo of Zuni"
+        },
+        {
+          "pattern": "3",
+          "beneficiary_url": "http://www.ashiwi.org/",
+          "beneficiary": "Pueblo of Zuni"
+        }
+      ]
+    },
+    {
+      "name": "Batch 104",
+      "start": "2021-07-03",
+      "cutoff": "2021-07-10",
+      "pickup": "2021-07-12",
+      "end": "2021-07-19",
+      "masks": [
+        {
+          "pattern": "1",
+          "beneficiary": "Navajo Nation, Pinon",
+          "beneficiary_url": "https://pinon.navajochapters.org/"
+        },
+        {
+          "pattern": "2",
+          "beneficiary": "Navajo Nation, Pinon",
+          "beneficiary_url": "https://pinon.navajochapters.org/"
+        },
+        {
+          "pattern": "3",
+          "beneficiary": "Navajo Nation, Pinon",
+          "beneficiary_url": "https://pinon.navajochapters.org/"
         }
       ]
     }
