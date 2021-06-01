@@ -10,7 +10,7 @@
   "name": "Crafters Against COVID-19 Seattle",
   "shortDesc": "Uniting crafters with Seattle-area organizations that need them most.",
   "masks_made": "100,000",
-  "forms": true,
+  "forms": false,
   "url": "https://CraftersAgainstCOVID19.org",
   "authorEmail": "info@craftersunited.org",
   "authorHandle": "",
