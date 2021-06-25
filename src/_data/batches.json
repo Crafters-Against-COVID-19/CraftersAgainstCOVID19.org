@@ -21,59 +21,49 @@
   ],
   "list": [
     {
-      "name": "Batch 78",
-      "start": "2021-01-04",
-      "cutoff": "2021-01-09",
-      "end": "2021-01-18",
-      "pickup": "2021-01-11",
+      "name": "Batch 97",
+      "start": "2021-05-15",
+      "cutoff": "2021-05-22",
+      "pickup": "2021-05-24",
+      "end": "2021-05-31",
       "masks": [
         {
           "pattern": "1",
-          "beneficiary": "WASHMasks",
-          "beneficiary_url": "https://www.washmasks.org"
+          "beneficiary": "WASHMasks"
         },
         {
           "pattern": "2",
-          "beneficiary": "Evergreen Treatment Services",
-          "beneficiary_url": "https://www.evergreentx.org/"
-        }
-      ]
-    },
-    {
-      "name": "Batch 79",
-      "start": "2021-01-10",
-      "cutoff": "2021-01-16",
-      "pickup": "2021-01-18",
-      "end": "2021-01-25",
-      "masks": [
-        {
-          "pattern": "1",
-          "beneficiary": "Yakima farmworkers via WASHMasks",
-          "beneficiary_url": "https://www.washmasks.org"
-        },
-        {
-          "pattern": "2",
-          "beneficiary": "Recovering and Homeless Individuals via Evergreen Treatment Services",
-          "beneficiary_url": "https://www.evergreentx.org/"
-        }
-      ]
-    },
-    {
-      "name": "Batch 80",
-      "start": "2021-01-17",
-      "cutoff": "2021-01-23",
-      "pickup": "2021-01-25",
-      "end": "2021-02-01",
-      "masks": [
-        {
-          "pattern": "1",
-          "beneficiary": "WASHmasks (kids masks with ties ONLY)",
-          "beneficiary_url": "https://www.washmasks.org"
+          "beneficiary_url": "",
+          "beneficiary": "WASHmasks"
         },
         {
           "pattern": "3",
-          "beneficiary": "Look for the Helpers",
-          "beneficiary_url": "https://www.yesmagazine.org/issue/coronavirus-community-power/2020/05/08/coronavirus-neighborhood-ready-for-anything-2/"
+          "beneficiary": "WASHMasks",
+          "beneficiary_url": ""
+        }
+      ]
+    },
+    {
+      "name": "Batch 98",
+      "start": "2021-05-22",
+      "cutoff": "2021-05-29",
+      "end": "2021-06-07",
+      "pickup": "2021-05-31",
+      "masks": [
+        {
+          "pattern": "1",
+          "beneficiary": "WASHmasks",
+          "beneficiary_url": ""
+        },
+        {
+          "pattern": "2",
+          "beneficiary": "WASHmasks",
+          "beneficiary_url": ""
+        },
+        {
+          "pattern": "3",
+          "beneficiary": "WASHmasks",
+          "beneficiary_url": ""
         }
       ]
     }
